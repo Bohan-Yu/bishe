@@ -1,0 +1,5044 @@
+{
+  "metadata": {
+    "count": 114,
+    "observation_count": 162
+  },
+  "entries": {
+    "100.jea.org": {
+      "name": "JEA",
+      "tier": "professional",
+      "score": 6,
+      "reason": "JEA 是新闻教育协会，提供专业新闻教育内容。",
+      "source": "search_llm",
+      "country": "United States",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "163.com": {
+      "name": "网易",
+      "tier": "portal",
+      "score": 4,
+      "reason": "",
+      "source": "manual_override",
+      "country": "中国",
+      "region": "东亚",
+      "geo_group": "china",
+      "country_confidence": "explicit"
+    },
+    "3.nhk.or.jp": {
+      "name": "NHK",
+      "tier": "official",
+      "score": 10,
+      "reason": "Official public broadcaster of Japan.",
+      "source": "search_llm",
+      "country": "Japan",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "52hrtt.com": {
+      "name": "52hrtt.com",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "地方新闻媒体",
+      "source": "llm",
+      "country": "中国",
+      "region": "东亚",
+      "geo_group": "china",
+      "country_confidence": "medium"
+    },
+    "acleddata.com": {
+      "name": "ACLED",
+      "tier": "professional",
+      "score": 6,
+      "reason": "专业冲突数据提供者",
+      "source": "search_llm",
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_israel",
+      "country_confidence": "high"
+    },
+    "algemeiner.com": {
+      "name": "algemeiner.com",
+      "tier": "professional",
+      "score": 6,
+      "reason": "犹太新闻专业媒体",
+      "source": "llm",
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_israel",
+      "country_confidence": "high"
+    },
+    "aljazeera.com": {
+      "name": "Al Jazeera",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "知名国际新闻机构",
+      "source": "search_llm",
+      "country": "卡塔尔",
+      "region": "中东",
+      "geo_group": "qatar",
+      "country_confidence": "high"
+    },
+    "arabnews.com": {
+      "name": "Arab News",
+      "tier": "professional",
+      "score": 6,
+      "reason": "Professional news site reporting on military topics.",
+      "source": "search_llm",
+      "country": "沙特阿拉伯",
+      "region": "中东",
+      "geo_group": "saudi",
+      "country_confidence": "high"
+    },
+    "archives.gov": {
+      "name": "National Archives",
+      "tier": "official",
+      "score": 10,
+      "reason": "美国政府官方网站，提供历史档案和教育资源。",
+      "source": "search_llm",
+      "country": "USA",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "archivesfoundation.org": {
+      "name": "National Archives Foundation",
+      "tier": "professional",
+      "score": 6,
+      "reason": "非营利历史组织，提供教育内容。",
+      "source": "search_llm",
+      "country": "USA",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "arkansasonline.com": {
+      "name": "Arkansas Democrat-Gazette",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "州级主流报纸，覆盖社区和本地新闻。",
+      "source": "search_llm",
+      "country": "USA",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "asiatimes.com": {
+      "name": "Asia Times",
+      "tier": "professional",
+      "score": 6,
+      "reason": "Asian news and analysis website reporting on military intelligence.",
+      "source": "search_llm",
+      "country": "Hong Kong",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "athome.fandango.com": {
+      "name": "Fandango",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "Fandango 是主流票务和流媒体服务提供商，提供娱乐内容购买服务。",
+      "source": "search_llm",
+      "country": "United States",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "bloomberg.com": {
+      "name": "Bloomberg",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "主流财经新闻机构，提供权威新闻报道",
+      "source": "search_llm",
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_israel",
+      "country_confidence": "high"
+    },
+    "businessinsider.com": {
+      "name": "Business Insider",
+      "tier": "professional",
+      "score": 6,
+      "reason": "Business Insider 是专业新闻网站，专注于商业和时事分析，内容基于军事专家声明和数据。",
+      "source": "search_llm",
+      "country": "United States",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "capitalfutures.com.tw": {
+      "name": "群益期貨",
+      "tier": "professional",
+      "score": 6,
+      "reason": "域名和内容表明这是一个专业金融网站，提供市场相关分析，非主流新闻。",
+      "source": "search_llm",
+      "country": "中国台湾",
+      "region": "东亚",
+      "geo_group": "taiwan",
+      "country_confidence": "medium"
+    },
+    "cbgc.scol.com.cn": {
+      "name": "cbgc.scol.com.cn",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "地方新闻媒体",
+      "source": "llm",
+      "country": "中国",
+      "region": "东亚",
+      "geo_group": "china",
+      "country_confidence": "medium"
+    },
+    "cbsnews.com": {
+      "name": "CBS News",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "美国主流广播公司新闻网站，覆盖广泛新闻。",
+      "source": "search_llm",
+      "country": "US",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "cdn.clinicaltrials.gov": {
+      "name": "ClinicalTrials.gov",
+      "tier": "official",
+      "score": 10,
+      "reason": "Official government clinical trials database.",
+      "source": "search_llm",
+      "country": "United States",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "channelnewsasia.com": {
+      "name": "Channel News Asia",
+      "tier": "portal",
+      "score": 4,
+      "reason": "Asian news portal covering regional and international news.",
+      "source": "search_llm",
+      "country": "Singapore",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "chnfund.com": {
+      "name": "中国基金报",
+      "tier": "professional",
+      "score": 6,
+      "reason": "domain 和名称暗示财经专业领域，内容为新闻但聚焦专业主题",
+      "source": "search_llm",
+      "country": "中国",
+      "region": "东亚",
+      "geo_group": "china",
+      "country_confidence": "high"
+    },
+    "cj.sina.cn": {
+      "name": "cj.sina.cn",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "主流媒体",
+      "source": "llm",
+      "country": "中国",
+      "region": "东亚",
+      "geo_group": "china",
+      "country_confidence": "medium"
+    },
+    "collider.com": {
+      "name": "Collider",
+      "tier": "professional",
+      "score": 6,
+      "reason": "娱乐新闻网站，提供深度内容分析。",
+      "source": "search_llm",
+      "country": "USA",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "columnfivemedia.com": {
+      "name": "Column Five Media",
+      "tier": "professional",
+      "score": 6,
+      "reason": "专业设计公司，提供数据资源列表。",
+      "source": "search_llm",
+      "country": "USA",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "courts.ca.gov": {
+      "name": "California Courts",
+      "tier": "official",
+      "score": 10,
+      "reason": "政府法院官方网站，提供法律表格。",
+      "source": "search_llm",
+      "country": "USA",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "cqsy.net.cn": {
+      "name": "cqsy.net.cn",
+      "tier": "professional",
+      "score": 6,
+      "reason": "教育机构",
+      "source": "llm",
+      "country": "中国",
+      "region": "东亚",
+      "geo_group": "china",
+      "country_confidence": "medium"
+    },
+    "criticalthreats.org": {
+      "name": "Critical Threats",
+      "tier": "professional",
+      "score": 6,
+      "reason": "专业威胁分析机构，提供深度报告。",
+      "source": "search_llm",
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_israel",
+      "country_confidence": "high"
+    },
+    "dailymail.co.uk": {
+      "name": "Daily Mail",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "知名英国主流报纸网站，覆盖广泛新闻。",
+      "source": "search_llm",
+      "country": "UK",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "deadline.com": {
+      "name": "Deadline",
+      "tier": "professional",
+      "score": 6,
+      "reason": "专业娱乐新闻网站，覆盖流媒体和电影行业。",
+      "source": "search_llm",
+      "country": "US",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "defensenews.com": {
+      "name": "Defense News",
+      "tier": "professional",
+      "score": 6,
+      "reason": "Defense News 是专业军事新闻网站，专注于国防和军事分析，内容引用美国国防部官员和专家。",
+      "source": "search_llm",
+      "country": "United States",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "dictionary.com": {
+      "name": "Dictionary.com",
+      "tier": "professional",
+      "score": 6,
+      "reason": "在线词典网站，提供单词定义和语言服务。",
+      "source": "search_llm",
+      "country": "United States",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "digitallibrary.un.org": {
+      "name": "digitallibrary.un.org",
+      "tier": "official",
+      "score": 10,
+      "reason": "国际组织",
+      "source": "llm",
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "un",
+      "country_confidence": "high"
+    },
+    "dw.com": {
+      "name": "德国之声",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "德国国际广播机构",
+      "source": "llm",
+      "country": "德国",
+      "region": "欧洲",
+      "geo_group": "germany",
+      "country_confidence": "high"
+    },
+    "en.defence-ua.com": {
+      "name": "Defence Ukraine",
+      "tier": "professional",
+      "score": 6,
+      "reason": "专注于国防新闻的专业媒体",
+      "source": "search_llm",
+      "country": "乌克兰",
+      "region": "欧洲",
+      "geo_group": "ukraine",
+      "country_confidence": "high"
+    },
+    "euronews.com": {
+      "name": "Euronews",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "Euronews is a mainstream European news channel based in France.",
+      "source": "llm",
+      "country": "France",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "facebook.com": {
+      "name": "facebook.com",
+      "tier": "self_media",
+      "score": 2,
+      "reason": "社交媒体平台",
+      "source": "llm",
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_israel",
+      "country_confidence": "high"
+    },
+    "fdd.org": {
+      "name": "FDD",
+      "tier": "professional",
+      "score": 6,
+      "reason": "FDD 是知名政策研究组织，提供系统性分析报告，属于专业智库。",
+      "source": "search_llm",
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_israel",
+      "country_confidence": "high"
+    },
+    "foxnews.com": {
+      "name": "Fox News",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "美国主流新闻网站，覆盖政治、科技等新闻。",
+      "source": "search_llm",
+      "country": "US",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "fpri.org": {
+      "name": "FPRI",
+      "tier": "professional",
+      "score": 6,
+      "reason": "专业外交政策研究机构，提供专家分析。",
+      "source": "search_llm",
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_israel",
+      "country_confidence": "high"
+    },
+    "fullfact.org": {
+      "name": "Full Fact",
+      "tier": "professional",
+      "score": 6,
+      "reason": "UK-based fact-checking organization focused on accuracy in news.",
+      "source": "search_llm",
+      "country": "UK",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "gotriangle.org": {
+      "name": "GoTriangle",
+      "tier": "official",
+      "score": 10,
+      "reason": "公共交通机构，提供官方路线信息。",
+      "source": "search_llm",
+      "country": "USA",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "gulfnews.com": {
+      "name": "Gulf News",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "Gulf News is a mainstream media outlet based in the UAE.",
+      "source": "llm",
+      "country": "United Arab Emirates",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "historyhit.com": {
+      "name": "History Hit",
+      "tier": "professional",
+      "score": 6,
+      "reason": "History Hit 是专业历史内容提供商，专注于历史事实和发现。",
+      "source": "search_llm",
+      "country": "United Kingdom",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "i24news.tv": {
+      "name": "i24news.tv",
+      "tier": "professional",
+      "score": 6,
+      "reason": "中东专业新闻媒体",
+      "source": "llm",
+      "country": "以色列",
+      "region": "中东",
+      "geo_group": "us_israel",
+      "country_confidence": "high"
+    },
+    "ia800600.us.archive.org": {
+      "name": "ia800600.us.archive.org",
+      "tier": "professional",
+      "score": 6,
+      "reason": "互联网档案馆存储节点",
+      "source": "llm",
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_israel",
+      "country_confidence": "high"
+    },
+    "icrc.org": {
+      "name": "icrc.org",
+      "tier": "official",
+      "score": 10,
+      "reason": "国际组织",
+      "source": "llm",
+      "country": "瑞士",
+      "region": "欧洲",
+      "geo_group": "switzerland",
+      "country_confidence": "high"
+    },
+    "iis.fudan.edu.cn": {
+      "name": "iis.fudan.edu.cn",
+      "tier": "professional",
+      "score": 6,
+      "reason": "研究机构",
+      "source": "llm",
+      "country": "中国",
+      "region": "东亚",
+      "geo_group": "china",
+      "country_confidence": "high"
+    },
+    "iiss.org": {
+      "name": "IISS",
+      "tier": "professional",
+      "score": 6,
+      "reason": "专业研究机构，提供军事分析",
+      "source": "search_llm",
+      "country": "国际组织",
+      "region": "国际",
+      "geo_group": "international_org",
+      "country_confidence": "explicit"
+    },
+    "indonesiabusinesspost.com": {
+      "name": "Indonesia Business Post",
+      "tier": "professional",
+      "score": 6,
+      "reason": "Business news website focused on Indonesia",
+      "source": "llm",
+      "country": "Indonesia",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "instagram.com": {
+      "name": "Instagram",
+      "tier": "portal",
+      "score": 4,
+      "reason": "社交媒体平台，由Meta公司运营",
+      "source": "search_llm",
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_israel",
+      "country_confidence": "high"
+    },
+    "iranintl.com": {
+      "name": "Iran International",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "主流新闻媒体，专注于伊朗新闻。",
+      "source": "search_llm",
+      "country": "英国",
+      "region": "欧洲",
+      "geo_group": "uk",
+      "country_confidence": "high"
+    },
+    "iranwatch.org": {
+      "name": "Iran Watch",
+      "tier": "professional",
+      "score": 6,
+      "reason": "专业研究站点，提供详细的导弹图像和目录，引用官方媒体来源。",
+      "source": "search_llm",
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_israel",
+      "country_confidence": "high"
+    },
+    "israel-alma.org": {
+      "name": "Alma Center",
+      "tier": "professional",
+      "score": 6,
+      "reason": "专业研究机构提供基于数据的评估报告，使用卫星影像分析",
+      "source": "search_llm",
+      "country": "Israel",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "israelhayom.com": {
+      "name": "israelhayom.com",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "以色列主流媒体",
+      "source": "llm",
+      "country": "以色列",
+      "region": "中东",
+      "geo_group": "us_israel",
+      "country_confidence": "high"
+    },
+    "janes.com": {
+      "name": "Jane's",
+      "tier": "professional",
+      "score": 6,
+      "reason": "Professional media company specializing in defense and aerospace information.",
+      "source": "llm",
+      "country": "United Kingdom",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "jewishnews.co.uk": {
+      "name": "Jewish News",
+      "tier": "professional",
+      "score": 6,
+      "reason": "英国犹太新闻媒体",
+      "source": "llm",
+      "country": "UK",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "jewishpostandnews.ca": {
+      "name": "Jewish Post and News",
+      "tier": "professional",
+      "score": 6,
+      "reason": "犹太社区新闻网站，报道军事新闻并引用IDF数据",
+      "source": "search_llm",
+      "country": "加拿大",
+      "region": "北美",
+      "geo_group": "canada",
+      "country_confidence": "high"
+    },
+    "jfeed.com": {
+      "name": "jfeed.com",
+      "tier": "portal",
+      "score": 4,
+      "reason": "新闻聚合平台",
+      "source": "llm",
+      "country": "以色列",
+      "region": "中东",
+      "geo_group": "us_israel",
+      "country_confidence": "medium"
+    },
+    "jinsa.org": {
+      "name": "jinsa.org",
+      "tier": "professional",
+      "score": 6,
+      "reason": "安全政策研究机构",
+      "source": "llm",
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_israel",
+      "country_confidence": "high"
+    },
+    "jns.org": {
+      "name": "JNS",
+      "tier": "professional",
+      "score": 6,
+      "reason": "专业犹太新闻来源，内容为新闻报道",
+      "source": "search_llm",
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_israel",
+      "country_confidence": "high"
+    },
+    "jpost.com": {
+      "name": "耶路撒冷邮报",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "以色列主流英文报纸",
+      "source": "llm",
+      "country": "以色列",
+      "region": "中东",
+      "geo_group": "us_israel",
+      "country_confidence": "high"
+    },
+    "jwc.ustb.edu.cn": {
+      "name": "jwc.ustb.edu.cn",
+      "tier": "professional",
+      "score": 6,
+      "reason": "教育机构",
+      "source": "llm",
+      "country": "中国",
+      "region": "东亚",
+      "geo_group": "china",
+      "country_confidence": "high"
+    },
+    "kurdistan24.net": {
+      "name": "Kurdistan24",
+      "tier": "professional",
+      "score": 6,
+      "reason": "专业新闻网站，专注于库尔德地区报道，引用官方军事信息",
+      "source": "search_llm",
+      "country": "伊拉克",
+      "region": "中东",
+      "geo_group": "iraq",
+      "country_confidence": "high"
+    },
+    "law.com": {
+      "name": "Law.com",
+      "tier": "professional",
+      "score": 6,
+      "reason": "专业法律新闻网站，专注于律师业务计划内容。",
+      "source": "search_llm",
+      "country": "United States",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "libguides.snhu.edu": {
+      "name": "SNHU Library",
+      "tier": "professional",
+      "score": 6,
+      "reason": "大学图书馆指南，提供学术资源和研究指导。",
+      "source": "search_llm",
+      "country": "USA",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "library.unsw.edu.au": {
+      "name": "UNSW Library",
+      "tier": "professional",
+      "score": 6,
+      "reason": "大学图书馆网站，专注于学术资源分类。",
+      "source": "search_llm",
+      "country": "Australia",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "m.wenxuecity.com": {
+      "name": "m.wenxuecity.com",
+      "tier": "portal",
+      "score": 4,
+      "reason": "海外华人社区平台",
+      "source": "llm",
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_israel",
+      "country_confidence": "medium"
+    },
+    "merriam-webster.com": {
+      "name": "Merriam-Webster",
+      "tier": "professional",
+      "score": 6,
+      "reason": "权威词典网站，提供标准英语定义和语言资源。",
+      "source": "search_llm",
+      "country": "United States",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "mideastjournal.org": {
+      "name": "Mideast Journal",
+      "tier": "professional",
+      "score": 6,
+      "reason": "专业中东新闻网站，专注区域分析",
+      "source": "search_llm",
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_israel",
+      "country_confidence": "high"
+    },
+    "missilethreat.csis.org": {
+      "name": "Missile Threat - CSIS",
+      "tier": "professional",
+      "score": 6,
+      "reason": "CSIS（战略与国际研究中心）的专业研究站点，提供导弹威胁分析和技术细节。",
+      "source": "search_llm",
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_israel",
+      "country_confidence": "high"
+    },
+    "nationalreview.com": {
+      "name": "National Review",
+      "tier": "professional",
+      "score": 6,
+      "reason": "American conservative political commentary magazine reporting on defense sources.",
+      "source": "search_llm",
+      "country": "USA",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "nbcnews.com": {
+      "name": "NBC News",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "美国主流广播公司新闻网站，覆盖国际和政治新闻。",
+      "source": "search_llm",
+      "country": "US",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "nbcnewyork.com": {
+      "name": "NBC New York",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "Mainstream US media outlet.",
+      "source": "search_llm",
+      "country": "USA",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "nbd.com.cn": {
+      "name": "每日经济新闻",
+      "tier": "professional",
+      "score": 6,
+      "reason": "中国财经新闻媒体，专业报道",
+      "source": "search_llm",
+      "country": "中国",
+      "region": "东亚",
+      "geo_group": "china",
+      "country_confidence": "high"
+    },
+    "news.cn": {
+      "name": "news.cn",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "新闻媒体",
+      "source": "llm",
+      "country": "中国",
+      "region": "东亚",
+      "geo_group": "china",
+      "country_confidence": "high"
+    },
+    "nti.org": {
+      "name": "NTI",
+      "tier": "professional",
+      "score": 6,
+      "reason": "专业防扩散组织，提供导弹数据库",
+      "source": "search_llm",
+      "country": "国际组织",
+      "region": "国际",
+      "geo_group": "international_org",
+      "country_confidence": "explicit"
+    },
+    "nypost.com": {
+      "name": "New York Post",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "知名主流新闻网站，域名和标题直接确认来源，有专业编辑流程",
+      "source": "search_llm",
+      "country": "United States",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "oror.vip": {
+      "name": "OR新媒体",
+      "tier": "self_media",
+      "score": 2,
+      "reason": "url结构像个人博客，内容为新闻",
+      "source": "llm",
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "pressreader.com": {
+      "name": "PressReader",
+      "tier": "portal",
+      "score": 4,
+      "reason": "新闻聚合平台，提供来自多个来源的内容。",
+      "source": "search_llm",
+      "country": "国际",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "qq.com": {
+      "name": "腾讯网",
+      "tier": "portal",
+      "score": 4,
+      "reason": "",
+      "source": "manual_override",
+      "country": "中国",
+      "region": "东亚",
+      "geo_group": "china",
+      "country_confidence": "explicit"
+    },
+    "qz.com": {
+      "name": "Quartz",
+      "tier": "professional",
+      "score": 6,
+      "reason": "Professional news outlet known for in-depth reporting.",
+      "source": "search_llm",
+      "country": "United States",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "reddit.com": {
+      "name": "reddit.com",
+      "tier": "portal",
+      "score": 4,
+      "reason": "社交新闻聚合平台",
+      "source": "llm",
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_israel",
+      "country_confidence": "high"
+    },
+    "rottentomatoes.com": {
+      "name": "Rotten Tomatoes",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "主流电影评论网站。",
+      "source": "search_llm",
+      "country": "USA",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "scribd.com": {
+      "name": "scribd.com",
+      "tier": "portal",
+      "score": 4,
+      "reason": "文档分享平台",
+      "source": "llm",
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_israel",
+      "country_confidence": "high"
+    },
+    "sfchronicle.com": {
+      "name": "San Francisco Chronicle",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "知名主流报纸，提供本地事件和新闻。",
+      "source": "search_llm",
+      "country": "USA",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "sina.cn": {
+      "name": "sina.cn",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "主流媒体",
+      "source": "llm",
+      "country": "中国",
+      "region": "东亚",
+      "geo_group": "china",
+      "country_confidence": "high"
+    },
+    "skynews.com.au": {
+      "name": "Sky News Australia",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "Mainstream Australian media outlet.",
+      "source": "search_llm",
+      "country": "Australia",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "snopes.com": {
+      "name": "Snopes",
+      "tier": "professional",
+      "score": 6,
+      "reason": "Professional fact-checking site specializing in debunking misinformation.",
+      "source": "search_llm",
+      "country": "USA",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "sputniknews.cn": {
+      "name": "Sputnik News",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "国际新闻机构，提供新闻报道",
+      "source": "search_llm",
+      "country": "俄罗斯",
+      "region": "欧洲",
+      "geo_group": "russia",
+      "country_confidence": "high"
+    },
+    "stellarcontent.com": {
+      "name": "Stellar Content",
+      "tier": "professional",
+      "score": 6,
+      "reason": "Stellar Content 是内容营销专业网站，但置信度未超过0.75。",
+      "source": "search_llm",
+      "country": "Unknown",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "stock.10jqka.com.cn": {
+      "name": "stock.10jqka.com.cn",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "财经媒体",
+      "source": "llm",
+      "country": "中国",
+      "region": "东亚",
+      "geo_group": "china",
+      "country_confidence": "high"
+    },
+    "subjectguides.library.american.edu": {
+      "name": "American University Library",
+      "tier": "official",
+      "score": 10,
+      "reason": "美国大学图书馆的官方教育资源，提供学术指南。",
+      "source": "search_llm",
+      "country": "United States",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "tass.com": {
+      "name": "tass.com",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "俄罗斯官方通讯社",
+      "source": "llm",
+      "country": "俄罗斯",
+      "region": "欧洲",
+      "geo_group": "russia",
+      "country_confidence": "high"
+    },
+    "the-sun.com": {
+      "name": "The Sun",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "英国主流小报新闻网站",
+      "source": "llm",
+      "country": "英国",
+      "region": "欧洲",
+      "geo_group": "uk",
+      "country_confidence": "high"
+    },
+    "thebulletin.org": {
+      "name": "Bulletin of the Atomic Scientists",
+      "tier": "professional",
+      "score": 6,
+      "reason": "Professional organization focused on science and policy.",
+      "source": "search_llm",
+      "country": "International",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "thedefensenews.com": {
+      "name": "Defense News",
+      "tier": "professional",
+      "score": 6,
+      "reason": "专业国防新闻媒体",
+      "source": "llm",
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "theguardian.com": {
+      "name": "The Guardian",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "Mainstream UK newspaper",
+      "source": "llm",
+      "country": "United Kingdom",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "thejournal.ie": {
+      "name": "The Journal",
+      "tier": "professional",
+      "score": 6,
+      "reason": "Fact-checking news site with professional journalism.",
+      "source": "search_llm",
+      "country": "Ireland",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "themedialine.org": {
+      "name": "themedialine.org",
+      "tier": "professional",
+      "score": 6,
+      "reason": "中东专业新闻媒体",
+      "source": "llm",
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_israel",
+      "country_confidence": "high"
+    },
+    "theyeshivaworld.com": {
+      "name": "The Yeshiva World",
+      "tier": "professional",
+      "score": 6,
+      "reason": "专业犹太新闻网站，内容为新闻报道",
+      "source": "search_llm",
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_israel",
+      "country_confidence": "high"
+    },
+    "threads.com": {
+      "name": "threads.com",
+      "tier": "portal",
+      "score": 4,
+      "reason": "社交媒体平台",
+      "source": "llm",
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_israel",
+      "country_confidence": "high"
+    },
+    "timesofindia.indiatimes.com": {
+      "name": "Times of India",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "Domain indicates mainstream Indian media with news content",
+      "source": "llm",
+      "country": "India",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "timesofisrael.com": {
+      "name": "Times of Israel",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "主流国际新闻媒体，报道官方评估",
+      "source": "search_llm",
+      "country": "以色列",
+      "region": "中东",
+      "geo_group": "us_israel",
+      "country_confidence": "high"
+    },
+    "today.line.me": {
+      "name": "LINE Today",
+      "tier": "portal",
+      "score": 4,
+      "reason": "知名新闻门户，提供聚合新闻内容",
+      "source": "search_llm",
+      "country": "日本",
+      "region": "东亚",
+      "geo_group": "japan",
+      "country_confidence": "explicit"
+    },
+    "understandingwar.org": {
+      "name": "understandingwar.org",
+      "tier": "professional",
+      "score": 6,
+      "reason": "军事研究机构",
+      "source": "llm",
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_israel",
+      "country_confidence": "high"
+    },
+    "uscis.gov": {
+      "name": "USCIS",
+      "tier": "official",
+      "score": 10,
+      "reason": "政府移民机构官方网站。",
+      "source": "search_llm",
+      "country": "USA",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "usmcu.edu": {
+      "name": "USMCU",
+      "tier": "professional",
+      "score": 6,
+      "reason": "军事教育机构，发布专业军事分析报告",
+      "source": "search_llm",
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_israel",
+      "country_confidence": "high"
+    },
+    "vreme.com": {
+      "name": "Vreme",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "Serbian mainstream news portal reporting on military data with external sources.",
+      "source": "search_llm",
+      "country": "Serbia",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "explicit"
+    },
+    "x.com": {
+      "name": "x.com",
+      "tier": "self_media",
+      "score": 2,
+      "reason": "社交媒体平台",
+      "source": "llm",
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_israel",
+      "country_confidence": "high"
+    },
+    "xinwen.bjd.com.cn": {
+      "name": "xinwen.bjd.com.cn",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "地方新闻媒体",
+      "source": "llm",
+      "country": "中国",
+      "region": "东亚",
+      "geo_group": "china",
+      "country_confidence": "high"
+    },
+    "yahoo.com": {
+      "name": "Yahoo News",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "主流新闻门户网站",
+      "source": "search_llm",
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_israel",
+      "country_confidence": "high"
+    },
+    "ynetnews.com": {
+      "name": "ynetnews.com",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "以色列主流新闻网站",
+      "source": "llm",
+      "country": "以色列",
+      "region": "中东",
+      "geo_group": "us_israel",
+      "country_confidence": "high"
+    },
+    "youtube.com": {
+      "name": "YouTube",
+      "tier": "portal",
+      "score": 4,
+      "reason": "视频分享平台，聚合用户生成内容",
+      "source": "search_llm",
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_israel",
+      "country_confidence": "high"
+    },
+    "zaobao.com.sg": {
+      "name": "联合早报",
+      "tier": "mainstream",
+      "score": 8,
+      "reason": "新加坡主流华文媒体",
+      "source": "search_llm",
+      "country": "新加坡",
+      "region": "东南亚",
+      "geo_group": "singapore",
+      "country_confidence": "high"
+    }
+  },
+  "observations": {
+    "100.jea.org": {
+      "domain": "100.jea.org",
+      "first_seen_query": "???????100????????????",
+      "last_seen_query": "\"100\" 事件 背景",
+      "last_analysis_context": "\"100\" 事件 背景; \"100\" event primary sources; \"100\" event key facts; \"100\" event timeline; \"100\" event historical context",
+      "source": "search",
+      "observed_count": 2,
+      "example_urls": [
+        "https://100.jea.org/1321/100-of-100/our-100-lists-of-100-biggest-news-events/"
+      ],
+      "example_titles": [
+        "Our 100 lists of 100: Biggest News Events - JEA Centennial",
+        "Our 100 lists of 100: Biggest News Events"
+      ],
+      "recent_queries": [
+        "???????100????????????",
+        "\"100\" 事件 背景"
+      ],
+      "country": "United States",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low",
+      "resolved_tier": "professional"
+    },
+    "163.com": {
+      "domain": "163.com",
+      "first_seen_query": "伊朗导弹发射器数量",
+      "last_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_analysis_context": "伊朗 导弹 导弹发射器 发射器 仅剩 100; 伊朗目前仅剩约100个可正常使用的导弹发射器; 伊朗 导弹 导弹发射器 发射器 仅剩 100 回应 否认 反驳 谎称 更强大 数量更多; 伊朗 导弹 导弹发射器 发射器 仅剩 100 军事宣传 没有客观证据; 伊朗 导弹 导弹发射器 发射器 仅剩 100 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; 伊朗 导弹 导弹发射器 发射器 仅剩 100 腾讯新闻 QQ新闻 新浪新闻 site:news.qq.com site:sina.cn",
+      "source": "search",
+      "observed_count": 8,
+      "example_urls": [
+        "https://www.163.com/dy/article/KNJGTLL205566JOK.html?f=post1603_tab_news",
+        "https://www.163.com/dy/article/K56AHBJ005562F06.html",
+        "https://www.163.com/v/video/VMML6TPDP.html",
+        "https://www.163.com/news/article/JRVLABG50001899O.html"
+      ],
+      "example_titles": [
+        "伊朗明明导弹发射数量下降，生产链被斩断，为何称可高强度打半年",
+        "6枚导弹突袭伊朗，460亿军费花得值吗？中国神器可以考虑",
+        "以色列军方评估称 伊朗仅剩100-200个导弹发射装置 #以色列 #伊朗|中东局势|军事资讯|国际军情_网易视频",
+        "伊媒：伊朗各地导弹已装入发射器，以防美国升级行动|唐纳德·特朗普|核计划|美国政府_网易新闻"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量",
+        "伊朗目前仅剩约100个可正常使用的导弹发射器"
+      ],
+      "country": "中国",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low",
+      "resolved_tier": "portal"
+    },
+    "3.nhk.or.jp": {
+      "domain": "3.nhk.or.jp",
+      "first_seen_query": "\"100\" 新闻",
+      "last_seen_query": "\"100\" 新闻",
+      "last_analysis_context": "\"100\" 新闻; \"100\" 新闻 来源; \"100\" 事件 新闻; \"100\" 周年 新闻; \"100\" 分析 新闻",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www3.nhk.or.jp/nhkworld/en/news/20260309_B20/"
+      ],
+      "example_titles": [
+        "Nikkei 225 plunges more than 3,000 points on Monday - nhk.or.jp"
+      ],
+      "recent_queries": [
+        "\"100\" 新闻"
+      ],
+      "country": "日本",
+      "region": "东亚",
+      "geo_group": "japan",
+      "country_confidence": "medium"
+    },
+    "academy.rt.com": {
+      "domain": "academy.rt.com",
+      "first_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_analysis_context": "伊朗目前仅剩约100个可正常使用的导弹发射器; 伊朗目前仅剩约100个可正常使用的导弹发射器 伊朗媒体 伊朗媒体 Tasnim IRNA; 伊朗目前仅剩约100个可正常使用的导弹发射器 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; 伊朗目前仅剩约100个可正常使用的导弹发射器 腾讯新闻 QQ新闻 新浪新闻 site:news.qq.com site:sina.cn; 伊朗目前仅剩约100个可正常使用的导弹发射器 否认 回应 谎称 没有证据; 100 伊朗目前仅剩约 个可正常使用的导弹发射器 最早 来源 原始 报道",
+      "source": "search",
+      "observed_count": 2,
+      "example_urls": [
+        "https://academy.rt.com/china"
+      ],
+      "example_titles": [
+        "China — RT Academy"
+      ],
+      "recent_queries": [
+        "伊朗目前仅剩约100个可正常使用的导弹发射器"
+      ],
+      "country": "俄罗斯",
+      "region": "欧洲",
+      "geo_group": "russia",
+      "country_confidence": "high"
+    },
+    "acleddata.com": {
+      "domain": "acleddata.com",
+      "first_seen_query": "伊朗导弹发射器数量 2026年3月",
+      "last_seen_query": "伊朗导弹发射器数量 2026年3月",
+      "last_analysis_context": "伊朗导弹发射器数量 2026年3月; Iran missile launchers March 2026 site:gov; Iran missile launchers number 2026",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://acleddata.com/update/middle-east-special-issue-march-2026"
+      ],
+      "example_titles": [
+        "Middle East Special Issue: March 2026"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量 2026年3月"
+      ],
+      "country": "伊朗",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low"
+    },
+    "algemeiner.com": {
+      "domain": "algemeiner.com",
+      "first_seen_query": "Iran missile launchers 420 operational 100",
+      "last_seen_query": "Iran missile launchers remaining operational IDF estimate 100-200",
+      "last_analysis_context": "Iran missile missile launchers launcher launchers remaining; Iran missile launchers remaining operational IDF estimate 100-200; Iran missile missile launchers launcher launchers remaining 回应 否认 反驳 谎称 更强大 数量更多; Iran missile missile launchers launcher launchers remaining 军事宣传 没有客观证据; Iran missile missile launchers launcher launchers remaining 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; Iran missi",
+      "source": "search",
+      "observed_count": 9,
+      "example_urls": [
+        "https://www.algemeiner.com/2026/03/11/iran-has-one-third-missile-launchers-left-idf-assesses/"
+      ],
+      "example_titles": [
+        "Iran Has One-Third of Its Missile Launchers Left, IDF Assesses"
+      ],
+      "recent_queries": [
+        "Iran missile launchers 420 operational 100",
+        "Iran missile launchers number 2026",
+        "Iran missile launchers operational 2026",
+        "Iran missile launchers current number 2026",
+        "伊朗导弹发射器数量 2026"
+      ],
+      "resolved_tier": "professional",
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_israel",
+      "country_confidence": "high"
+    },
+    "aljazeera.com": {
+      "domain": "aljazeera.com",
+      "first_seen_query": "伊朗导弹发射器数量 2026年3月",
+      "last_seen_query": "伊朗导弹发射器数量 2026年3月",
+      "last_analysis_context": "伊朗导弹发射器数量 2026年3月; Iran missile launchers March 2026 site:gov; Iran missile launchers number 2026",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.aljazeera.com/news/2026/3/11/iran-fires-missiles-drones-at-gulf-nations-as-ship-hit-in-strait-of-hormuz"
+      ],
+      "example_titles": [
+        "Iran fires missiles, drones at Gulf nations as ship hit in Strait of Hormuz"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量 2026年3月"
+      ],
+      "country": "伊朗",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low"
+    },
+    "anaen.com": {
+      "domain": "anaen.com",
+      "first_seen_query": "伊朗导弹发射器数量 2023",
+      "last_seen_query": "伊朗导弹发射器数量 2023",
+      "last_analysis_context": "伊朗导弹发射器数量 2023; Iran missile launchers 2023 official source; Iran missile launchers number 2023",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://wanaen.com/irgc-source-launch-of-irans-new-generation-of-missiles-expected-soon/"
+      ],
+      "example_titles": [
+        "IRGC Source: Launch of Iran's New Generation of Missiles Expected Soon"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量 2023"
+      ],
+      "country": "伊朗",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low"
+    },
+    "anthropic.com": {
+      "domain": "anthropic.com",
+      "first_seen_query": "???????100????????????",
+      "last_seen_query": "???????100????????????",
+      "last_analysis_context": "???????100????????????; 100 official sources; 100 timeline; 100 context",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.anthropic.com/news/100k-context-windows"
+      ],
+      "example_titles": [
+        "Introducing 100K Context Windows - Anthropic"
+      ],
+      "recent_queries": [
+        "???????100????????????"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "ap.eastmoney.com": {
+      "domain": "ap.eastmoney.com",
+      "first_seen_query": "伊朗导弹发射器数量",
+      "last_seen_query": "伊朗导弹发射器数量",
+      "last_analysis_context": "核实伊朗导弹发射器数量是否准确",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://wap.eastmoney.com/a/202603103667666210.html"
+      ],
+      "example_titles": [
+        "美国国防部长：过去24小时内伊朗发射的导弹数量创历史新低"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量"
+      ],
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_western",
+      "country_confidence": "low"
+    },
+    "apnews.com": {
+      "domain": "apnews.com",
+      "first_seen_query": "Pfizer vaccine \"page 132\" unprotected sex 28 days birth defects",
+      "last_seen_query": "Pfizer vaccine \"page 132\" unprotected sex 28 days birth defects",
+      "last_analysis_context": "Pfizer vaccine \"page 132\" unprotected sex 28 days birth defects; Pfizer vaccine report \"page 132\"; Pfizer vaccine birth defects unprotected sex",
+      "source": "search",
+      "observed_count": 2,
+      "example_urls": [
+        "https://apnews.com/article/fact-checking-583715031774"
+      ],
+      "example_titles": [
+        "Video misrepresents Pfizer's COVID-19 vaccine clinical trial protocol",
+        "Video misrepresents Pfizer's COVID-19 vaccine clinical ..."
+      ],
+      "recent_queries": [
+        "Pfizer vaccine \"page 132\" unprotected sex 28 days birth defects"
+      ],
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_western",
+      "country_confidence": "high"
+    },
+    "app.xinhuanet.com": {
+      "domain": "app.xinhuanet.com",
+      "first_seen_query": "伊朗导弹发射器数量",
+      "last_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_analysis_context": "伊朗 导弹 导弹发射器 发射器 仅剩 100; 伊朗目前仅剩约100个可正常使用的导弹发射器; 伊朗 导弹 导弹发射器 发射器 仅剩 100 回应 否认 反驳 谎称 更强大 数量更多; 伊朗 导弹 导弹发射器 发射器 仅剩 100 军事宣传 没有客观证据; 伊朗 导弹 导弹发射器 发射器 仅剩 100 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; 伊朗 导弹 导弹发射器 发射器 仅剩 100 腾讯新闻 QQ新闻 新浪新闻 site:news.qq.com site:sina.cn",
+      "source": "search",
+      "observed_count": 3,
+      "example_urls": [
+        "https://app.xinhuanet.com/news/article.html?articleId=4e789964fa1b70bbf3b531703ecb9c85",
+        "https://app.xinhuanet.com/news/article.html?articleId=dd7e298077a49bfed88dd9dd0ac8fa11"
+      ],
+      "example_titles": [
+        "以军说摧毁伊朗约300个导弹发射器 - 新华网客户端",
+        "伊媒：\"伊朗各地的导弹已装入发射器\"，以防美国升级行动 - 新华网客户端"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量",
+        "伊朗目前仅剩约100个可正常使用的导弹发射器"
+      ],
+      "country": "中国",
+      "region": "东亚",
+      "geo_group": "china",
+      "country_confidence": "high"
+    },
+    "arabnews.com": {
+      "domain": "arabnews.com",
+      "first_seen_query": "伊朗导弹发射器数量 2023",
+      "last_seen_query": "伊朗导弹发射器数量 2023",
+      "last_analysis_context": "伊朗导弹发射器数量 2023; Iran missile launchers 2023 official source; Iran missile launchers number 2023",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.arabnews.com/node/2635534/amp"
+      ],
+      "example_titles": [
+        "How Iran's massive arsenal of missiles and drones became its last line ..."
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量 2023"
+      ],
+      "country": "伊朗",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low"
+    },
+    "archives.gov": {
+      "domain": "archives.gov",
+      "first_seen_query": "\"100\" 事件 背景",
+      "last_seen_query": "\"100\" 事件 背景",
+      "last_analysis_context": "\"100\" 事件 背景; \"100\" event primary sources; \"100\" event key facts; \"100\" event timeline; \"100\" event historical context",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.archives.gov/education/research/primary-sources"
+      ],
+      "example_titles": [
+        "Finding Primary Sources for Teachers and Students"
+      ],
+      "recent_queries": [
+        "\"100\" 事件 背景"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "archivesfoundation.org": {
+      "domain": "archivesfoundation.org",
+      "first_seen_query": "???????100????????????",
+      "last_seen_query": "???????100????????????",
+      "last_analysis_context": "???????100????????????; 100 official sources; 100 timeline; 100 context",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://archivesfoundation.org/news/introducing-americas-100-docs-a-new-game-to-engage-americans-with-history/"
+      ],
+      "example_titles": [
+        "Introducing America's 100 Docs, a New Game to Engage Americans ..."
+      ],
+      "recent_queries": [
+        "???????100????????????"
+      ],
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_western",
+      "country_confidence": "low"
+    },
+    "arkansasonline.com": {
+      "domain": "arkansasonline.com",
+      "first_seen_query": "\"100\" 事件 背景",
+      "last_seen_query": "\"100\" 事件 背景",
+      "last_analysis_context": "\"100\" 事件 背景; \"100\" event primary sources; \"100\" event key facts; \"100\" event timeline; \"100\" event historical context",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.arkansasonline.com/eventscalendar/?_evDiscoveryPath=/event%2F3508833-ar-reads-leopold-community-reading-and-nature-journaling-registration-recommended-"
+      ],
+      "example_titles": [
+        "AR Reads Leopold Community Reading and Nature Journaling (Registration Recommended) - The Arkansas Democrat-Gazette"
+      ],
+      "recent_queries": [
+        "\"100\" 事件 背景"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "arynews.tv": {
+      "domain": "arynews.tv",
+      "first_seen_query": "Iran missile launchers operational number 2026",
+      "last_seen_query": "Iran missile launchers operational number 2026",
+      "last_analysis_context": "Iran missile missile launchers launcher launchers 2026; Iran missile launchers operational number 2026; Iran missile missile launchers launcher launchers 2026 回应 否认 反驳 谎称; Iran missile missile launchers launcher launchers 2026 军事宣传 没有客观证据; Iran missile missile launchers launcher launchers 2026 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; Iran missile missile launchers launcher launchers 2026 腾讯新",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://arynews.tv/iran-top-missiles-in-2026-amid-israel-us-strikes"
+      ],
+      "example_titles": [
+        "Iran's Top Missiles in 2026: Capabilities and Role They Can Play in the ..."
+      ],
+      "recent_queries": [
+        "Iran missile launchers operational number 2026"
+      ],
+      "country": "伊朗",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low"
+    },
+    "ashingtoninstitute.org": {
+      "domain": "ashingtoninstitute.org",
+      "first_seen_query": "伊朗导弹发射器数量 2023",
+      "last_seen_query": "伊朗导弹发射器数量 2023",
+      "last_analysis_context": "伊朗导弹发射器数量 2023; Iran missile launchers 2023 official source; Iran missile launchers number 2023",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.washingtoninstitute.org/sites/default/files/pdf/2023-iran-airdefense-systems-table-POL3813-printable.pdf"
+      ],
+      "example_titles": [
+        "[PDF] Major Iranian Air Defense Missile Systems, 2023"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量 2023"
+      ],
+      "country": "伊朗",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low"
+    },
+    "asiatimes.com": {
+      "domain": "asiatimes.com",
+      "first_seen_query": "Iran missile launchers \"number\" OR \"count\" site:gov OR site:org",
+      "last_seen_query": "Iran missile launchers \"number\" OR \"count\" site:gov OR site:org",
+      "last_analysis_context": "Iran missile launchers \"number\" OR \"count\" site:gov OR site:org; Iran missile launchers \"capability\" OR \"strength\" site:gov OR site:org",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://asiatimes.com/2026/03/irans-missile-capability-is-significantly-degraded/"
+      ],
+      "example_titles": [
+        "Iran's missile capability is significantly degraded - Asia Times"
+      ],
+      "recent_queries": [
+        "Iran missile launchers \"number\" OR \"count\" site:gov OR site:org"
+      ],
+      "country": "伊朗",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low"
+    },
+    "athome.fandango.com": {
+      "domain": "athome.fandango.com",
+      "first_seen_query": "???????100????????????",
+      "last_seen_query": "???????100????????????",
+      "last_analysis_context": "???????100????????????; 100 facts; 100 authoritative sources; 100 statistics; 100 historical context",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://athome.fandango.com/content/browse/details/The-100-Season-1/524674"
+      ],
+      "example_titles": [
+        "Buy & Watch The 100: Season 1 | Fandango at Home (Vudu)"
+      ],
+      "recent_queries": [
+        "???????100????????????"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "bbc.com": {
+      "domain": "bbc.com",
+      "first_seen_query": "Iran missile launchers number 2026",
+      "last_seen_query": "伊朗导弹发射器数量 2026",
+      "last_analysis_context": "伊朗导弹发射器数量 2026; Iran missile launchers 2026 data source; Iran missile launchers count 2026",
+      "source": "search",
+      "observed_count": 2,
+      "example_urls": [
+        "https://www.bbc.com/news/articles/cdxzzqe82d2o",
+        "https://www.bbc.com/zhongwen/articles/clyggp7jgjvo/simp"
+      ],
+      "example_titles": [
+        "How depleted weapons stockpiles could affect the Iran conflict - BBC",
+        "美国和伊朗的弹药库如何影响这场冲突？ - BBC"
+      ],
+      "recent_queries": [
+        "Iran missile launchers number 2026",
+        "伊朗导弹发射器数量 2026"
+      ],
+      "country": "英国",
+      "region": "欧洲",
+      "geo_group": "us_western",
+      "country_confidence": "high"
+    },
+    "beckchris.com": {
+      "domain": "beckchris.com",
+      "first_seen_query": "\"100\" 事件 背景",
+      "last_seen_query": "\"100\" 事件 背景",
+      "last_analysis_context": "\"100\" 事件 背景; \"100\" event primary sources; \"100\" event key facts; \"100\" event timeline; \"100\" event historical context",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://beckchris.com/history/the-55-most-important-events-in-human-history/"
+      ],
+      "example_titles": [
+        "The 100 Most Important Events in Human History | Make Lists, Not War"
+      ],
+      "recent_queries": [
+        "\"100\" 事件 背景"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "beginlearning.com": {
+      "domain": "beginlearning.com",
+      "first_seen_query": "???????100????????????",
+      "last_seen_query": "???????100????????????",
+      "last_analysis_context": "???????100????????????; 100 facts; 100 authoritative sources; 100 statistics; 100 historical context",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.beginlearning.com/parent-resources/fun-facts-for-kids/"
+      ],
+      "example_titles": [
+        "100 Fun and Educational Facts for Kids - Begin Learning"
+      ],
+      "recent_queries": [
+        "???????100????????????"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "bloomberg.com": {
+      "domain": "bloomberg.com",
+      "first_seen_query": "Iran missile launchers 90% destroyed military analysis",
+      "last_seen_query": "Iran missile launchers remaining operational IDF estimate 100-200",
+      "last_analysis_context": "Iran missile missile launchers launcher launchers remaining; Iran missile launchers remaining operational IDF estimate 100-200; Iran missile missile launchers launcher launchers remaining 回应 否认 反驳 谎称 更强大 数量更多; Iran missile missile launchers launcher launchers remaining 军事宣传 没有客观证据; Iran missile missile launchers launcher launchers remaining 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; Iran missi",
+      "source": "search",
+      "observed_count": 8,
+      "example_urls": [
+        "https://www.bloomberg.com/news/articles/2026-03-06/israel-says-it-s-destroyed-most-of-iran-s-missile-launchers",
+        "https://www.bloomberg.com/news/articles/2026-03-12/iran-s-missile-launcher-arsenal-holds-steady-despite-strikes"
+      ],
+      "example_titles": [
+        "Israel Says It's Destroyed Most of Iran's Missile Launchers",
+        "Iran War: Iran Missile Launcher Arsenal Holds Steady Despite Strikes",
+        "Iran's Missile Launcher Arsenal Holds Steady Despite Strikes"
+      ],
+      "recent_queries": [
+        "Iran missile launchers 90% destroyed military analysis",
+        "Iran missile launchers current number 2026",
+        "Iran missile launchers operational 2026",
+        "Iran missile launchers 100 serviceable 2026",
+        "Iran missile launchers operational number 2026"
+      ],
+      "country": "美国",
+      "region": "中东",
+      "geo_group": "us_israel",
+      "country_confidence": "low",
+      "resolved_tier": "mainstream"
+    },
+    "businessinsider.com": {
+      "domain": "businessinsider.com",
+      "first_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_analysis_context": "伊朗 导弹 导弹发射器 发射器 仅剩 100; 伊朗目前仅剩约100个可正常使用的导弹发射器; 伊朗 导弹 导弹发射器 发射器 仅剩 100 回应 否认 反驳 谎称 更强大 数量更多; 伊朗 导弹 导弹发射器 发射器 仅剩 100 军事宣传 没有客观证据; 伊朗 导弹 导弹发射器 发射器 仅剩 100 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; 伊朗 导弹 导弹发射器 发射器 仅剩 100 腾讯新闻 QQ新闻 新浪新闻 site:news.qq.com site:sina.cn",
+      "source": "search",
+      "observed_count": 12,
+      "example_urls": [
+        "https://www.businessinsider.com/iran-gambles-drones-missiles-can-outlast-us-and-israel-2026-3"
+      ],
+      "example_titles": [
+        "Iran Gambles That Its Drones and Missiles Can Outlast the US and Israel - Business Insider"
+      ],
+      "recent_queries": [
+        "伊朗目前仅剩约100个可正常使用的导弹发射器"
+      ],
+      "country": "United States",
+      "region": "中东",
+      "geo_group": "us_israel",
+      "country_confidence": "low",
+      "resolved_tier": "professional"
+    },
+    "capitalfutures.com.tw": {
+      "domain": "capitalfutures.com.tw",
+      "first_seen_query": "伊朗导弹发射器数量 2023",
+      "last_seen_query": "伊朗导弹发射器数量 2023",
+      "last_analysis_context": "伊朗导弹发射器数量 2023; Iran missile launchers 2023 official report; Iran missile launchers number 2023 statistics",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.capitalfutures.com.tw/zh-tw/Financial/BreakingNewsArticle?ContentId=C26031001262"
+      ],
+      "example_titles": [
+        "伊朗導彈發射數量歷史新低的觀察 - 群益期貨"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量 2023"
+      ],
+      "country": "中国台湾",
+      "region": "东亚",
+      "geo_group": "taiwan",
+      "country_confidence": "medium"
+    },
+    "cbsnews.com": {
+      "domain": "cbsnews.com",
+      "first_seen_query": "100 新闻事件",
+      "last_seen_query": "100 新闻事件",
+      "last_analysis_context": "100 新闻事件; 100 新闻事件 来源; 100 新闻事件 事实; 100 新闻事件 时间; 100 新闻事件 背景",
+      "source": "search",
+      "observed_count": 5,
+      "example_urls": [
+        "https://www.cbsnews.com/video/the-logistics-of-a-potential-u-s-military-plan-to-open-the-strait-of-hormuz/",
+        "https://www.cbsnews.com/video/old-dominion-university-confirms-shooting-on-campus-suspect-killed/",
+        "https://www.cbsnews.com/video/fetterman-says-his-kids-were-his-emergency-brake-that-stopped-him-from-taking-his-own-life/",
+        "https://www.cbsnews.com/video/sneak-peek-jocelyn-green-and-the-notebook/",
+        "https://www.cbsnews.com/video/tap-dancer-michelle-dorrance-on-brenda-bufalinos-impact-and-preserving-her-lifes-work/"
+      ],
+      "example_titles": [
+        "The logistics of a potential U.S. military plan to open the Strait of Hormuz - CBS News",
+        "Old Dominion University confirms shooting on campus, suspect killed - CBS News",
+        "Fetterman says his kids were his \"emergency brake\" that stopped him from taking his own life - CBS News",
+        "Sneak peek: Jocelyn Green and the Notebook - CBS News",
+        "Tap dancer Michelle Dorrance on Brenda Bufalino's impact and preserving her life's work - CBS News"
+      ],
+      "recent_queries": [
+        "100 新闻事件"
+      ],
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_western",
+      "country_confidence": "low"
+    },
+    "cdn.clinicaltrials.gov": {
+      "domain": "cdn.clinicaltrials.gov",
+      "first_seen_query": "Pfizer vaccine \"page 132\" unprotected sex 28 days birth defects",
+      "last_seen_query": "Pfizer vaccine \"page 132\" unprotected sex 28 days birth defects",
+      "last_analysis_context": "Pfizer vaccine \"page 132\" unprotected sex 28 days birth defects; Pfizer vaccine trial report page 132; Pfizer vaccine birth defects; Pfizer vaccine 28 days birth defects",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://cdn.clinicaltrials.gov/large-docs/28/NCT04368728/Prot_000.pdf"
+      ],
+      "example_titles": [
+        "[PDF] a phase 1/2/3, placebo-controlled, randomized, observer-blind"
+      ],
+      "recent_queries": [
+        "Pfizer vaccine \"page 132\" unprotected sex 28 days birth defects"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "channelnewsasia.com": {
+      "domain": "channelnewsasia.com",
+      "first_seen_query": "\"100\" 新闻",
+      "last_seen_query": "\"100\" 新闻",
+      "last_analysis_context": "\"100\" 新闻; \"100\" 新闻 来源; \"100\" 事件 新闻; \"100\" 周年 新闻; \"100\" 分析 新闻",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.channelnewsasia.com/business/atos-hits-yearly-revenue-target-after-restructuring-slashed-19-workforce-5976281"
+      ],
+      "example_titles": [
+        "Atos hits yearly revenue target after restructuring slashed 19% of workforce - CNA"
+      ],
+      "recent_queries": [
+        "\"100\" 新闻"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "chnfund.com": {
+      "domain": "chnfund.com",
+      "first_seen_query": "伊朗导弹发射器数量",
+      "last_seen_query": "伊朗导弹发射器数量",
+      "last_analysis_context": "核实伊朗导弹发射器数量是否准确",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.chnfund.com/article/95bd3648-5b4f-5e19-5d0e-3a1fe9d3af60"
+      ],
+      "example_titles": [
+        "美防长称伊朗导弹发射量创近期新低 - 中国基金报"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量"
+      ],
+      "country": "中国",
+      "region": "东亚",
+      "geo_group": "china",
+      "country_confidence": "low"
+    },
+    "cj.sina.cn": {
+      "domain": "cj.sina.cn",
+      "first_seen_query": "Iran missile launchers operational 2026",
+      "last_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_analysis_context": "伊朗 Iran 导弹 导弹发射器 发射器 仅剩; 伊朗目前仅剩约100个可正常使用的导弹发射器; 伊朗 Iran 导弹 导弹发射器 发射器 仅剩 伊朗媒体 伊朗媒体 Tasnim IRNA; 伊朗 Iran 导弹 导弹发射器 发射器 仅剩 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; 伊朗 Iran 导弹 导弹发射器 发射器 仅剩 腾讯新闻 QQ新闻 新浪新闻 site:news.qq.com site:sina.cn; 伊朗 Iran 导弹 导弹发射器 发射器 仅剩 否认 回应 谎称 没有证据",
+      "source": "search",
+      "observed_count": 6,
+      "example_urls": [
+        "https://cj.sina.cn/articles/view/7037010881/1a37043c102001gtvi?vt=4",
+        "https://cj.sina.cn/articles/view/5044281310/12ca99fde02002hnvs?vt=4",
+        "https://cj.sina.cn/articles/view/1841812881/6dc7d59102001o00g?froms=ggmp&vt=4",
+        "https://cj.sina.cn/articles/view/7295052889/1b2d1ac5902001c97o?vt=4"
+      ],
+      "example_titles": [
+        "在猛虎口中生生拔下一颗利齿，伊拉克空军在海湾战争中的唯一胜利",
+        "中东冲突消耗美制防空弹药，乌克兰防空体系或面临压力",
+        "伊朗称毁灭性打击美军基地",
+        "伊朗36轮反击，上千发导弹落地，美军仅阵亡8人 - 新浪财经"
+      ],
+      "recent_queries": [
+        "Iran missile launchers operational 2026",
+        "伊朗目前仅剩约100个可正常使用的导弹发射器"
+      ],
+      "resolved_tier": "mainstream",
+      "country": "中国",
+      "region": "东亚",
+      "geo_group": "china",
+      "country_confidence": "explicit"
+    },
+    "cn.chinadaily.com.cn": {
+      "domain": "cn.chinadaily.com.cn",
+      "first_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_analysis_context": "伊朗 导弹 导弹发射器 发射器 仅剩 100; 伊朗目前仅剩约100个可正常使用的导弹发射器; 伊朗 导弹 导弹发射器 发射器 仅剩 100 回应 否认 反驳 谎称 更强大 数量更多; 伊朗 导弹 导弹发射器 发射器 仅剩 100 军事宣传 没有客观证据; 伊朗 导弹 导弹发射器 发射器 仅剩 100 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; 伊朗 导弹 导弹发射器 发射器 仅剩 100 腾讯新闻 QQ新闻 新浪新闻 site:news.qq.com site:sina.cn",
+      "source": "search",
+      "observed_count": 3,
+      "example_urls": [
+        "https://cn.chinadaily.com.cn/a/202506/17/WS6850b1b1a310205377038694.html"
+      ],
+      "example_titles": [
+        "以色列遭超370枚弹道导弹攻击 以方称摧毁伊朗约三成导弹发射装置 - 中国日报网"
+      ],
+      "recent_queries": [
+        "伊朗目前仅剩约100个可正常使用的导弹发射器"
+      ],
+      "country": "中国",
+      "region": "东亚",
+      "geo_group": "china",
+      "country_confidence": "high"
+    },
+    "cnn.com": {
+      "domain": "cnn.com",
+      "first_seen_query": "100 新闻事件",
+      "last_seen_query": "100 新闻事件",
+      "last_analysis_context": "100 新闻事件; 100 新闻事件 来源; 100 新闻事件 事实; 100 新闻事件 时间; 100 新闻事件 背景",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.cnn.com/2026/03/09/style/video/ai-art-recognition-history-authenticity-vrtc"
+      ],
+      "example_titles": [
+        "How AI is disrupting art history - CNN"
+      ],
+      "recent_queries": [
+        "100 新闻事件"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "collider.com": {
+      "domain": "collider.com",
+      "first_seen_query": "\"100\" 事件 背景",
+      "last_seen_query": "???????100????????????",
+      "last_analysis_context": "???????100????????????; 100 official sources; 100 timeline; 100 context",
+      "source": "search",
+      "observed_count": 2,
+      "example_urls": [
+        "https://collider.com/the-100-timeline-explained/"
+      ],
+      "example_titles": [
+        "The 100 Timeline Explained: From Praimfaya to Sanctum - Collider"
+      ],
+      "recent_queries": [
+        "\"100\" 事件 背景",
+        "???????100????????????"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "columnfivemedia.com": {
+      "domain": "columnfivemedia.com",
+      "first_seen_query": "???????100????????????",
+      "last_seen_query": "???????100????????????",
+      "last_analysis_context": "???????100????????????; 100 official sources; 100 timeline; 100 context",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.columnfivemedia.com/100-best-free-data-sources-infographic/"
+      ],
+      "example_titles": [
+        "100+ of the Best Free Data Sources For Your Next Project"
+      ],
+      "recent_queries": [
+        "???????100????????????"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "courts.ca.gov": {
+      "domain": "courts.ca.gov",
+      "first_seen_query": "???????100????????????",
+      "last_seen_query": "???????100????????????",
+      "last_analysis_context": "???????100????????????; 100 official sources; 100 timeline; 100 context",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://courts.ca.gov/sites/default/files/courts/default/2024-11/fl100.pdf"
+      ],
+      "example_titles": [
+        "[PDF] FL-100 Petition—Marriage/Domestic Partnership - California Courts"
+      ],
+      "recent_queries": [
+        "???????100????????????"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "criticalthreats.org": {
+      "domain": "criticalthreats.org",
+      "first_seen_query": "伊朗导弹发射器数量 2023",
+      "last_seen_query": "Iran missile launchers operational number 2026",
+      "last_analysis_context": "Iran missile missile launchers launcher launchers 2026; Iran missile launchers operational number 2026; Iran missile missile launchers launcher launchers 2026 回应 否认 反驳 谎称; Iran missile missile launchers launcher launchers 2026 军事宣传 没有客观证据; Iran missile missile launchers launcher launchers 2026 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; Iran missile missile launchers launcher launchers 2026 腾讯新",
+      "source": "search",
+      "observed_count": 15,
+      "example_urls": [
+        "https://www.criticalthreats.org/analysis/iran-update-evening-special-report-march-3-2026",
+        "https://www.criticalthreats.org/analysis/iran-update-evening-special-report-march-9-2026",
+        "https://www.criticalthreats.org/analysis/iran-update-evening-special-report-march-11-2026",
+        "https://www.criticalthreats.org/analysis/iran-update-evening-special-report-march-6-2026",
+        "https://www.criticalthreats.org/analysis/iran-update-evening-special-edition-march-7-2026"
+      ],
+      "example_titles": [
+        "Iran Update Evening Special Report, March 3, 2026 | Critical Threats",
+        "Iran Update Evening Special Report, March 9, 2026 | Critical Threats",
+        "Iran Update Evening Special Report, March 11, 2026",
+        "Iran Update Evening Special Report, March 6, 2026 | Critical Threats",
+        "Iran Update Evening Special Report, March 7, 2026 | Critical Threats"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量 2023",
+        "Iran missile launchers operational 2026",
+        "Iran missile launchers number 2026",
+        "Iran missile launchers current number 2026",
+        "伊朗导弹发射器数量 2026"
+      ],
+      "resolved_tier": "professional",
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_israel",
+      "country_confidence": "high"
+    },
+    "d.com": {
+      "domain": "d.com",
+      "first_seen_query": "\"100\" 新闻",
+      "last_seen_query": "\"100\" 新闻",
+      "last_analysis_context": "\"100\" 新闻; \"100\" 新闻 来源; \"100\" 事件 新闻; \"100\" 周年 新闻; \"100\" 分析 新闻",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://wwd.com/wwd-publications/digital-daily/2026-03-06-1238652366/"
+      ],
+      "example_titles": [
+        "Friday’s Digital Daily: March 6, 2026 - WWD"
+      ],
+      "recent_queries": [
+        "\"100\" 新闻"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "dailymail.co.uk": {
+      "domain": "dailymail.co.uk",
+      "first_seen_query": "100 新闻事件",
+      "last_seen_query": "100 新闻事件",
+      "last_analysis_context": "100 新闻事件; 100 新闻事件 来源; 100 新闻事件 事实; 100 新闻事件 时间; 100 新闻事件 背景",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.dailymail.co.uk/tvshowbiz/article-15639749/Amber-Valletta-52-90s-Vogue-model-now.html"
+      ],
+      "example_titles": [
+        "Amber Valletta, 52, was a '90s Vogue model who made movies with Sandra Bullock and Kate Hudson, see her now - Daily Mail Online"
+      ],
+      "recent_queries": [
+        "100 新闻事件"
+      ],
+      "country": "英国",
+      "region": "欧洲",
+      "geo_group": "us_western",
+      "country_confidence": "medium"
+    },
+    "deadline.com": {
+      "domain": "deadline.com",
+      "first_seen_query": "100 新闻事件",
+      "last_seen_query": "\"100\" 新闻",
+      "last_analysis_context": "\"100\" 新闻; \"100\" 新闻 来源; \"100\" 事件 新闻; \"100\" 周年 新闻; \"100\" 分析 新闻",
+      "source": "search",
+      "observed_count": 4,
+      "example_urls": [
+        "https://deadline.com/2026/03/roy-wood-jr-wga-awards-2026-opening-marjorie-taylor-greene-1236747115/",
+        "https://deadline.com/2026/03/war-machine-premiere-netflix-ratings-the-dinosaurs-1236749077/",
+        "https://deadline.com/2026/03/bbc-1600-complaints-bafta-film-awards-n-word-fail-1236751632/"
+      ],
+      "example_titles": [
+        "Roy Wood Jr. Issues Politically Charged WGA Awards Opening - Deadline",
+        "‘War Machine’ Breaks Through On Netflix As Dino-Content Takes Over Streamer From New Spielberg Docuseries ‘The Dinosaurs’ To Jurassic World Franchise - Deadline",
+        "BBC Got Nearly 1,600 Complaints About BAFTA Film Awards N-Word Incident - Deadline"
+      ],
+      "recent_queries": [
+        "100 新闻事件",
+        "\"100\" 新闻"
+      ],
+      "country": "US",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low",
+      "resolved_tier": "professional"
+    },
+    "defensenews.com": {
+      "domain": "defensenews.com",
+      "first_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_analysis_context": "伊朗 Iran 导弹 导弹发射器 发射器 仅剩; 伊朗目前仅剩约100个可正常使用的导弹发射器; 伊朗 Iran 导弹 导弹发射器 发射器 仅剩 伊朗媒体 伊朗媒体 Tasnim IRNA; 伊朗 Iran 导弹 导弹发射器 发射器 仅剩 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; 伊朗 Iran 导弹 导弹发射器 发射器 仅剩 腾讯新闻 QQ新闻 新浪新闻 site:news.qq.com site:sina.cn; 伊朗 Iran 导弹 导弹发射器 发射器 仅剩 否认 回应 谎称 没有证据",
+      "source": "search",
+      "observed_count": 3,
+      "example_urls": [
+        "https://www.defensenews.com/news/pentagon-congress/2026/03/06/pentagon-acknowledges-tough-quest-to-counter-iranian-drones/"
+      ],
+      "example_titles": [
+        "Pentagon acknowledges tough quest to counter Iranian drones - Defense News"
+      ],
+      "recent_queries": [
+        "伊朗目前仅剩约100个可正常使用的导弹发射器"
+      ],
+      "country": "United States",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low",
+      "resolved_tier": "professional"
+    },
+    "dictionary.com": {
+      "domain": "dictionary.com",
+      "first_seen_query": "\"100\" 定义",
+      "last_seen_query": "\"100\" 定义",
+      "last_analysis_context": "\"100\" 定义; 100 definition; what is 100; 100 meaning in mathematics; 100 definition from reliable sources",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.dictionary.com/browse/hundred"
+      ],
+      "example_titles": [
+        "HUNDRED Definition & Meaning - Dictionary.com"
+      ],
+      "recent_queries": [
+        "\"100\" 定义"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "dreambox.com": {
+      "domain": "dreambox.com",
+      "first_seen_query": "???????100????????????",
+      "last_seen_query": "???????100????????????",
+      "last_analysis_context": "???????100????????????; 100 facts; 100 authoritative sources; 100 statistics; 100 historical context",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.dreambox.com/math/guides/fun-facts-for-kids"
+      ],
+      "example_titles": [
+        "100 Fun Facts for Kids | Amazing Facts About Space, Animals, Food ..."
+      ],
+      "recent_queries": [
+        "???????100????????????"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "ds100.org": {
+      "domain": "ds100.org",
+      "first_seen_query": "???????100????????????",
+      "last_seen_query": "???????100????????????",
+      "last_analysis_context": "???????100????????????; 100 facts; 100 authoritative sources; 100 statistics; 100 historical context",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://ds100.org/"
+      ],
+      "example_titles": [
+        "Data 100: Home"
+      ],
+      "recent_queries": [
+        "???????100????????????"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "en.defence-ua.com": {
+      "domain": "en.defence-ua.com",
+      "first_seen_query": "伊朗导弹发射器数量",
+      "last_seen_query": "Iran missile launchers remaining operational IDF estimate 100-200",
+      "last_analysis_context": "Iran missile missile launchers launcher launchers remaining; Iran missile launchers remaining operational IDF estimate 100-200; Iran missile missile launchers launcher launchers remaining 回应 否认 反驳 谎称 更强大 数量更多; Iran missile missile launchers launcher launchers remaining 军事宣传 没有客观证据; Iran missile missile launchers launcher launchers remaining 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; Iran missi",
+      "source": "search",
+      "observed_count": 5,
+      "example_urls": [
+        "https://en.defence-ua.com/news/us_and_israel_destroy_hundreds_of_iranian_ballistic_missile_launchers_how_many_are_left-17776.html"
+      ],
+      "example_titles": [
+        "U.S. and Israel Destroy Hundreds of Iranian Ballistic Missile Launchers",
+        "U.S. and Israel Destroy Hundreds of Iranian Ballistic Missile Launchers ..."
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量",
+        "Iran missile launchers number 100",
+        "Iran missile launchers 100 serviceable 2026",
+        "\"Iran missile launchers\" \"100\" remaining operational",
+        "Iran missile launchers remaining operational IDF estimate 100-200"
+      ],
+      "country": "乌克兰",
+      "region": "中东",
+      "geo_group": "us_israel",
+      "country_confidence": "low",
+      "resolved_tier": "professional"
+    },
+    "en.ria.ru": {
+      "domain": "en.ria.ru",
+      "first_seen_query": "Iran missile launchers operational 2026",
+      "last_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_analysis_context": "伊朗 Iran 导弹 导弹发射器 发射器 仅剩; 伊朗目前仅剩约100个可正常使用的导弹发射器; 伊朗 Iran 导弹 导弹发射器 发射器 仅剩 伊朗媒体 伊朗媒体 Tasnim IRNA; 伊朗 Iran 导弹 导弹发射器 发射器 仅剩 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; 伊朗 Iran 导弹 导弹发射器 发射器 仅剩 腾讯新闻 QQ新闻 新浪新闻 site:news.qq.com site:sina.cn; 伊朗 Iran 导弹 导弹发射器 发射器 仅剩 否认 回应 谎称 没有证据",
+      "source": "search",
+      "observed_count": 6,
+      "example_urls": [
+        "https://en.ria.ru/tags/tag_Yars",
+        "http://en.ria.ru/military_news/20140515/189845456/All-Russian-Missile-Divisions-to-Receive-Yars-Simulators-This.html",
+        "http://en.ria.ru/tags/tag_Tehran",
+        "https://en.ria.ru/archive"
+      ],
+      "example_titles": [
+        "Yars - today's latest news and major events - Sputnik International",
+        "All Russian Missile Divisions to Receive Yars Simulators This Year - 15.05.2014, Sputnik International",
+        "Tehran - today's latest news and major events - Sputnik International",
+        "Archive of world news and major events - Sputnik International"
+      ],
+      "recent_queries": [
+        "Iran missile launchers operational 2026",
+        "Iran 100 missile launchers operational",
+        "伊朗目前仅剩约100个可正常使用的导弹发射器"
+      ],
+      "country": "俄罗斯",
+      "region": "欧洲",
+      "geo_group": "russia",
+      "country_confidence": "high"
+    },
+    "en.wikipedia.org": {
+      "domain": "en.wikipedia.org",
+      "first_seen_query": "伊朗导弹发射器数量",
+      "last_seen_query": "???????100????????????",
+      "last_analysis_context": "???????100????????????; 100 official sources; 100 timeline; 100 context",
+      "source": "search",
+      "observed_count": 8,
+      "example_urls": [
+        "https://en.wikipedia.org/wiki/Ballistic_missile_program_of_Iran",
+        "https://en.wikipedia.org/wiki/Fateh-110",
+        "https://en.wikipedia.org/wiki/2026_Iranian_strikes_on_Israel",
+        "https://en.wikipedia.org/wiki/The_100_(TV_series)",
+        "https://en.wikipedia.org/wiki/100"
+      ],
+      "example_titles": [
+        "Ballistic missile program of Iran - Wikipedia",
+        "Fateh-110",
+        "2026 Iranian strikes on Israel",
+        "Ballistic missile program of Iran",
+        "The 100 (TV series) - Wikipedia"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量",
+        "Iran missile launchers number 100",
+        "伊朗导弹发射器数量 2026年3月",
+        "Iran missile launchers operational 2026",
+        "???????100????????????"
+      ],
+      "country": "伊朗",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low"
+    },
+    "english.sina.cn": {
+      "domain": "english.sina.cn",
+      "first_seen_query": "\"Iran missile launchers\" \"100\" remaining operational",
+      "last_seen_query": "\"Iran missile launchers\" \"100\" remaining operational",
+      "last_analysis_context": "Iran missile missile launchers launcher launchers remaining; \"Iran missile launchers\" \"100\" remaining operational; Iran missile missile launchers launcher launchers remaining 回应 否认 反驳 谎称 更强大 数量更多; Iran missile missile launchers launcher launchers remaining 军事宣传 没有客观证据; Iran missile missile launchers launcher launchers remaining 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; Iran missile missile la",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://english.sina.cn/world/2021-11-08/detail-iktzscyy4398820.d.html?vt=4"
+      ],
+      "example_titles": [
+        "Iran tests indigenous weapons in drill - 新浪"
+      ],
+      "recent_queries": [
+        "\"Iran missile launchers\" \"100\" remaining operational"
+      ],
+      "country": "中国",
+      "region": "东亚",
+      "geo_group": "china",
+      "country_confidence": "high"
+    },
+    "euronews.com": {
+      "domain": "euronews.com",
+      "first_seen_query": "Iran missile launchers \"number\" OR \"count\" site:gov OR site:org",
+      "last_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_analysis_context": "伊朗 Iran 导弹 导弹发射器 发射器 仅剩; 伊朗目前仅剩约100个可正常使用的导弹发射器; 伊朗 Iran 导弹 导弹发射器 发射器 仅剩 伊朗媒体 伊朗媒体 Tasnim IRNA; 伊朗 Iran 导弹 导弹发射器 发射器 仅剩 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; 伊朗 Iran 导弹 导弹发射器 发射器 仅剩 腾讯新闻 QQ新闻 新浪新闻 site:news.qq.com site:sina.cn; 伊朗 Iran 导弹 导弹发射器 发射器 仅剩 否认 回应 谎称 没有证据",
+      "source": "search",
+      "observed_count": 3,
+      "example_urls": [
+        "https://www.euronews.com/2025/06/21/irans-advanced-missile-arsenal-remains-largely-untapped",
+        "https://www.euronews.com/2026/03/11/iran-unleashes-intense-waves-of-strikes-across-gulf-as-hormuz-crisis-deepens"
+      ],
+      "example_titles": [
+        "Iran's advanced missile arsenal remains largely untapped",
+        "Iran unleashes intense waves of strikes across Gulf as Hormuz crisis deepens - Euronews.com"
+      ],
+      "recent_queries": [
+        "Iran missile launchers \"number\" OR \"count\" site:gov OR site:org",
+        "伊朗目前仅剩约100个可正常使用的导弹发射器"
+      ],
+      "country": "France",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low",
+      "resolved_tier": "mainstream"
+    },
+    "example.com": {
+      "domain": "example.com",
+      "first_seen_query": "sample claim",
+      "last_seen_query": "sample claim",
+      "last_analysis_context": "",
+      "source": "search",
+      "observed_count": 2,
+      "example_urls": [
+        "https://example.com/a"
+      ],
+      "example_titles": [
+        "Report A"
+      ],
+      "recent_queries": [
+        "sample claim"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "example.org": {
+      "domain": "example.org",
+      "first_seen_query": "sample claim",
+      "last_seen_query": "sample claim",
+      "last_analysis_context": "",
+      "source": "search",
+      "observed_count": 2,
+      "example_urls": [
+        "https://example.org/b"
+      ],
+      "example_titles": [
+        "Report B"
+      ],
+      "recent_queries": [
+        "sample claim"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "facebook.com": {
+      "domain": "facebook.com",
+      "first_seen_query": "伊朗导弹发射器数量",
+      "last_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_analysis_context": "伊朗 Iran 导弹 导弹发射器 发射器 仅剩; 伊朗目前仅剩约100个可正常使用的导弹发射器; 伊朗 Iran 导弹 导弹发射器 发射器 仅剩 伊朗媒体 伊朗媒体 Tasnim IRNA; 伊朗 Iran 导弹 导弹发射器 发射器 仅剩 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; 伊朗 Iran 导弹 导弹发射器 发射器 仅剩 腾讯新闻 QQ新闻 新浪新闻 site:news.qq.com site:sina.cn; 伊朗 Iran 导弹 导弹发射器 发射器 仅剩 否认 回应 谎称 没有证据",
+      "source": "search",
+      "observed_count": 11,
+      "example_urls": [
+        "https://www.facebook.com/IsraelDigitalCenter/posts/how-many-ballistic-missiles-did-iran-launch-each-day1-3502-1753-1204-50/1330312082464789/",
+        "https://www.facebook.com/BKBtheWizard/posts/israeli-assessments-say-iran-now-has-about-100-operational-missile-launchers-rem/1361171412694793/",
+        "https://www.facebook.com/WGME13/posts/the-president-said-iran-is-decimated-with-90-decline-in-iranian-missile-launcher/1354011020087520/",
+        "https://www.facebook.com/tsomnyazi.w.nganga/photos/iran-now-has-about-100-operational-missile-launchers-remaining-out-of-roughly-42/10232653611666662/",
+        "https://www.facebook.com/oafnationactual/posts/estimates-of-irans-missile-stockpile-vary-widely-from-roughly-2500-before-the-wa/960267176559909/"
+      ],
+      "example_titles": [
+        "How many ballistic missiles did Iran launch each day? 1: 350 2: 175 3",
+        "Israeli assessments say Iran now has about 100 ...",
+        "The president said Iran is “decimated,” with 90% decline in Iranian ...",
+        "Tsomnyazi | Facebook - Facebook",
+        "Israeli assessments say Iran now has about 100 operational missile ..."
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量",
+        "Iran missile launchers number 100",
+        "Iran missile launchers 90% destroyed military analysis",
+        "Iran missile launchers 420 operational 100",
+        "Iran missile launchers number 2026"
+      ],
+      "resolved_tier": "self_media",
+      "country": "美国",
+      "region": "中东",
+      "geo_group": "us_israel",
+      "country_confidence": "low"
+    },
+    "fdd.org": {
+      "domain": "fdd.org",
+      "first_seen_query": "伊朗导弹发射器数量 2023",
+      "last_seen_query": "Iran missile launchers \"number\" OR \"count\" site:gov OR site:org",
+      "last_analysis_context": "Iran missile launchers \"number\" OR \"count\" site:gov OR site:org; Iran missile launchers \"capability\" OR \"strength\" site:gov OR site:org",
+      "source": "search",
+      "observed_count": 5,
+      "example_urls": [
+        "https://www.fdd.org/analysis/2023/02/15/arsenal-assessing-the-islamic-republic-of-irans-ballistic-missile-program/",
+        "https://www.fdd.org/analysis/2026/03/04/why-irans-ballistic-missile-launches-are-declining/",
+        "https://www.fdd.org/analysis/2026/02/28/what-ballistic-missiles-does-iran-have-in-its-arsenal/"
+      ],
+      "example_titles": [
+        "Arsenal: Assessing Iran's Ballistic Missile Program - FDD",
+        "Why Iran's ballistic missile launches are declining",
+        "Why Iran's ballistic missile launches are declining - FDD",
+        "What ballistic missiles does Iran have in its arsenal? - FDD"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量 2023",
+        "Iran missile launchers operational 2026",
+        "Iran missile launchers \"number\" OR \"count\" site:gov OR site:org"
+      ],
+      "country": "美国",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low",
+      "resolved_tier": "professional"
+    },
+    "foxnews.com": {
+      "domain": "foxnews.com",
+      "first_seen_query": "Iran missile launchers operational 2026",
+      "last_seen_query": "100 新闻事件",
+      "last_analysis_context": "100 新闻事件; 100 新闻事件 来源; 100 新闻事件 事实; 100 新闻事件 时间; 100 新闻事件 背景",
+      "source": "search",
+      "observed_count": 2,
+      "example_urls": [
+        "https://www.foxnews.com/opinion/here-come-big-bombs-us-escalates-strikes-irans-huge-military-arsenal",
+        "https://www.foxnews.com/tech/spotify-voting-scam-exposed"
+      ],
+      "example_titles": [
+        "Here come the big bombs as US escalates strikes on Iran's huge military arsenal - Fox News",
+        "Spotify voting scam exposed - Fox News"
+      ],
+      "recent_queries": [
+        "Iran missile launchers operational 2026",
+        "100 新闻事件"
+      ],
+      "country": "伊朗",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low"
+    },
+    "fpri.org": {
+      "domain": "fpri.org",
+      "first_seen_query": "Iran missile launchers operational 2026",
+      "last_seen_query": "Iran missile launchers operational 2026",
+      "last_analysis_context": "Iran missile launchers operational 2026; Iran missile launchers operational 2026 official source; Iran missile launchers operational 2026 direct evidence",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.fpri.org/article/2026/03/fpri-experts-react-understanding-the-third-gulf-war/"
+      ],
+      "example_titles": [
+        "FPRI Experts React | Understanding the Third Gulf War"
+      ],
+      "recent_queries": [
+        "Iran missile launchers operational 2026"
+      ],
+      "country": "伊朗",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low"
+    },
+    "ft.com": {
+      "domain": "ft.com",
+      "first_seen_query": "\"100\" 新闻",
+      "last_seen_query": "\"100\" 新闻",
+      "last_analysis_context": "\"100\" 新闻; \"100\" 新闻 来源; \"100\" 事件 新闻; \"100\" 周年 新闻; \"100\" 分析 新闻",
+      "source": "search",
+      "observed_count": 3,
+      "example_urls": [
+        "https://www.ft.com/content/3b9d23b2-1049-4eb5-88c9-92bb72fe0aa1",
+        "https://www.ft.com/content/dbbf53ca-3569-4cad-b518-111c0d02790d",
+        "https://www.ft.com/content/7cab4ec7-4712-4137-b602-119a44f771de"
+      ],
+      "example_titles": [
+        "A turbulent week for financial markets - Financial Times",
+        "Millions turn to AI for pension planning - Financial Times",
+        "Amazon holds engineering meeting following AI-related outages - Financial Times"
+      ],
+      "recent_queries": [
+        "\"100\" 新闻"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "fullfact.org": {
+      "domain": "fullfact.org",
+      "first_seen_query": "Pfizer vaccine \"page 132\" unprotected sex 28 days birth defects",
+      "last_seen_query": "Pfizer vaccine \"page 132\" unprotected sex 28 days birth defects",
+      "last_analysis_context": "Pfizer vaccine \"page 132\" unprotected sex 28 days birth defects; Pfizer vaccine report \"page 132\"; Pfizer vaccine birth defects unprotected sex",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://fullfact.org/online/pfizer-covid-vaccine-sex-rules/"
+      ],
+      "example_titles": [
+        "Pfizer's Covid-19 vaccine does not cause birth defects - Full Fact"
+      ],
+      "recent_queries": [
+        "Pfizer vaccine \"page 132\" unprotected sex 28 days birth defects"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "github.com": {
+      "domain": "github.com",
+      "first_seen_query": "???????100????????????",
+      "last_seen_query": "???????100????????????",
+      "last_analysis_context": "???????100????????????; 100 official sources; 100 timeline; 100 context",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://github.com/openai/codex/issues/5775"
+      ],
+      "example_titles": [
+        "stuck at \"100% context left\" for local models · Issue #5775 - GitHub"
+      ],
+      "recent_queries": [
+        "???????100????????????"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "gotriangle.org": {
+      "domain": "gotriangle.org",
+      "first_seen_query": "???????100????????????",
+      "last_seen_query": "???????100????????????",
+      "last_analysis_context": "???????100????????????; 100 official sources; 100 timeline; 100 context",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://gotriangle.org/sites/default/files/brochure/route-100-web.pdf"
+      ],
+      "example_titles": [
+        "[PDF] ROUTE 100 - GoTriangle"
+      ],
+      "recent_queries": [
+        "???????100????????????"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "guides.libs.uga.edu": {
+      "domain": "guides.libs.uga.edu",
+      "first_seen_query": "\"100\" 定义",
+      "last_seen_query": "\"100\" 定义",
+      "last_analysis_context": "\"100\" 定义; 100 definition; what is 100; 100 meaning in mathematics; 100 definition from reliable sources",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://guides.libs.uga.edu/reliability"
+      ],
+      "example_titles": [
+        "What is a Reliable Source? - Databases & Subject Guides - UGA"
+      ],
+      "recent_queries": [
+        "\"100\" 定义"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "gulfnews.com": {
+      "domain": "gulfnews.com",
+      "first_seen_query": "Iran missile launchers operational 2026",
+      "last_seen_query": "Iran missile launchers operational number 2026",
+      "last_analysis_context": "Iran missile missile launchers launcher launchers 2026; Iran missile launchers operational number 2026; Iran missile missile launchers launcher launchers 2026 回应 否认 反驳 谎称; Iran missile missile launchers launcher launchers 2026 军事宣传 没有客观证据; Iran missile missile launchers launcher launchers 2026 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; Iran missile missile launchers launcher launchers 2026 腾讯新",
+      "source": "search",
+      "observed_count": 5,
+      "example_urls": [
+        "https://gulfnews.com/world/mena/video-iranian-ballistic-missile-launchers-taken-out-in-us-strikes-1.500469211"
+      ],
+      "example_titles": [
+        "US Strikes Iranian Missile Launchers: Operation Epic Fury Escalates"
+      ],
+      "recent_queries": [
+        "Iran missile launchers operational 2026",
+        "Iran missile launchers 100 serviceable 2026",
+        "Iran missile launchers operational number 2026",
+        "Iran missile launchers number 2026"
+      ],
+      "country": "伊朗",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low"
+    },
+    "h5.ifeng.com": {
+      "domain": "h5.ifeng.com",
+      "first_seen_query": "伊朗导弹发射器数量",
+      "last_seen_query": "伊朗导弹发射器数量 2023",
+      "last_analysis_context": "伊朗导弹发射器数量 2023; Iran missile launchers 2023 official source; Iran missile launchers number 2023",
+      "source": "search",
+      "observed_count": 4,
+      "example_urls": [
+        "https://h5.ifeng.com/c/vivo/v002GUdP57Z702lm2JZEDMPYUZK8eTI3zDFzNtZlWYj2ZGg__?vivoBusiness=hiboardnews",
+        "https://h5.ifeng.com/c/vivo/v002etlqDY9kRimRv15inTg--LtiYZrgU65543ZRs92r50t4__?isNews=1&showComments=0"
+      ],
+      "example_titles": [
+        "战争要结束了？伊朗导弹发射率下降92%，还需警惕几只黑天鹅",
+        "伊朗导弹和无人机发射量为何断崖式下降"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量",
+        "伊朗导弹发射器数量 2023"
+      ],
+      "country": "伊朗",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low"
+    },
+    "historyfacts.com": {
+      "domain": "historyfacts.com",
+      "first_seen_query": "\"100\" 事件 背景",
+      "last_seen_query": "\"100\" 事件 背景",
+      "last_analysis_context": "\"100\" 事件 背景; \"100\" event primary sources; \"100\" event key facts; \"100\" event timeline; \"100\" event historical context",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://historyfacts.com/uncategorized/article/6-major-events-that-happened-100-years-ago/"
+      ],
+      "example_titles": [
+        "6 Major Events That Happened 100 Years Ago - History Facts"
+      ],
+      "recent_queries": [
+        "\"100\" 事件 背景"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "historyhit.com": {
+      "domain": "historyhit.com",
+      "first_seen_query": "???????100????????????",
+      "last_seen_query": "???????100????????????",
+      "last_analysis_context": "???????100????????????; 100 facts; 100 authoritative sources; 100 statistics; 100 historical context",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.historyhit.com/amazing-historical-facts-figures-and-fascinating-finds/"
+      ],
+      "example_titles": [
+        "100 Amazing Historical Facts, Figures and Fascinating Finds"
+      ],
+      "recent_queries": [
+        "???????100????????????"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "historyskills.com": {
+      "domain": "historyskills.com",
+      "first_seen_query": "\"100\" 定义",
+      "last_seen_query": "\"100\" 定义",
+      "last_analysis_context": "\"100\" 定义; 100 definition; what is 100; 100 meaning in mathematics; 100 definition from reliable sources",
+      "source": "search",
+      "observed_count": 2,
+      "example_urls": [
+        "https://www.historyskills.com/source-criticism/evaluation/reliability/?srsltid=AfmBOoolrrLkpaZbGNy3SiBnrFOvRHSFc5YkWAjagchJ4_eDFt6ji1jb",
+        "https://www.historyskills.com/source-criticism/evaluation/reliability/?srsltid=AfmBOop-T_oq-Rdq5WDAjXt2M5QwZRHS9cOwPcfNdYiO59BiCiIFHMC4"
+      ],
+      "example_titles": [
+        "How to evaluate the reliability of sources",
+        "How to evaluate the reliability of sources - History Skills"
+      ],
+      "recent_queries": [
+        "\"100\" 定义"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "i24news.tv": {
+      "domain": "i24news.tv",
+      "first_seen_query": "Iran missile launchers number 100",
+      "last_seen_query": "\"Iran missile launchers\" \"100\" remaining operational",
+      "last_analysis_context": "Iran missile missile launchers launcher launchers remaining; \"Iran missile launchers\" \"100\" remaining operational; Iran missile missile launchers launcher launchers remaining 回应 否认 反驳 谎称 更强大 数量更多; Iran missile missile launchers launcher launchers remaining 军事宣传 没有客观证据; Iran missile missile launchers launcher launchers remaining 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; Iran missile missile la",
+      "source": "search",
+      "observed_count": 11,
+      "example_urls": [
+        "https://www.i24news.tv/en/news/middle-east/iran-eastern-states/artc-iran-has-lost-nearly-70-of-its-missile-launch-capabilities-report"
+      ],
+      "example_titles": [
+        "Iran Has Lost Nearly 70% Of Its Missile Launch Capabilities - Report"
+      ],
+      "recent_queries": [
+        "Iran missile launchers number 100",
+        "Iran missile launchers 90% destroyed military analysis",
+        "伊朗导弹发射器数量 2023",
+        "Iran missile launchers 420 operational 100",
+        "Iran missile launchers operational 2026"
+      ],
+      "resolved_tier": "professional",
+      "country": "以色列",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low"
+    },
+    "iiss.org": {
+      "domain": "iiss.org",
+      "first_seen_query": "Iran missile launchers number 2026",
+      "last_seen_query": "Iran 100 missile launchers operational",
+      "last_analysis_context": "Iran 100 missile launchers operational; 100 iran missile launchers operational 伊朗媒体 伊朗媒体 Tasnim IRNA; 100 iran missile launchers operational 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; 100 iran missile launchers operational 腾讯新闻 QQ新闻 新浪新闻 site:news.qq.com site:sina.cn; 100 iran missile launchers operational 否认 回应 谎称 没有证据; Iran missile launchers operational official source",
+      "source": "search",
+      "observed_count": 2,
+      "example_urls": [
+        "https://www.iiss.org/globalassets/media-library---content--migration/files/research-papers/open-source-analysis-of-irans-missile-and-uav-capabilities-and-proliferation.pdf"
+      ],
+      "example_titles": [
+        "[PDF] Open-Source Analysis of Iran's Missile and UAV Capabilities and ..."
+      ],
+      "recent_queries": [
+        "Iran missile launchers number 2026",
+        "Iran 100 missile launchers operational"
+      ],
+      "country": "国际组织",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low",
+      "resolved_tier": "professional"
+    },
+    "ilsos.gov": {
+      "domain": "ilsos.gov",
+      "first_seen_query": "???????100????????????",
+      "last_seen_query": "???????100????????????",
+      "last_analysis_context": "???????100????????????; 100 official sources; 100 timeline; 100 context",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.ilsos.gov/departments/archives/online-exhibits/100-documents.html"
+      ],
+      "example_titles": [
+        "100 Most Valuable Documents in the Illinois State Archives"
+      ],
+      "recent_queries": [
+        "???????100????????????"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "indonesiabusinesspost.com": {
+      "domain": "indonesiabusinesspost.com",
+      "first_seen_query": "Iran missile launchers operational 2026",
+      "last_seen_query": "Iran missile launchers operational 2026",
+      "last_analysis_context": "Iran missile launchers operational 2026; 2026 iran missile launchers operational 伊朗媒体 伊朗媒体 Tasnim IRNA; 2026 iran missile launchers operational 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; 2026 iran missile launchers operational 腾讯新闻 QQ新闻 新浪新闻 site:news.qq.com site:sina.cn; 2026 iran missile launchers operational 否认 回应 谎称 没有证据; Iran missile launchers operational 2026 official source",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://indonesiabusinesspost.com/6278/defense-and-security/iran-s-missile-arsenal-from-deterrence-to-active-conflict-in-the-2026-crisis"
+      ],
+      "example_titles": [
+        "Iran's missile arsenal: From deterrence to active conflict in the 2026 ..."
+      ],
+      "recent_queries": [
+        "Iran missile launchers operational 2026"
+      ],
+      "country": "伊朗",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low"
+    },
+    "instagram.com": {
+      "domain": "instagram.com",
+      "first_seen_query": "Iran missile launchers 420 operational 100",
+      "last_seen_query": "\"100\" 定义",
+      "last_analysis_context": "\"100\" 定义; 100 definition; what is 100; 100 meaning in mathematics; 100 definition from reliable sources",
+      "source": "search",
+      "observed_count": 3,
+      "example_urls": [
+        "https://www.instagram.com/p/DVnkIFGiA7O/",
+        "https://www.instagram.com/p/DVmsJ6kkVPP/",
+        "https://www.instagram.com/reel/DGWJDueq4LQ/"
+      ],
+      "example_titles": [
+        "Israeli assessments say Iran now has about 100 operational missile ...",
+        "Iran has lost about 70% of its missile-launch capability ... - Instagram",
+        "What does 100 really mean? 🤔 From history to math to everyday life ..."
+      ],
+      "recent_queries": [
+        "Iran missile launchers 420 operational 100",
+        "\"100\" 定义"
+      ],
+      "country": "美国",
+      "region": "中东",
+      "geo_group": "us_israel",
+      "country_confidence": "low",
+      "resolved_tier": "portal"
+    },
+    "iranintl.com": {
+      "domain": "iranintl.com",
+      "first_seen_query": "Iran missile launchers operational 2026",
+      "last_seen_query": "Iran missile launchers 100 serviceable 2026",
+      "last_analysis_context": "Iran missile missile launchers launcher launchers 100; Iran missile launchers 100 serviceable 2026; Iran missile missile launchers launcher launchers 100 回应 否认 反驳 谎称; Iran missile missile launchers launcher launchers 100 军事宣传 没有客观证据; Iran missile missile launchers launcher launchers 100 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; Iran missile missile launchers launcher launchers 100 腾讯新闻 QQ新闻 新",
+      "source": "search",
+      "observed_count": 5,
+      "example_urls": [
+        "https://www.iranintl.com/en/202603059373",
+        "https://www.iranintl.com/en/202603031132",
+        "https://www.iranintl.com/en/202506277200"
+      ],
+      "example_titles": [
+        "Iran could reach 8000 ballistic missiles by next year, Israeli military ...",
+        "Iran launches new missile, drone barrage against Israel - state media",
+        "Iran's ballistic missile fire dropped as launchers destroyed - JINSA"
+      ],
+      "recent_queries": [
+        "Iran missile launchers operational 2026",
+        "Iran missile launchers 100 serviceable 2026"
+      ],
+      "country": "英国",
+      "region": "中东",
+      "geo_group": "us_israel",
+      "country_confidence": "low",
+      "resolved_tier": "mainstream"
+    },
+    "iranwatch.org": {
+      "domain": "iranwatch.org",
+      "first_seen_query": "伊朗导弹发射器数量",
+      "last_seen_query": "Iran missile launchers number 2026",
+      "last_analysis_context": "Iran missile launchers number 2026; Iran missile launchers official source; Iran missile inventory count",
+      "source": "search",
+      "observed_count": 3,
+      "example_urls": [
+        "https://www.iranwatch.org/our-publications/weapon-program-background-report/image-library-iranian-missiles",
+        "https://www.iranwatch.org/our-publications/weapon-program-background-report/table-irans-missile-arsenal"
+      ],
+      "example_titles": [
+        "Image Library of Iranian Missiles | Iran Watch",
+        "Table of Iran's Missile Arsenal | Iran Watch"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量",
+        "伊朗导弹发射器数量 2023",
+        "Iran missile launchers number 2026"
+      ],
+      "resolved_tier": "professional",
+      "country": "美国",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low"
+    },
+    "israel-alma.org": {
+      "domain": "israel-alma.org",
+      "first_seen_query": "Iran missile launchers operational 2026",
+      "last_seen_query": "Iran missile launchers operational 2026",
+      "last_analysis_context": "Iran missile missile launchers launcher launchers 2026; Iran missile launchers operational 2026; Iran missile missile launchers launcher launchers 2026 回应 否认 反驳 谎称; Iran missile missile launchers launcher launchers 2026 军事宣传 没有客观证据; Iran missile missile launchers launcher launchers 2026 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; Iran missile missile launchers launcher launchers 2026 腾讯新闻 QQ新闻 ",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://israel-alma.org/iran-situation-assessment-february-2026-the-race-to-rebuild-the-nuclear-and-missile-array-casual-terror-and-the-crink/"
+      ],
+      "example_titles": [
+        "Iran - Situation Assessment (February 2026): The Race to Rebuild ..."
+      ],
+      "recent_queries": [
+        "Iran missile launchers operational 2026"
+      ],
+      "country": "以色列",
+      "region": "中东",
+      "geo_group": "us_israel",
+      "country_confidence": "low"
+    },
+    "israelhayom.com": {
+      "domain": "israelhayom.com",
+      "first_seen_query": "伊朗导弹发射器数量",
+      "last_seen_query": "Iran missile launchers remaining operational IDF estimate 100-200",
+      "last_analysis_context": "Iran missile missile launchers launcher launchers remaining; Iran missile launchers remaining operational IDF estimate 100-200; Iran missile missile launchers launcher launchers remaining 回应 否认 反驳 谎称 更强大 数量更多; Iran missile missile launchers launcher launchers remaining 军事宣传 没有客观证据; Iran missile missile launchers launcher launchers remaining 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; Iran missi",
+      "source": "search",
+      "observed_count": 15,
+      "example_urls": [
+        "https://www.israelhayom.com/2026/03/06/idf-estimates-over-60-of-irans-missile-launchers-taken-out/"
+      ],
+      "example_titles": [
+        "IDF estimates over 60% of Iran's missile launchers taken out"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量",
+        "Iran missile launchers number 100",
+        "Iran missile launchers 420 operational 100",
+        "伊朗导弹发射器数量 2026年3月",
+        "Iran missile launchers operational 2026"
+      ],
+      "resolved_tier": "mainstream",
+      "country": "以色列",
+      "region": "中东",
+      "geo_group": "us_israel",
+      "country_confidence": "high"
+    },
+    "jewishnews.co.uk": {
+      "domain": "jewishnews.co.uk",
+      "first_seen_query": "Iran missile launchers 100 serviceable 2026",
+      "last_seen_query": "Iran missile launchers 100 serviceable 2026",
+      "last_analysis_context": "Iran missile missile launchers launcher launchers 100; Iran missile launchers 100 serviceable 2026; Iran missile missile launchers launcher launchers 100 回应 否认 反驳 谎称; Iran missile missile launchers launcher launchers 100 军事宣传 没有客观证据; Iran missile missile launchers launcher launchers 100 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; Iran missile missile launchers launcher launchers 100 腾讯新闻 QQ新闻 新",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.jewishnews.co.uk/half-of-irans-missile-launchers-destroyed-in-first-24-hours/"
+      ],
+      "example_titles": [
+        "Half of Iran's missile launchers destroyed in first 24 hours"
+      ],
+      "recent_queries": [
+        "Iran missile launchers 100 serviceable 2026"
+      ],
+      "country": "英国",
+      "region": "欧洲",
+      "geo_group": "us_western",
+      "country_confidence": "medium"
+    },
+    "jewishpostandnews.ca": {
+      "domain": "jewishpostandnews.ca",
+      "first_seen_query": "Iran missile launchers 160 operational IDF assessment",
+      "last_seen_query": "Iran missile launchers 160 operational IDF assessment",
+      "last_analysis_context": "Iran missile launchers 160 operational IDF assessment; IDF official assessment Iran missile launchers operational; Iran missile launchers 160 operational status IDF",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://jewishpostandnews.ca/uncategorized/iran-has-one-third-of-its-missile-launchers-left-idf-assesses/"
+      ],
+      "example_titles": [
+        "Iran Has One-Third of Its Missile Launchers Left, IDF Assesses"
+      ],
+      "recent_queries": [
+        "Iran missile launchers 160 operational IDF assessment"
+      ],
+      "country": "伊朗",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low"
+    },
+    "jfeed.com": {
+      "domain": "jfeed.com",
+      "first_seen_query": "伊朗导弹发射器数量 2023",
+      "last_seen_query": "Iran missile launchers remaining operational IDF estimate 100-200",
+      "last_analysis_context": "Iran missile missile launchers launcher launchers remaining; Iran missile launchers remaining operational IDF estimate 100-200; Iran missile missile launchers launcher launchers remaining 回应 否认 反驳 谎称 更强大 数量更多; Iran missile missile launchers launcher launchers remaining 军事宣传 没有客观证据; Iran missile missile launchers launcher launchers remaining 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; Iran missi",
+      "source": "search",
+      "observed_count": 6,
+      "example_urls": [
+        "https://www.jfeed.com/news-world/iran-missiles-launchers-remaining"
+      ],
+      "example_titles": [
+        "The Number of Missiles and Launchers Remaining in Iran - JFeed",
+        "The Number of Missiles and Launchers Remaining in Iran"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量 2023",
+        "Iran missile launchers 160 operational IDF assessment",
+        "Iran missile launchers \"number\" OR \"count\" site:gov OR site:org",
+        "\"Iran missile launchers\" \"100\" remaining operational",
+        "Iran missile launchers remaining operational IDF estimate 100-200"
+      ],
+      "resolved_tier": "portal",
+      "country": "以色列",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low"
+    },
+    "jinsa.org": {
+      "domain": "jinsa.org",
+      "first_seen_query": "Iran missile launchers operational 2026",
+      "last_seen_query": "Iran missile launchers remaining operational IDF estimate 100-200",
+      "last_analysis_context": "Iran missile missile launchers launcher launchers remaining; Iran missile launchers remaining operational IDF estimate 100-200; Iran missile missile launchers launcher launchers remaining 回应 否认 反驳 谎称 更强大 数量更多; Iran missile missile launchers launcher launchers remaining 军事宣传 没有客观证据; Iran missile missile launchers launcher launchers remaining 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; Iran missi",
+      "source": "search",
+      "observed_count": 11,
+      "example_urls": [
+        "https://jinsa.org/wp-content/uploads/2026/03/Irans-Firepower-Has-Almost-Run-Out-1.pdf",
+        "https://jinsa.org/wp-content/uploads/2026/02/Irans-Evolving-Missile-and-Drone-Threat.pdf",
+        "https://jinsa.org/wp-content/uploads/2026/03/Irans-Firepower-2026-03-05-1.pdf",
+        "https://jinsa.org/jinsa_report/irans-missile-firepower-has-almost-run-out/"
+      ],
+      "example_titles": [
+        "[PDF] Iran's Missile Firepower Has Almost Run Out | JINSA",
+        "[PDF] Iran's Evolving Missile and Drone Threat | JINSA",
+        "[PDF] Iran's Missile Firepower Has Almost Run Out - JINSA",
+        "Iran's Missile Firepower Has Almost Run Out - JINSA"
+      ],
+      "recent_queries": [
+        "Iran missile launchers operational 2026",
+        "Iran missile launchers number 2026",
+        "Iran missile launchers \"number\" OR \"count\" site:gov OR site:org",
+        "Iran missile launchers current number 2026",
+        "伊朗导弹发射器数量 2026"
+      ],
+      "resolved_tier": "professional",
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_israel",
+      "country_confidence": "high"
+    },
+    "jns.org": {
+      "domain": "jns.org",
+      "first_seen_query": "Iran missile launchers 420 operational 100",
+      "last_seen_query": "\"Iran missile launchers\" \"100\" remaining operational",
+      "last_analysis_context": "Iran missile missile launchers launcher launchers remaining; \"Iran missile launchers\" \"100\" remaining operational; Iran missile missile launchers launcher launchers remaining 回应 否认 反驳 谎称 更强大 数量更多; Iran missile missile launchers launcher launchers remaining 军事宣传 没有客观证据; Iran missile missile launchers launcher launchers remaining 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; Iran missile missile la",
+      "source": "search",
+      "observed_count": 2,
+      "example_urls": [
+        "https://www.jns.org/50-of-iranian-missile-launchers-destroyed/"
+      ],
+      "example_titles": [
+        "'50% of Iranian missile launchers destroyed' - JNS.org"
+      ],
+      "recent_queries": [
+        "Iran missile launchers 420 operational 100",
+        "\"Iran missile launchers\" \"100\" remaining operational"
+      ],
+      "country": "美国",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low",
+      "resolved_tier": "professional"
+    },
+    "jpost.com": {
+      "domain": "jpost.com",
+      "first_seen_query": "伊朗导弹发射器数量 2023",
+      "last_seen_query": "Iran missile launchers remaining operational IDF estimate 100-200",
+      "last_analysis_context": "Iran missile missile launchers launcher launchers remaining; Iran missile launchers remaining operational IDF estimate 100-200; Iran missile missile launchers launcher launchers remaining 回应 否认 反驳 谎称 更强大 数量更多; Iran missile missile launchers launcher launchers remaining 军事宣传 没有客观证据; Iran missile missile launchers launcher launchers remaining 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; Iran missi",
+      "source": "search",
+      "observed_count": 68,
+      "example_urls": [
+        "https://www.jpost.com/middle-east/iran-news/article-885573",
+        "https://www.jpost.com/defense-and-tech/article-889435",
+        "https://www.jpost.com/middle-east/iran-news/article-889404",
+        "https://www.jpost.com/israel-news/defense-news/article-889350",
+        "https://www.jpost.com/israel-news/defense-news/article-889370"
+      ],
+      "example_titles": [
+        "Inside Iran's ballistic missile arsenal",
+        "Iran's missile fire rate has collapsed by 92%: What's next?",
+        "Iran’s missile fire rate has collapsed 92%: What comes next? - Analysis - The Jerusalem Post",
+        "Iran's IRGC: Only one-ton warhead missiles from now - The Jerusalem Post",
+        "IDF starts new wave of strikes against Tehran, south Iran - The Jerusalem Post"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量 2023",
+        "Iran missile launchers operational 2026",
+        "Iran missile launchers current number 2026",
+        "Iran 100 missile launchers operational",
+        "伊朗目前仅剩约100个可正常使用的导弹发射器"
+      ],
+      "resolved_tier": "mainstream",
+      "country": "以色列",
+      "region": "中东",
+      "geo_group": "us_israel",
+      "country_confidence": "high"
+    },
+    "kurdistan24.net": {
+      "domain": "kurdistan24.net",
+      "first_seen_query": "Iran missile launchers 160 operational IDF assessment",
+      "last_seen_query": "Iran missile launchers 160 operational IDF assessment",
+      "last_analysis_context": "Iran missile launchers 160 operational IDF assessment; IDF official assessment Iran missile launchers operational; Iran missile launchers 160 operational status IDF",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.kurdistan24.net/en/story/899386"
+      ],
+      "example_titles": [
+        "Israel Preparing for Weeks of Fighting With Iran, Senior IDF Official Says"
+      ],
+      "recent_queries": [
+        "Iran missile launchers 160 operational IDF assessment"
+      ],
+      "country": "以色列",
+      "region": "中东",
+      "geo_group": "us_israel",
+      "country_confidence": "low"
+    },
+    "law.com": {
+      "domain": "law.com",
+      "first_seen_query": "\"100\" 定义",
+      "last_seen_query": "\"100\" 定义",
+      "last_analysis_context": "\"100\" 定义; 100 definition; what is 100; 100 meaning in mathematics; 100 definition from reliable sources",
+      "source": "search",
+      "observed_count": 3,
+      "example_urls": [
+        "https://www.law.com/2026/03/06/law-firm-disrupted-the-ongoing-cloud-over-big-law-amid-the-eo-fight/",
+        "https://www.law.com/article/almID/1202717651729/",
+        "https://www.law.com/thelegalintelligencer/2026/03/10/why-one-size-fits-all-individual-attorney-business-plans-fail-lawyers-and-how-to-build-plans-that-reflect-strengths-not-templates/"
+      ],
+      "example_titles": [
+        "Law Firm Disrupted: The Ongoing 'Cloud' Over Big Law Amid the EO Fight - Law.com",
+        "Labor Law §200: Commonly Invoked But Frequently Misunderstood - Law.com",
+        "Why One-Size-Fits-All Individual Attorney Business Plans Fail Lawyers and How to Build Plans That Reflect Strengths, Not Templates - Law.com"
+      ],
+      "recent_queries": [
+        "\"100\" 定义"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "libguides.snhu.edu": {
+      "domain": "libguides.snhu.edu",
+      "first_seen_query": "\"100\" 事件 背景",
+      "last_seen_query": "\"100\" 事件 背景",
+      "last_analysis_context": "\"100\" 事件 背景; \"100\" event primary sources; \"100\" event key facts; \"100\" event timeline; \"100\" event historical context",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://libguides.snhu.edu/his100"
+      ],
+      "example_titles": [
+        "HIS 100 - Perspectives in History - Research Guides"
+      ],
+      "recent_queries": [
+        "\"100\" 事件 背景"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "libguides.usc.edu": {
+      "domain": "libguides.usc.edu",
+      "first_seen_query": "???????100????????????",
+      "last_seen_query": "???????100????????????",
+      "last_analysis_context": "???????100????????????; 100 official sources; 100 timeline; 100 context",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://libguides.usc.edu/hist100"
+      ],
+      "example_titles": [
+        "HIST 100: Primary Sources - USC Libraries Research Guides"
+      ],
+      "recent_queries": [
+        "???????100????????????"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "library.unsw.edu.au": {
+      "domain": "library.unsw.edu.au",
+      "first_seen_query": "\"100\" 事件 背景",
+      "last_seen_query": "\"100\" 事件 背景",
+      "last_analysis_context": "\"100\" 事件 背景; \"100\" event primary sources; \"100\" event key facts; \"100\" event timeline; \"100\" event historical context",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.library.unsw.edu.au/using-the-library/information-resources/primary-and-secondary-sources"
+      ],
+      "example_titles": [
+        "Primary and secondary sources - UNSW Library"
+      ],
+      "recent_queries": [
+        "\"100\" 事件 背景"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "longwarjournal.org": {
+      "domain": "longwarjournal.org",
+      "first_seen_query": "伊朗导弹发射器数量 2026",
+      "last_seen_query": "伊朗导弹发射器数量 2026",
+      "last_analysis_context": "伊朗导弹发射器数量 2026; Iran missile launchers 2026 data source; Iran missile launchers count 2026",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.longwarjournal.org/archives/2026/03/analysis-why-irans-ballistic-missile-launches-are-declining.php"
+      ],
+      "example_titles": [
+        "Analysis: Why Iran's ballistic missile launches are declining"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量 2026"
+      ],
+      "country": "伊朗",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low"
+    },
+    "looper.com": {
+      "domain": "looper.com",
+      "first_seen_query": "???????100????????????",
+      "last_seen_query": "???????100????????????",
+      "last_analysis_context": "???????100????????????; 100 official sources; 100 timeline; 100 context",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.looper.com/229012/the-whole-timeline-of-the-100-explained/"
+      ],
+      "example_titles": [
+        "The Whole Timeline Of The 100 Explained - Looper"
+      ],
+      "recent_queries": [
+        "???????100????????????"
+      ],
+      "country": "国际组织",
+      "region": "国际",
+      "geo_group": "international_org",
+      "country_confidence": "low"
+    },
+    "m.163.com": {
+      "domain": "m.163.com",
+      "first_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_analysis_context": "伊朗 导弹 导弹发射器 发射器 仅剩 100; 伊朗目前仅剩约100个可正常使用的导弹发射器; 伊朗 导弹 导弹发射器 发射器 仅剩 100 回应 否认 反驳 谎称 更强大 数量更多; 伊朗 导弹 导弹发射器 发射器 仅剩 100 军事宣传 没有客观证据; 伊朗 导弹 导弹发射器 发射器 仅剩 100 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; 伊朗 导弹 导弹发射器 发射器 仅剩 100 腾讯新闻 QQ新闻 新浪新闻 site:news.qq.com site:sina.cn",
+      "source": "search",
+      "observed_count": 4,
+      "example_urls": [
+        "https://m.163.com/dy/article/KNLFVT170512B07B.html"
+      ],
+      "example_titles": [
+        "特朗普：我们已经赢了，但还没赢够，摧毁了伊朗超90%导弹发射器!伊朗：拥有\"更强大、数量更多\"导弹，给美国人\"准备了许多惊喜\""
+      ],
+      "recent_queries": [
+        "伊朗目前仅剩约100个可正常使用的导弹发射器"
+      ],
+      "country": "中国",
+      "region": "东亚",
+      "geo_group": "china",
+      "country_confidence": "high"
+    },
+    "mathnasium.com": {
+      "domain": "mathnasium.com",
+      "first_seen_query": "\"100\" 定义",
+      "last_seen_query": "\"100\" 定义",
+      "last_analysis_context": "\"100\" 定义; 100 definition; what is 100; 100 meaning in mathematics; 100 definition from reliable sources",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.mathnasium.com/math-terms/percent"
+      ],
+      "example_titles": [
+        "What Is a Percent? Kid-Friendly Definition - Mathnasium"
+      ],
+      "recent_queries": [
+        "\"100\" 定义"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "merriam-webster.com": {
+      "domain": "merriam-webster.com",
+      "first_seen_query": "\"100\" 定义",
+      "last_seen_query": "\"100\" 定义",
+      "last_analysis_context": "\"100\" 定义; 100 definition; what is 100; 100 meaning in mathematics; 100 definition from reliable sources",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.merriam-webster.com/dictionary/hundred"
+      ],
+      "example_titles": [
+        "HUNDRED Definition & Meaning - Merriam-Webster"
+      ],
+      "recent_queries": [
+        "\"100\" 定义"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "mideastjournal.org": {
+      "domain": "mideastjournal.org",
+      "first_seen_query": "伊朗导弹发射器数量 2026年3月",
+      "last_seen_query": "Iran missile launchers operational number 2026",
+      "last_analysis_context": "Iran missile missile launchers launcher launchers 2026; Iran missile launchers operational number 2026; Iran missile missile launchers launcher launchers 2026 回应 否认 反驳 谎称; Iran missile missile launchers launcher launchers 2026 军事宣传 没有客观证据; Iran missile missile launchers launcher launchers 2026 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; Iran missile missile launchers launcher launchers 2026 腾讯新",
+      "source": "search",
+      "observed_count": 5,
+      "example_urls": [
+        "https://www.mideastjournal.org/post/iran-missile-arsenal-2026-conflict"
+      ],
+      "example_titles": [
+        "Iran's Missile Arsenal in the 2026 Conflict - Mideast Journal",
+        "Iran's Missile Arsenal in the 2026 Conflict"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量 2026年3月",
+        "Iran missile launchers number 2026",
+        "Iran missile launchers operational 2026",
+        "Iran missile launchers operational number 2026"
+      ],
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_israel",
+      "country_confidence": "high",
+      "resolved_tier": "professional"
+    },
+    "military.cctv.com": {
+      "domain": "military.cctv.com",
+      "first_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_analysis_context": "伊朗 导弹 导弹发射器 发射器 仅剩 100; 伊朗目前仅剩约100个可正常使用的导弹发射器; 伊朗 导弹 导弹发射器 发射器 仅剩 100 回应 否认 反驳 谎称 更强大 数量更多; 伊朗 导弹 导弹发射器 发射器 仅剩 100 军事宣传 没有客观证据; 伊朗 导弹 导弹发射器 发射器 仅剩 100 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; 伊朗 导弹 导弹发射器 发射器 仅剩 100 腾讯新闻 QQ新闻 新浪新闻 site:news.qq.com site:sina.cn",
+      "source": "search",
+      "observed_count": 2,
+      "example_urls": [
+        "https://military.cctv.com/2025/06/16/ARTI2oOCxNdqLEcVAaPia2TL250616.shtml"
+      ],
+      "example_titles": [
+        "以色列称摧毁伊朗超三成地对地导弹发射装置_军事频道_央视网 (cctv.com)"
+      ],
+      "recent_queries": [
+        "伊朗目前仅剩约100个可正常使用的导弹发射器"
+      ],
+      "country": "中国",
+      "region": "东亚",
+      "geo_group": "china",
+      "country_confidence": "high"
+    },
+    "missilethreat.csis.org": {
+      "domain": "missilethreat.csis.org",
+      "first_seen_query": "伊朗导弹发射器数量",
+      "last_seen_query": "Iran missile launchers number 2026",
+      "last_analysis_context": "Iran missile launchers number 2026; Iran missile launchers official source; Iran missile inventory count",
+      "source": "search",
+      "observed_count": 2,
+      "example_urls": [
+        "https://missilethreat.csis.org/country_tax/iran/",
+        "https://missilethreat.csis.org/country/iran/"
+      ],
+      "example_titles": [
+        "Missiles of Iran | Missile Threat - CSIS"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量",
+        "Iran missile launchers number 2026"
+      ],
+      "country": "美国",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low",
+      "resolved_tier": "professional"
+    },
+    "mrjjxw.com": {
+      "domain": "mrjjxw.com",
+      "first_seen_query": "伊朗导弹发射器数量 2026",
+      "last_seen_query": "伊朗导弹发射器数量 2026",
+      "last_analysis_context": "伊朗导弹发射器数量 2026; Iran missile launchers 2026 data source; Iran missile launchers count 2026",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.mrjjxw.com/articles/2026-03-10/4286039.html"
+      ],
+      "example_titles": [
+        "特朗普：我们已经赢了，但还没赢够，摧毁了伊朗超90%导弹发射器 ..."
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量 2026"
+      ],
+      "country": "伊朗",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low"
+    },
+    "nationalreview.com": {
+      "domain": "nationalreview.com",
+      "first_seen_query": "伊朗导弹发射器数量",
+      "last_seen_query": "Iran missile launchers \"number\" OR \"count\" site:gov OR site:org",
+      "last_analysis_context": "Iran missile launchers \"number\" OR \"count\" site:gov OR site:org; Iran missile launchers \"capability\" OR \"strength\" site:gov OR site:org",
+      "source": "search",
+      "observed_count": 3,
+      "example_urls": [
+        "https://www.nationalreview.com/corner/how-many-missiles-does-iran-have-remaining/"
+      ],
+      "example_titles": [
+        "How Many Missiles Does Iran Have Remaining? - National Review"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量",
+        "Iran missile launchers number 2026",
+        "Iran missile launchers \"number\" OR \"count\" site:gov OR site:org"
+      ],
+      "country": "伊朗",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low"
+    },
+    "natlawreview.com": {
+      "domain": "natlawreview.com",
+      "first_seen_query": "\"100\" 新闻",
+      "last_seen_query": "\"100\" 新闻",
+      "last_analysis_context": "\"100\" 新闻; \"100\" 新闻 来源; \"100\" 事件 新闻; \"100\" 周年 新闻; \"100\" 分析 新闻",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://natlawreview.com/press-releases/crystal-dtf-announces-strategic-launch-america-250-digital-transfer"
+      ],
+      "example_titles": [
+        "Crystal DTF Announces Strategic Launch of 'America 250' Digital Transfer Collection - The National Law Review"
+      ],
+      "recent_queries": [
+        "\"100\" 新闻"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "nbcnews.com": {
+      "domain": "nbcnews.com",
+      "first_seen_query": "100 新闻事件",
+      "last_seen_query": "100 新闻事件",
+      "last_analysis_context": "100 新闻事件; 100 新闻事件 来源; 100 新闻事件 事实; 100 新闻事件 时间; 100 新闻事件 背景",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.nbcnews.com/video/u-k-releases-documents-showing-pm-starmer-knew-risk-of-appointing-epstein-s-friend-as-ambassador-259160133772"
+      ],
+      "example_titles": [
+        "U.K. releases documents showing PM Starmer knew risk of appointing Epstein’s friend as ambassador - NBC News"
+      ],
+      "recent_queries": [
+        "100 新闻事件"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "nbcnewyork.com": {
+      "domain": "nbcnewyork.com",
+      "first_seen_query": "\"100\" 新闻",
+      "last_seen_query": "\"100\" 新闻",
+      "last_analysis_context": "\"100\" 新闻; \"100\" 新闻 来源; \"100\" 事件 新闻; \"100\" 周年 新闻; \"100\" 分析 新闻",
+      "source": "search",
+      "observed_count": 2,
+      "example_urls": [
+        "https://www.nbcnewyork.com/video/news/four-people-identified-in-suspected-murder-suicide-in-new-jersey/6475014/",
+        "https://www.nbcnewyork.com/video/nba/nba-highlights-clippers-spurs-march-6/6473466/"
+      ],
+      "example_titles": [
+        "Four people identified in suspected murder-suicide in New Jersey - NBC New York",
+        "NBA highlights: Spurs 116, Clippers 112 - NBC New York"
+      ],
+      "recent_queries": [
+        "\"100\" 新闻"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "nbd.com.cn": {
+      "domain": "nbd.com.cn",
+      "first_seen_query": "伊朗导弹发射器数量 2026年3月",
+      "last_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_analysis_context": "伊朗 导弹 导弹发射器 发射器 仅剩 100; 伊朗目前仅剩约100个可正常使用的导弹发射器; 伊朗 导弹 导弹发射器 发射器 仅剩 100 回应 否认 反驳 谎称 更强大 数量更多; 伊朗 导弹 导弹发射器 发射器 仅剩 100 军事宣传 没有客观证据; 伊朗 导弹 导弹发射器 发射器 仅剩 100 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; 伊朗 导弹 导弹发射器 发射器 仅剩 100 腾讯新闻 QQ新闻 新浪新闻 site:news.qq.com site:sina.cn",
+      "source": "search",
+      "observed_count": 6,
+      "example_urls": [
+        "https://www.nbd.com.cn/articles/2026-03-10/4286039.html"
+      ],
+      "example_titles": [
+        "特朗普：我们已经赢了，但还没赢够，摧毁了伊朗超90%导弹发射器 ...",
+        "特朗普：我们已经赢了，但还没赢够，摧毁了伊朗超90%导弹发射器!伊朗：拥有\"更强大、数量更多\"导弹，给美国人\"准备了许多惊喜\""
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量 2026年3月",
+        "伊朗目前仅剩约100个可正常使用的导弹发射器"
+      ],
+      "country": "中国",
+      "region": "东亚",
+      "geo_group": "china",
+      "country_confidence": "medium",
+      "resolved_tier": "professional"
+    },
+    "news.china.com.cn": {
+      "domain": "news.china.com.cn",
+      "first_seen_query": "伊朗导弹发射器数量",
+      "last_seen_query": "伊朗导弹发射器数量",
+      "last_analysis_context": "核实伊朗导弹发射器数量是否准确",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "http://news.china.com.cn/2026-03/04/content_118360146.shtml"
+      ],
+      "example_titles": [
+        "以军说摧毁伊朗约300个导弹发射器 - 新闻- 中国网"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量"
+      ],
+      "country": "中国",
+      "region": "东亚",
+      "geo_group": "china",
+      "country_confidence": "medium"
+    },
+    "news.cn": {
+      "domain": "news.cn",
+      "first_seen_query": "伊朗导弹发射器数量",
+      "last_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_analysis_context": "伊朗 导弹 导弹发射器 发射器 仅剩 100; 伊朗目前仅剩约100个可正常使用的导弹发射器; 伊朗 导弹 导弹发射器 发射器 仅剩 100 回应 否认 反驳 谎称 更强大 数量更多; 伊朗 导弹 导弹发射器 发射器 仅剩 100 军事宣传 没有客观证据; 伊朗 导弹 导弹发射器 发射器 仅剩 100 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; 伊朗 导弹 导弹发射器 发射器 仅剩 100 腾讯新闻 QQ新闻 新浪新闻 site:news.qq.com site:sina.cn",
+      "source": "search",
+      "observed_count": 8,
+      "example_urls": [
+        "https://www.news.cn/world/20260304/5a98aa5b2ba546f6a491f607ffd04e29/c.html",
+        "https://www.news.cn/milpro/20250331/13f921cb81b8431bb5d26483cd883b97/c.html"
+      ],
+      "example_titles": [
+        "以军说摧毁伊朗约300个导弹发射器 - 新华网",
+        "伊媒：\"伊朗各地的导弹已装入发射器\"，以防美国升级行动"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量",
+        "伊朗导弹发射器数量 2026",
+        "伊朗目前仅剩约100个可正常使用的导弹发射器"
+      ],
+      "resolved_tier": "mainstream",
+      "country": "中国",
+      "region": "东亚",
+      "geo_group": "china",
+      "country_confidence": "medium"
+    },
+    "news.qq.com": {
+      "domain": "news.qq.com",
+      "first_seen_query": "伊朗导弹发射器数量 2026年3月",
+      "last_seen_query": "伊朗 missile missile launchers launcher launchers 仅剩",
+      "last_analysis_context": "",
+      "source": "search",
+      "observed_count": 30,
+      "example_urls": [
+        "https://news.qq.com/rain/a/20260308A000TM00",
+        "https://news.qq.com/rain/a/20260203A06XRA00",
+        "https://news.qq.com/rain/a/20260210A0261R00",
+        "https://news.qq.com/rain/a/20260305A03KX500",
+        "https://news.qq.com/rain/a/20260309V04NXA00"
+      ],
+      "example_titles": [
+        "伊朗宣布发射新一代导弹等，精准打击以色列从北到南多个目标 - 腾讯",
+        "2026年2月3日《大方新闻》_腾讯新闻",
+        "QQ，秀！_腾讯新闻",
+        "【双语】外交部例行记者会/ MFA Regular Press Conference (2026年 ...",
+        "以色列军方评估称 伊朗仅剩100-200个导弹发射装置"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量 2026年3月",
+        "Iran 100 missile launchers operational",
+        "伊朗目前仅剩约100个可正常使用的导弹发射器",
+        "Iran missile launchers operational number 2026",
+        "伊朗 missile missile launchers launcher launchers 仅剩"
+      ],
+      "country": "以色列",
+      "region": "中东",
+      "geo_group": "us_israel",
+      "country_confidence": "low"
+    },
+    "news.sina.cn": {
+      "domain": "news.sina.cn",
+      "first_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_analysis_context": "伊朗 Iran 导弹 导弹发射器 发射器 仅剩; 伊朗目前仅剩约100个可正常使用的导弹发射器; 伊朗 Iran 导弹 导弹发射器 发射器 仅剩 伊朗媒体 伊朗媒体 Tasnim IRNA; 伊朗 Iran 导弹 导弹发射器 发射器 仅剩 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; 伊朗 Iran 导弹 导弹发射器 发射器 仅剩 腾讯新闻 QQ新闻 新浪新闻 site:news.qq.com site:sina.cn; 伊朗 Iran 导弹 导弹发射器 发射器 仅剩 否认 回应 谎称 没有证据",
+      "source": "search",
+      "observed_count": 2,
+      "example_urls": [
+        "https://news.sina.cn/gj/2026-03-11/detail-inhqqixz5730399.d.html?vt=4&cid=56262&node_id=56262"
+      ],
+      "example_titles": [
+        "美以对伊战争11天，伊朗逮捕120余名内鬼，美军7死140伤 - 新浪新闻"
+      ],
+      "recent_queries": [
+        "伊朗目前仅剩约100个可正常使用的导弹发射器"
+      ],
+      "country": "中国",
+      "region": "东亚",
+      "geo_group": "china",
+      "country_confidence": "high"
+    },
+    "news.sina.com.cn": {
+      "domain": "news.sina.com.cn",
+      "first_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_analysis_context": "伊朗 导弹 导弹发射器 发射器 仅剩 100; 伊朗目前仅剩约100个可正常使用的导弹发射器; 伊朗 导弹 导弹发射器 发射器 仅剩 100 回应 否认 反驳 谎称 更强大 数量更多; 伊朗 导弹 导弹发射器 发射器 仅剩 100 军事宣传 没有客观证据; 伊朗 导弹 导弹发射器 发射器 仅剩 100 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; 伊朗 导弹 导弹发射器 发射器 仅剩 100 腾讯新闻 QQ新闻 新浪新闻 site:news.qq.com site:sina.cn",
+      "source": "search",
+      "observed_count": 5,
+      "example_urls": [
+        "https://news.sina.com.cn/w/2025-06-21/doc-infavyrf1467216.shtml"
+      ],
+      "example_titles": [
+        "以色列空军称已摧毁伊朗约半数弹道导弹发射装置"
+      ],
+      "recent_queries": [
+        "伊朗目前仅剩约100个可正常使用的导弹发射器"
+      ],
+      "country": "中国",
+      "region": "东亚",
+      "geo_group": "china",
+      "country_confidence": "high"
+    },
+    "news.ycombinator.com": {
+      "domain": "news.ycombinator.com",
+      "first_seen_query": "???????100????????????",
+      "last_seen_query": "???????100????????????",
+      "last_analysis_context": "???????100????????????; 100 official sources; 100 timeline; 100 context",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://news.ycombinator.com/item?id=35948742"
+      ],
+      "example_titles": [
+        "Anthropic's 100k context is now available in the web UI - Hacker News"
+      ],
+      "recent_queries": [
+        "???????100????????????"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "nti.org": {
+      "domain": "nti.org",
+      "first_seen_query": "Iran missile launchers number 2026",
+      "last_seen_query": "Iran missile launchers number 2026",
+      "last_analysis_context": "Iran missile launchers number 2026; Iran missile launchers official source; Iran missile inventory count",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.nti.org/analysis/articles/cns-iran-missile-and-slv-launch-database/"
+      ],
+      "example_titles": [
+        "The CNS Iran Missile and SLV Launch Database"
+      ],
+      "recent_queries": [
+        "Iran missile launchers number 2026"
+      ],
+      "country": "伊朗",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low"
+    },
+    "nypost.com": {
+      "domain": "nypost.com",
+      "first_seen_query": "Iran missile launchers operational 2026",
+      "last_seen_query": "Iran missile launchers operational number 2026",
+      "last_analysis_context": "Iran missile missile launchers launcher launchers 2026; Iran missile launchers operational number 2026; Iran missile missile launchers launcher launchers 2026 回应 否认 反驳 谎称; Iran missile missile launchers launcher launchers 2026 军事宣传 没有客观证据; Iran missile missile launchers launcher launchers 2026 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; Iran missile missile launchers launcher launchers 2026 腾讯新",
+      "source": "search",
+      "observed_count": 15,
+      "example_urls": [
+        "https://nypost.com/2026/03/12/world-news/iran-unveils-enormous-supply-of-naval-suicide-drones-in-underground-missile-city/",
+        "https://nypost.com/2026/03/09/world-news/iran-issues-chilling-message-to-new-supreme-leader-on-a-missile-as-it-launches-fresh-attacks/"
+      ],
+      "example_titles": [
+        "Iran unveils enormous supply of naval suicide drones in chilling footage from underground ‘missile city’ - New York Post",
+        "Iran issues chilling promise to new supreme leader on personalized missile as it launches fresh attacks - New York Post"
+      ],
+      "recent_queries": [
+        "Iran missile launchers operational 2026",
+        "伊朗目前仅剩约100个可正常使用的导弹发射器",
+        "Iran missile launchers operational number 2026",
+        "Iran missile launchers number 2026"
+      ],
+      "country": "United States",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low",
+      "resolved_tier": "mainstream"
+    },
+    "nytimes.com": {
+      "domain": "nytimes.com",
+      "first_seen_query": "Iran missile launchers number 100",
+      "last_seen_query": "Iran missile launchers remaining operational IDF estimate 100-200",
+      "last_analysis_context": "Iran missile missile launchers launcher launchers remaining; Iran missile launchers remaining operational IDF estimate 100-200; Iran missile missile launchers launcher launchers remaining 回应 否认 反驳 谎称 更强大 数量更多; Iran missile missile launchers launcher launchers remaining 军事宣传 没有客观证据; Iran missile missile launchers launcher launchers remaining 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; Iran missi",
+      "source": "search",
+      "observed_count": 13,
+      "example_urls": [
+        "https://www.nytimes.com/2026/03/01/world/middleeast/iran-missile-launchers.html",
+        "https://www.nytimes.com/2026/03/11/world/middleeast/iran-weapons-missiles-israel-gulf.html"
+      ],
+      "example_titles": [
+        "Iran's Ballistic Missile Launchers Have Been Cut by Half, Israeli ...",
+        "Iran's Retaliatory Strikes Appear to Be Slowing"
+      ],
+      "recent_queries": [
+        "Iran missile launchers number 100",
+        "Iran missile launchers operational 2026",
+        "Iran missile launchers current number 2026",
+        "伊朗导弹发射器数量 2026",
+        "Iran missile launchers 100 serviceable 2026"
+      ],
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_western",
+      "country_confidence": "high"
+    },
+    "online.stat.psu.edu": {
+      "domain": "online.stat.psu.edu",
+      "first_seen_query": "???????100????????????",
+      "last_seen_query": "???????100????????????",
+      "last_analysis_context": "???????100????????????; 100 facts; 100 authoritative sources; 100 statistics; 100 historical context",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://online.stat.psu.edu/stat100/"
+      ],
+      "example_titles": [
+        "STAT 100 | Statistical Concepts and Reasoning"
+      ],
+      "recent_queries": [
+        "???????100????????????"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "orld.people.com.cn": {
+      "domain": "orld.people.com.cn",
+      "first_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_analysis_context": "伊朗 导弹 导弹发射器 发射器 仅剩 100; 伊朗目前仅剩约100个可正常使用的导弹发射器; 伊朗 导弹 导弹发射器 发射器 仅剩 100 回应 否认 反驳 谎称 更强大 数量更多; 伊朗 导弹 导弹发射器 发射器 仅剩 100 军事宣传 没有客观证据; 伊朗 导弹 导弹发射器 发射器 仅剩 100 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; 伊朗 导弹 导弹发射器 发射器 仅剩 100 腾讯新闻 QQ新闻 新浪新闻 site:news.qq.com site:sina.cn",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://world.people.com.cn/n1/2025/0616/c1002-40501804.html"
+      ],
+      "example_titles": [
+        "以色列军方说已摧毁伊朗约三分之一导弹发射装置--国际--人民网"
+      ],
+      "recent_queries": [
+        "伊朗目前仅剩约100个可正常使用的导弹发射器"
+      ],
+      "country": "中国",
+      "region": "东亚",
+      "geo_group": "china",
+      "country_confidence": "high"
+    },
+    "oror.vip": {
+      "domain": "oror.vip",
+      "first_seen_query": "伊朗导弹发射器总数 原始数量",
+      "last_seen_query": "伊朗导弹发射器总数 原始数量",
+      "last_analysis_context": "伊朗导弹发射器总数 原始数量; 伊朗导弹发射器总数 原始来源; 伊朗导弹发射器总数 数字 数据",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.oror.vip/?p=595308"
+      ],
+      "example_titles": [
+        "地下“导弹城”已成伊朗一大软肋 - OR新媒体"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器总数 原始数量"
+      ],
+      "country": "伊朗",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low"
+    },
+    "pbs.org": {
+      "domain": "pbs.org",
+      "first_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_analysis_context": "伊朗目前仅剩约100个可正常使用的导弹发射器; 伊朗目前仅剩约100个可正常使用的导弹发射器 伊朗媒体 伊朗媒体 Tasnim IRNA; 伊朗目前仅剩约100个可正常使用的导弹发射器 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; 伊朗目前仅剩约100个可正常使用的导弹发射器 腾讯新闻 QQ新闻 新浪新闻 site:news.qq.com site:sina.cn; 伊朗目前仅剩约100个可正常使用的导弹发射器 否认 回应 谎称 没有证据; 100 伊朗目前仅剩约 个可正常使用的导弹发射器 最早 来源 原始 报道",
+      "source": "search",
+      "observed_count": 2,
+      "example_urls": [
+        "https://www.pbs.org/newshour/politics/fact-checking-trumps-claim-that-iran-has-tomahawk-missiles"
+      ],
+      "example_titles": [
+        "Fact-checking Trump's claim that Iran has Tomahawk missiles - PBS"
+      ],
+      "recent_queries": [
+        "伊朗目前仅剩约100个可正常使用的导弹发射器"
+      ],
+      "country": "伊朗",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low"
+    },
+    "pressreader.com": {
+      "domain": "pressreader.com",
+      "first_seen_query": "100 新闻事件",
+      "last_seen_query": "100 新闻事件",
+      "last_analysis_context": "100 新闻事件; 100 新闻事件 来源; 100 新闻事件 事实; 100 新闻事件 时间; 100 新闻事件 背景",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.pressreader.com/uk/the-press-and-journal-aberdeen-and-aberdeenshire/20260309/282145002845534"
+      ],
+      "example_titles": [
+        "Payroll can add ‘real value’ - PressReader"
+      ],
+      "recent_queries": [
+        "100 新闻事件"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "pudding.cool": {
+      "domain": "pudding.cool",
+      "first_seen_query": "???????100????????????",
+      "last_seen_query": "???????100????????????",
+      "last_analysis_context": "???????100????????????; 100 facts; 100 authoritative sources; 100 statistics; 100 historical context",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://pudding.cool/2018/12/brief-history/"
+      ],
+      "example_titles": [
+        "A brief history of the past 100 years, as told through the New York ..."
+      ],
+      "recent_queries": [
+        "???????100????????????"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "qz.com": {
+      "domain": "qz.com",
+      "first_seen_query": "Pfizer vaccine \"page 132\" unprotected sex 28 days birth defects",
+      "last_seen_query": "Pfizer vaccine \"page 132\" unprotected sex 28 days birth defects",
+      "last_analysis_context": "Pfizer vaccine \"page 132\" unprotected sex 28 days birth defects; Pfizer vaccine trial report page 132; Pfizer vaccine birth defects; Pfizer vaccine 28 days birth defects",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://qz.com/1950810/what-to-know-about-page-132-of-the-pfizer-vaccine-report"
+      ],
+      "example_titles": [
+        "What page 132 of the Pfizer “vaccine report” actually says about ..."
+      ],
+      "recent_queries": [
+        "Pfizer vaccine \"page 132\" unprotected sex 28 days birth defects"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "reddit.com": {
+      "domain": "reddit.com",
+      "first_seen_query": "伊朗导弹发射器数量 2023",
+      "last_seen_query": "???????100????????????",
+      "last_analysis_context": "???????100????????????; 100 official sources; 100 timeline; 100 context",
+      "source": "search",
+      "observed_count": 5,
+      "example_urls": [
+        "https://www.reddit.com/r/geopolitics/comments/1rkkyah/the_iran_wars_troubling_missile_math/?tl=zh-hans",
+        "https://www.reddit.com/r/geopolitics/comments/1rl7u31/irans_underground_missile_cities_have_become_one/?tl=zh-hans",
+        "https://www.reddit.com/r/WarCollege/comments/16s84xm/how_numerous_are_irans_air_defenses_wikipedia/?tl=zh-hans",
+        "https://www.reddit.com/r/cursor/comments/1qtdt98/what_is_the_best_workaround_once_context_window/"
+      ],
+      "example_titles": [
+        "伊朗战争令人担忧的导弹数据: r/geopolitics - Reddit",
+        "伊朗的地下“导弹城市”已成为其最大的脆弱性之一: r/geopolitics - Reddit",
+        "伊朗的防空系统有多庞大？维基百科说他们有数千个SAM 导弹发射 ...",
+        "What is the best workaround once context window reaches 100%?"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量 2023",
+        "伊朗导弹发射器总数 原始数量",
+        "???????100????????????"
+      ],
+      "resolved_tier": "portal",
+      "country": "美国",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low"
+    },
+    "reuters.com": {
+      "domain": "reuters.com",
+      "first_seen_query": "伊朗导弹发射器数量 2023",
+      "last_seen_query": "\"100\" 新闻",
+      "last_analysis_context": "\"100\" 新闻; \"100\" 新闻 来源; \"100\" 事件 新闻; \"100\" 周年 新闻; \"100\" 分析 新闻",
+      "source": "search",
+      "observed_count": 2,
+      "example_urls": [
+        "https://www.reuters.com/business/aerospace-defense/what-are-irans-ballistic-missile-capabilities-2026-02-26/",
+        "https://www.reuters.com/video/watch/idRW170606032026RP1/"
+      ],
+      "example_titles": [
+        "What are Iran's ballistic missile capabilities?",
+        "Business Lookahead: The fog of war - Reuters"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量 2023",
+        "\"100\" 新闻"
+      ],
+      "country": "英国",
+      "region": "欧洲",
+      "geo_group": "international_wire",
+      "country_confidence": "high"
+    },
+    "ria.ru": {
+      "domain": "ria.ru",
+      "first_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_analysis_context": "伊朗目前仅剩约100个可正常使用的导弹发射器; 伊朗目前仅剩约100个可正常使用的导弹发射器 伊朗媒体 伊朗媒体 Tasnim IRNA; 伊朗目前仅剩约100个可正常使用的导弹发射器 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; 伊朗目前仅剩约100个可正常使用的导弹发射器 腾讯新闻 QQ新闻 新浪新闻 site:news.qq.com site:sina.cn; 伊朗目前仅剩约100个可正常使用的导弹发射器 否认 回应 谎称 没有证据; 100 伊朗目前仅剩约 个可正常使用的导弹发射器 最早 来源 原始 报道",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://ria.ru/organization_Sputnik_Kazakhstan/"
+      ],
+      "example_titles": [
+        "Sputnik Казахстан - последние новости сегодня - РИА Новости"
+      ],
+      "recent_queries": [
+        "伊朗目前仅剩约100个可正常使用的导弹发射器"
+      ],
+      "country": "俄罗斯",
+      "region": "欧洲",
+      "geo_group": "russia",
+      "country_confidence": "high"
+    },
+    "rottentomatoes.com": {
+      "domain": "rottentomatoes.com",
+      "first_seen_query": "???????100????????????",
+      "last_seen_query": "???????100????????????",
+      "last_analysis_context": "???????100????????????; 100 official sources; 100 timeline; 100 context",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.rottentomatoes.com/tv/the_100"
+      ],
+      "example_titles": [
+        "The 100 | Rotten Tomatoes"
+      ],
+      "recent_queries": [
+        "???????100????????????"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "rt.com": {
+      "domain": "rt.com",
+      "first_seen_query": "Iran 100 missile launchers operational",
+      "last_seen_query": "Iran missile launchers operational number 2026",
+      "last_analysis_context": "Iran missile missile launchers launcher launchers 2026; Iran missile launchers operational number 2026; Iran missile missile launchers launcher launchers 2026 回应 否认 反驳 谎称; Iran missile missile launchers launcher launchers 2026 军事宣传 没有客观证据; Iran missile missile launchers launcher launchers 2026 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; Iran missile missile launchers launcher launchers 2026 腾讯新",
+      "source": "search",
+      "observed_count": 8,
+      "example_urls": [
+        "https://www.rt.com/india/587239-india-russia-igla-s-missile-system/",
+        "https://www.rt.com/news/621503-germany-seeking-2000km-range-us-missiles/amp",
+        "https://www.rt.com/shows/news/634163-rtnews-march-09-09msk/",
+        "https://www.rt.com/news/621503-germany-seeking-2000km-range-us-missiles"
+      ],
+      "example_titles": [
+        "Russia and India sign deal on Igla-S missiles – TASS - RT",
+        "Germany seeking 2,000km-range US missile launchers",
+        "RT News - March 9 2026 (09:00 MSK)",
+        "Germany seeking 2,000km-range US missile launchers — RT World News"
+      ],
+      "recent_queries": [
+        "Iran 100 missile launchers operational",
+        "伊朗目前仅剩约100个可正常使用的导弹发射器",
+        "Iran missile launchers operational 2026",
+        "Iran missile launchers operational number 2026",
+        "\"Iran missile launchers\" \"100\" remaining operational"
+      ],
+      "country": "俄罗斯",
+      "region": "欧洲",
+      "geo_group": "russia",
+      "country_confidence": "high"
+    },
+    "scribendi.com": {
+      "domain": "scribendi.com",
+      "first_seen_query": "???????100????????????",
+      "last_seen_query": "???????100????????????",
+      "last_analysis_context": "???????100????????????; 100 facts; 100 authoritative sources; 100 statistics; 100 historical context",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.scribendi.com/whitepapers/101_Free_Online_Journal_and_Research_Databases_for_Academics_Free_Resource.pdf"
+      ],
+      "example_titles": [
+        "[PDF] 101 Free Online Journal and Research Databases for Academics"
+      ],
+      "recent_queries": [
+        "???????100????????????"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "sfchronicle.com": {
+      "domain": "sfchronicle.com",
+      "first_seen_query": "\"100\" 事件 背景",
+      "last_seen_query": "\"100\" 事件 背景",
+      "last_analysis_context": "\"100\" 事件 背景; \"100\" event primary sources; \"100\" event key facts; \"100\" event timeline; \"100\" event historical context",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.sfchronicle.com/entertainment/events/?_evDiscoveryPath=/event/3529117-st-pat-s-on-front-st-"
+      ],
+      "example_titles": [
+        "SF Chronicle Events - St. Pat's on Front St. - San Francisco Chronicle"
+      ],
+      "recent_queries": [
+        "\"100\" 事件 背景"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "sina.cn": {
+      "domain": "sina.cn",
+      "first_seen_query": "伊朗导弹发射器数量",
+      "last_seen_query": "Iran missile launchers operational number 2026",
+      "last_analysis_context": "Iran missile missile launchers launcher launchers 2026; Iran missile launchers operational number 2026; Iran missile missile launchers launcher launchers 2026 回应 否认 反驳 谎称; Iran missile missile launchers launcher launchers 2026 军事宣传 没有客观证据; Iran missile missile launchers launcher launchers 2026 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; Iran missile missile launchers launcher launchers 2026 腾讯新",
+      "source": "search",
+      "observed_count": 11,
+      "example_urls": [
+        "https://www.sina.cn/news/detail/5272761896535736.html",
+        "https://www.sina.cn/news/detail/5274650754157108.html",
+        "https://www.sina.cn/news/detail/5274104942824092.html",
+        "https://www.sina.cn/news/detail/5274586536218955.html",
+        "https://www.sina.cn/news/detail/5273030994691550.html"
+      ],
+      "example_titles": [
+        "伊朗发射导弹数量统计_新浪新闻",
+        "伊朗导弹数量成谜_新浪新闻",
+        "伊朗导弹无人机发射减少_新浪新闻",
+        "谭小林带470人撤离伊朗_新浪新闻",
+        "以军美军打击伊朗导弹目标_新浪新闻"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量",
+        "伊朗导弹发射器数量 2023",
+        "伊朗导弹发射器数量 2026年3月",
+        "伊朗导弹发射器数量 2026",
+        "伊朗导弹发射器总数 原始数量"
+      ],
+      "resolved_tier": "mainstream",
+      "country": "中国",
+      "region": "东亚",
+      "geo_group": "china",
+      "country_confidence": "medium"
+    },
+    "sj.com": {
+      "domain": "sj.com",
+      "first_seen_query": "Iran missile launchers 90% destroyed military analysis",
+      "last_seen_query": "伊朗导弹发射器数量 2026",
+      "last_analysis_context": "伊朗导弹发射器数量 2026; Iran missile launchers 2026 data source; Iran missile launchers count 2026",
+      "source": "search",
+      "observed_count": 2,
+      "example_urls": [
+        "https://www.wsj.com/livecoverage/iran-strikes-2026/card/around-half-of-iran-s-ballistic-missile-launchers-destroyed-in-strikes-israel-says-lskNeRruNPsAgE10OlBo?gaa_at=eafs&gaa_n=AWEtsqfRK_JH3TB-DX4DpF6BPChyVWFfpbCwigul7jktjGmo8h6M8QA-gUFe&gaa_ts=69b2487e&gaa_sig=zZJ7nkPt46PxqObhGIS5mXLwCQBsBlCvZ3-c7",
+        "https://www.wsj.com/livecoverage/iran-war-us-israel-trump-2026/card/iran-s-missile-launches-have-fallen-sharply-since-start-of-war-data-shows-BbPyMTNJsI65M1bkwToM?gaa_at=eafs&gaa_n=AWEtsqc-ulWK883IF6wIDTrau503qsuiX1qcz6o8fTS0DFYVdt0xQmSTC0XM&gaa_ts=69b38830&gaa_sig=PbYivYevqzGnS1RoV_FKK5cQsRxhT2yS0S"
+      ],
+      "example_titles": [
+        "Around Half of Iran's Ballistic Missile Launchers Destroyed in Strikes ...",
+        "Iran's Missile Launches Have Fallen Sharply Since Start of War ..."
+      ],
+      "recent_queries": [
+        "Iran missile launchers 90% destroyed military analysis",
+        "伊朗导弹发射器数量 2026"
+      ],
+      "country": "伊朗",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low"
+    },
+    "skynews.com.au": {
+      "domain": "skynews.com.au",
+      "first_seen_query": "\"100\" 新闻",
+      "last_seen_query": "\"100\" 新闻",
+      "last_analysis_context": "\"100\" 新闻; \"100\" 新闻 来源; \"100\" 事件 新闻; \"100\" 周年 新闻; \"100\" 分析 新闻",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.skynews.com.au/world-news/global-affairs/oil-briefly-passes-us100-a-barrel-as-iran-war-shakes-markets/video/04a494380a42c646d2eefb210c16ba77"
+      ],
+      "example_titles": [
+        "Oil briefly passes $US100 a barrel as Iran war shakes markets - Sky News Australia"
+      ],
+      "recent_queries": [
+        "\"100\" 新闻"
+      ],
+      "country": "伊朗",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low"
+    },
+    "snopes.com": {
+      "domain": "snopes.com",
+      "first_seen_query": "Pfizer vaccine \"page 132\" unprotected sex 28 days birth defects",
+      "last_seen_query": "Pfizer vaccine \"page 132\" unprotected sex 28 days birth defects",
+      "last_analysis_context": "Pfizer vaccine \"page 132\" unprotected sex 28 days birth defects; Pfizer vaccine report \"page 132\"; Pfizer vaccine birth defects unprotected sex",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.snopes.com/fact-check/covid-vaccine-unprotected-sex/"
+      ],
+      "example_titles": [
+        "Does Pfizer 'Page 132' Warn Against Unprotected Sex After ..."
+      ],
+      "recent_queries": [
+        "Pfizer vaccine \"page 132\" unprotected sex 28 days birth defects"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "sohu.com": {
+      "domain": "sohu.com",
+      "first_seen_query": "伊朗导弹发射器总数 原始数量",
+      "last_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_analysis_context": "伊朗 导弹 导弹发射器 发射器 仅剩 100; 伊朗目前仅剩约100个可正常使用的导弹发射器; 伊朗 导弹 导弹发射器 发射器 仅剩 100 回应 否认 反驳 谎称 更强大 数量更多; 伊朗 导弹 导弹发射器 发射器 仅剩 100 军事宣传 没有客观证据; 伊朗 导弹 导弹发射器 发射器 仅剩 100 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; 伊朗 导弹 导弹发射器 发射器 仅剩 100 腾讯新闻 QQ新闻 新浪新闻 site:news.qq.com site:sina.cn",
+      "source": "search",
+      "observed_count": 17,
+      "example_urls": [
+        "https://www.sohu.com/a/993015910_121607467",
+        "https://www.sohu.com/a/994388767_122495639",
+        "https://www.sohu.com/a/906737198_121199203",
+        "https://www.sohu.com/a/994155138_115926",
+        "https://www.sohu.com/a/906397793_121142740"
+      ],
+      "example_titles": [
+        "伊朗的情况有点不妙！伊朗反击发射的导弹数量明显下降了！美军称 ...",
+        "原创伊朗向美国和以色列目标发射的导弹数量减少了九成 - 搜狐",
+        "伊朗导弹发射器半数被毁？德黑兰放弃永不妥协，主动提出停火和谈",
+        "以色列军方评估称 伊朗仅剩100-200个导弹发射装置 #以色列 #伊朗",
+        "伊朗导弹发射器半数被毁？德黑兰放弃永不妥协，主动提出停火和谈_阿卜杜拉希扬_内塔尼亚胡_福尔多"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器总数 原始数量",
+        "伊朗目前仅剩约100个可正常使用的导弹发射器"
+      ],
+      "country": "中国",
+      "region": "东亚",
+      "geo_group": "china",
+      "country_confidence": "high"
+    },
+    "sports.yahoo.com": {
+      "domain": "sports.yahoo.com",
+      "first_seen_query": "\"100\" 事件 背景",
+      "last_seen_query": "\"100\" 事件 背景",
+      "last_analysis_context": "\"100\" 事件 背景; \"100\" event primary sources; \"100\" event key facts; \"100\" event timeline; \"100\" event historical context",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://sports.yahoo.com/nba/article/why-bam-adebayo-deserved-83-point-night-of-indulgence-during-demanding-heat-season-144242459.html"
+      ],
+      "example_titles": [
+        "Why Bam Adebayo deserved 83-point night of indulgence during demanding Heat season - Yahoo Sports"
+      ],
+      "recent_queries": [
+        "\"100\" 事件 背景"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "sputniknews.cn": {
+      "domain": "sputniknews.cn",
+      "first_seen_query": "伊朗导弹发射器数量 2026年3月",
+      "last_seen_query": "Iran missile launchers operational number 2026",
+      "last_analysis_context": "Iran missile missile launchers launcher launchers 2026; Iran missile launchers operational number 2026; Iran missile missile launchers launcher launchers 2026 回应 否认 反驳 谎称; Iran missile missile launchers launcher launchers 2026 军事宣传 没有客观证据; Iran missile missile launchers launcher launchers 2026 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; Iran missile missile launchers launcher launchers 2026 腾讯新",
+      "source": "search",
+      "observed_count": 6,
+      "example_urls": [
+        "https://sputniknews.cn/20260304/1070044742.html",
+        "https://sputniknews.cn/20260306/1070091187.html",
+        "https://sputniknews.cn/20260206/1069661214.html"
+      ],
+      "example_titles": [
+        "美军中央司令部：已打击约2000个伊朗目标，包括数百个发射装置",
+        "俄专家：美以声称伊朗导弹库耗尽，纯属军事宣传 - 2026年3月6日, 俄罗斯卫星通讯社",
+        "伊朗革命卫队：展示最新型导弹是对华盛顿的明确信号 - 2026年2月6日, 俄罗斯卫星通讯社"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量 2026年3月",
+        "伊朗目前仅剩约100个可正常使用的导弹发射器",
+        "Iran missile launchers number 2026",
+        "Iran missile launchers operational number 2026"
+      ],
+      "country": "俄罗斯",
+      "region": "东亚",
+      "geo_group": "china",
+      "country_confidence": "medium",
+      "resolved_tier": "mainstream"
+    },
+    "stcn.com": {
+      "domain": "stcn.com",
+      "first_seen_query": "伊朗导弹发射器数量",
+      "last_seen_query": "伊朗导弹发射器数量",
+      "last_analysis_context": "核实伊朗导弹发射器数量是否准确",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.stcn.com/article/detail/3660620.html"
+      ],
+      "example_titles": [
+        "以军说摧毁伊朗约300个导弹发射器 - 证券时报"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量"
+      ],
+      "country": "伊朗",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low"
+    },
+    "stellarcontent.com": {
+      "domain": "stellarcontent.com",
+      "first_seen_query": "???????100????????????",
+      "last_seen_query": "???????100????????????",
+      "last_analysis_context": "???????100????????????; 100 facts; 100 authoritative sources; 100 statistics; 100 historical context",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.stellarcontent.com/blog/content-marketing/authoritative-sources/"
+      ],
+      "example_titles": [
+        "How to Find and Leverage Authoritative Sources - Stellar Blog"
+      ],
+      "recent_queries": [
+        "???????100????????????"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "subjectguides.library.american.edu": {
+      "domain": "subjectguides.library.american.edu",
+      "first_seen_query": "???????100????????????",
+      "last_seen_query": "???????100????????????",
+      "last_analysis_context": "???????100????????????; 100 facts; 100 authoritative sources; 100 statistics; 100 historical context",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://subjectguides.library.american.edu/c.php?g=175122&p=1154072"
+      ],
+      "example_titles": [
+        "Determining Credible Sources - COMM 100: Understanding Media"
+      ],
+      "recent_queries": [
+        "???????100????????????"
+      ],
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_western",
+      "country_confidence": "low"
+    },
+    "tass.com": {
+      "domain": "tass.com",
+      "first_seen_query": "Iran missile launchers number 100",
+      "last_seen_query": "伊朗导弹发射器数量 2023",
+      "last_analysis_context": "伊朗导弹发射器数量 2023; Iran missile launchers 2023 official report; Iran missile launchers number 2023 statistics",
+      "source": "search",
+      "observed_count": 3,
+      "example_urls": [
+        "https://tass.com/world/2099797",
+        "https://tass.com/world/2097583"
+      ],
+      "example_titles": [
+        "Iran loses more than 90% of its missile launchers — Bloomberg",
+        "Iran has lost 60% of its missile launchers, according to Israeli military"
+      ],
+      "recent_queries": [
+        "Iran missile launchers number 100",
+        "Iran missile launchers 90% destroyed military analysis",
+        "伊朗导弹发射器数量 2023"
+      ],
+      "resolved_tier": "mainstream",
+      "country": "以色列",
+      "region": "中东",
+      "geo_group": "us_israel",
+      "country_confidence": "low"
+    },
+    "the-sun.com": {
+      "domain": "the-sun.com",
+      "first_seen_query": "Iran missile launchers operational 2026",
+      "last_seen_query": "Iran missile launchers number 2026",
+      "last_analysis_context": "Iran missile missile launchers launcher launchers 2026; Iran missile launchers number 2026; Iran missile missile launchers launcher launchers 2026 回应 否认 反驳 谎称; Iran missile missile launchers launcher launchers 2026 军事宣传 没有客观证据; Iran missile missile launchers launcher launchers 2026 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; Iran missile missile launchers launcher launchers 2026 腾讯新闻 QQ新闻 新浪新闻 ",
+      "source": "search",
+      "observed_count": 2,
+      "example_urls": [
+        "https://www.the-sun.com/news/16062274/iran-missile-launchers-wild-card-experts-warn/"
+      ],
+      "example_titles": [
+        "Iran to run out of launchers in days…but still has 'wild card', experts ..."
+      ],
+      "recent_queries": [
+        "Iran missile launchers operational 2026",
+        "Iran missile launchers number 2026"
+      ],
+      "resolved_tier": "mainstream",
+      "country": "英国",
+      "region": "欧洲",
+      "geo_group": "us_western",
+      "country_confidence": "explicit"
+    },
+    "the100.wikidot.com": {
+      "domain": "the100.wikidot.com",
+      "first_seen_query": "???????100????????????",
+      "last_seen_query": "???????100????????????",
+      "last_analysis_context": "???????100????????????; 100 official sources; 100 timeline; 100 context",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "http://the100.wikidot.com/timeline"
+      ],
+      "example_titles": [
+        "Timeline - A New Home - The 100 - Wikidot"
+      ],
+      "recent_queries": [
+        "???????100????????????"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "theamyrobeson.com": {
+      "domain": "theamyrobeson.com",
+      "first_seen_query": "\"100\" 定义",
+      "last_seen_query": "\"100\" 定义",
+      "last_analysis_context": "\"100\" 定义; 100 definition; what is 100; 100 meaning in mathematics; 100 definition from reliable sources",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://theamyrobeson.com/podcasts/episode-100-numerology-and-the-spiritual-significance-of-100/"
+      ],
+      "example_titles": [
+        "100: Numerology and the Spiritual Significance of 100"
+      ],
+      "recent_queries": [
+        "\"100\" 定义"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "thebulletin.org": {
+      "domain": "thebulletin.org",
+      "first_seen_query": "100 新闻事件",
+      "last_seen_query": "\"100\" 新闻",
+      "last_analysis_context": "\"100\" 新闻; \"100\" 新闻 来源; \"100\" 事件 新闻; \"100\" 周年 新闻; \"100\" 分析 新闻",
+      "source": "search",
+      "observed_count": 2,
+      "example_urls": [
+        "https://thebulletin.org/premium/2026-03/reasonable-doubt-how-the-free-press-covers-climate-change/"
+      ],
+      "example_titles": [
+        "Reasonable doubt? How The Free Press covers climate change - Bulletin of the Atomic Scientists"
+      ],
+      "recent_queries": [
+        "100 新闻事件",
+        "\"100\" 新闻"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "thedefensenews.com": {
+      "domain": "thedefensenews.com",
+      "first_seen_query": "Iran missile launchers operational 2026",
+      "last_seen_query": "Iran missile launchers remaining operational IDF estimate 100-200",
+      "last_analysis_context": "Iran missile missile launchers launcher launchers remaining; Iran missile launchers remaining operational IDF estimate 100-200; Iran missile missile launchers launcher launchers remaining 回应 否认 反驳 谎称 更强大 数量更多; Iran missile missile launchers launcher launchers remaining 军事宣传 没有客观证据; Iran missile missile launchers launcher launchers remaining 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; Iran missi",
+      "source": "search",
+      "observed_count": 6,
+      "example_urls": [
+        "https://www.thedefensenews.com/news-details/Iran-Holds-Up-to-1500-to-2000-Ballistic-Missiles-But-Lacks-Launchers-to-Use-Them/"
+      ],
+      "example_titles": [
+        "Iran Holds Up to 1,500 to 2000 Ballistic Missiles, But Lacks Launchers ..."
+      ],
+      "recent_queries": [
+        "Iran missile launchers operational 2026",
+        "Iran missile launchers operational number 2026",
+        "\"Iran missile launchers\" \"100\" remaining operational",
+        "Iran missile launchers number 2026",
+        "Iran missile launchers remaining operational IDF estimate 100-200"
+      ],
+      "country": "未知",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low",
+      "resolved_tier": "professional"
+    },
+    "thefactsite.com": {
+      "domain": "thefactsite.com",
+      "first_seen_query": "\"100\" 事件 背景",
+      "last_seen_query": "\"100\" 事件 背景",
+      "last_analysis_context": "\"100\" 事件 背景; \"100\" event primary sources; \"100\" event key facts; \"100\" event timeline; \"100\" event historical context",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.thefactsite.com/100-history-facts/"
+      ],
+      "example_titles": [
+        "100 History Facts They Didn't Teach You At School"
+      ],
+      "recent_queries": [
+        "\"100\" 事件 背景"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "thegettysburgexperience.com": {
+      "domain": "thegettysburgexperience.com",
+      "first_seen_query": "???????100????????????",
+      "last_seen_query": "\"100\" 事件 背景",
+      "last_analysis_context": "\"100\" 事件 背景; \"100\" event primary sources; \"100\" event key facts; \"100\" event timeline; \"100\" event historical context",
+      "source": "search",
+      "observed_count": 3,
+      "example_urls": [
+        "https://www.thegettysburgexperience.com/decade-by-decade-100-years-of-history-september-2020",
+        "https://www.thegettysburgexperience.com/decade-by-decade-one-hundred-years-of-history"
+      ],
+      "example_titles": [
+        "Decade by Decade: 100 Years of History - The Gettysburg Experience",
+        "Decade by Decade | 100 Years of History | The Gettysburg Experience"
+      ],
+      "recent_queries": [
+        "???????100????????????",
+        "\"100\" 事件 背景"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "theguardian.com": {
+      "domain": "theguardian.com",
+      "first_seen_query": "Iran 100 missile launchers operational",
+      "last_seen_query": "100 新闻事件",
+      "last_analysis_context": "100 新闻事件; 100 新闻事件 来源; 100 新闻事件 事实; 100 新闻事件 时间; 100 新闻事件 背景",
+      "source": "search",
+      "observed_count": 2,
+      "example_urls": [
+        "https://www.theguardian.com/world/live/2026/mar/11/iran-war-live-updates-trump-oil-hormuz-protestors-us-israel-beirut-middle-east-latest-news",
+        "https://www.theguardian.com/commentisfree/picture/2026/mar/06/marsupials-in-the-news-again-yes-and-this-time-its-good-news"
+      ],
+      "example_titles": [
+        "Iran war live updates: Regime issues threat against protesters; US ‘destroyed’ mine-laying ships near strait of Hormuz - The Guardian",
+        "Marsupials in the news again? Yes! And this time it’s good news | First Dog on the Moon - The Guardian"
+      ],
+      "recent_queries": [
+        "Iran 100 missile launchers operational",
+        "100 新闻事件"
+      ],
+      "country": "United Kingdom",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low",
+      "resolved_tier": "mainstream"
+    },
+    "thejournal.ie": {
+      "domain": "thejournal.ie",
+      "first_seen_query": "Pfizer vaccine \"page 132\" unprotected sex 28 days birth defects",
+      "last_seen_query": "Pfizer vaccine \"page 132\" unprotected sex 28 days birth defects",
+      "last_analysis_context": "Pfizer vaccine \"page 132\" unprotected sex 28 days birth defects; Pfizer vaccine report \"page 132\"; Pfizer vaccine birth defects unprotected sex",
+      "source": "search",
+      "observed_count": 2,
+      "example_urls": [
+        "https://www.thejournal.ie/factcheck-pfizer-vaccine-unprotected-sex-5319779-Jan2021/"
+      ],
+      "example_titles": [
+        "FactCheck: No, Pfizer did not say unprotected sex should be ...",
+        "FactCheck: No, Pfizer did not say unprotected sex should ..."
+      ],
+      "recent_queries": [
+        "Pfizer vaccine \"page 132\" unprotected sex 28 days birth defects"
+      ],
+      "country": "Ireland",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low",
+      "resolved_tier": "professional"
+    },
+    "theweek.in": {
+      "domain": "theweek.in",
+      "first_seen_query": "\"Iran missile launchers\" \"100\" remaining operational",
+      "last_seen_query": "\"Iran missile launchers\" \"100\" remaining operational",
+      "last_analysis_context": "Iran missile missile launchers launcher launchers remaining; \"Iran missile launchers\" \"100\" remaining operational; Iran missile missile launchers launcher launchers remaining 回应 否认 反驳 谎称 更强大 数量更多; Iran missile missile launchers launcher launchers remaining 军事宣传 没有客观证据; Iran missile missile launchers launcher launchers remaining 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; Iran missile missile la",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.theweek.in/news/middle-east/2026/03/06/how-many-missiles-launchers-have-iran-still-got-israel-says-b-2-bombers-behind-major-fall-in-enemy-salvos.html"
+      ],
+      "example_titles": [
+        "How many missiles, launchers have Iran still got? Israel says B-2 ..."
+      ],
+      "recent_queries": [
+        "\"Iran missile launchers\" \"100\" remaining operational"
+      ],
+      "country": "以色列",
+      "region": "中东",
+      "geo_group": "us_israel",
+      "country_confidence": "low"
+    },
+    "theyeshivaworld.com": {
+      "domain": "theyeshivaworld.com",
+      "first_seen_query": "Iran missile launchers 420 operational 100",
+      "last_seen_query": "\"Iran missile launchers\" \"100\" remaining operational",
+      "last_analysis_context": "Iran missile missile launchers launcher launchers remaining; \"Iran missile launchers\" \"100\" remaining operational; Iran missile missile launchers launcher launchers remaining 回应 否认 反驳 谎称 更强大 数量更多; Iran missile missile launchers launcher launchers remaining 军事宣传 没有客观证据; Iran missile missile launchers launcher launchers remaining 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; Iran missile missile la",
+      "source": "search",
+      "observed_count": 4,
+      "example_urls": [
+        "https://www.theyeshivaworld.com/news/israel-news/2521693/from-420-launchers-to-about-100-iran-has-lost-70-of-its-launch-capacity.html"
+      ],
+      "example_titles": [
+        "From 420 Launchers to About 100: Iran Has Lost 70% of Its Launch ..."
+      ],
+      "recent_queries": [
+        "Iran missile launchers 420 operational 100",
+        "Iran 100 missile launchers operational",
+        "Iran missile launchers 100 serviceable 2026",
+        "\"Iran missile launchers\" \"100\" remaining operational"
+      ],
+      "country": "美国",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low",
+      "resolved_tier": "professional"
+    },
+    "threads.com": {
+      "domain": "threads.com",
+      "first_seen_query": "伊朗导弹发射器数量 2023",
+      "last_seen_query": "伊朗导弹发射器数量 2023",
+      "last_analysis_context": "伊朗导弹发射器数量 2023; Iran missile launchers 2023 official source; Iran missile launchers number 2023",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.threads.com/@logicinvestmenttw/post/DVc-I6cEsuY/%E5%BE%9E%E7%B5%B1%E8%A8%88%E8%B3%87%E6%96%99%E4%BE%86%E7%9C%8B%E4%BC%8A%E6%9C%97%E7%99%BC%E5%B0%84%E7%9A%84%E7%84%A1%E4%BA%BA%E6%A9%9F%E5%B0%8E%E5%BD%88%E6%95%B8%E9%87%8F%E6%AD%A3%E5%9C%A8%E9%81%9E%E6%B8%9B%E8%8B%A5%E8%B3%87%E6%96%99%E6%8E"
+      ],
+      "example_titles": [
+        "從統計資料來看，伊朗發射的無人機、導彈數量正在遞減 - Threads"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量 2023"
+      ],
+      "resolved_tier": "self_media",
+      "country": "伊朗",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low"
+    },
+    "timesofisrael.com": {
+      "domain": "timesofisrael.com",
+      "first_seen_query": "Iran missile launchers number 2026",
+      "last_seen_query": "Iran missile launchers 100 serviceable 2026",
+      "last_analysis_context": "Iran missile missile launchers launcher launchers 100; Iran missile launchers 100 serviceable 2026; Iran missile missile launchers launcher launchers 100 回应 否认 反驳 谎称; Iran missile missile launchers launcher launchers 100 军事宣传 没有客观证据; Iran missile missile launchers launcher launchers 100 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; Iran missile missile launchers launcher launchers 100 腾讯新闻 QQ新闻 新",
+      "source": "search",
+      "observed_count": 3,
+      "example_urls": [
+        "https://www.timesofisrael.com/liveblog_entry/idf-assesses-iran-has-some-2500-ballistic-missiles-was-accelerating-production/",
+        "https://www.timesofisrael.com/liveblog_entry/idf-estimates-it-has-hit-two-thirds-of-irans-missile-launchers-official/"
+      ],
+      "example_titles": [
+        "IDF assesses Iran has some 2,500 ballistic missiles, was ...",
+        "IDF estimates it has hit two-thirds of Iran's missile launchers ..."
+      ],
+      "recent_queries": [
+        "Iran missile launchers number 2026",
+        "Iran missile launchers 100 serviceable 2026"
+      ],
+      "country": "以色列",
+      "region": "中东",
+      "geo_group": "us_israel",
+      "country_confidence": "high",
+      "resolved_tier": "mainstream"
+    },
+    "timetoast.com": {
+      "domain": "timetoast.com",
+      "first_seen_query": "\"100\" 事件 背景",
+      "last_seen_query": "???????100????????????",
+      "last_analysis_context": "???????100????????????; 100 official sources; 100 timeline; 100 context",
+      "source": "search",
+      "observed_count": 3,
+      "example_urls": [
+        "https://www.timetoast.com/timelines/major-events-in-the-last-100-years--2",
+        "https://www.timetoast.com/timelines/50-events-that-shaped-the-us"
+      ],
+      "example_titles": [
+        "Timeline: Major events in the last 100 years | Timetoast",
+        "Timeline: 100 events that shaped the US. - Timetoast"
+      ],
+      "recent_queries": [
+        "\"100\" 事件 背景",
+        "???????100????????????"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "today.line.me": {
+      "domain": "today.line.me",
+      "first_seen_query": "伊朗导弹发射器总数 原始数量",
+      "last_seen_query": "伊朗导弹发射器总数 原始数量",
+      "last_analysis_context": "伊朗导弹发射器总数 原始数量; 伊朗导弹发射器总数 原始来源; 伊朗导弹发射器总数 数字 数据",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://today.line.me/tw/v3/article/oqPyJBN"
+      ],
+      "example_titles": [
+        "(影) 發射器比飛彈還多? 伊導彈攻擊量暴跌單次齊射不到10枚軍方也 ..."
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器总数 原始数量"
+      ],
+      "country": "伊朗",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low"
+    },
+    "toutiao.com": {
+      "domain": "toutiao.com",
+      "first_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_analysis_context": "伊朗 导弹 导弹发射器 发射器 仅剩 100; 伊朗目前仅剩约100个可正常使用的导弹发射器; 伊朗 导弹 导弹发射器 发射器 仅剩 100 回应 否认 反驳 谎称 更强大 数量更多; 伊朗 导弹 导弹发射器 发射器 仅剩 100 军事宣传 没有客观证据; 伊朗 导弹 导弹发射器 发射器 仅剩 100 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; 伊朗 导弹 导弹发射器 发射器 仅剩 100 腾讯新闻 QQ新闻 新浪新闻 site:news.qq.com site:sina.cn",
+      "source": "search",
+      "observed_count": 2,
+      "example_urls": [
+        "https://www.toutiao.com/article/7615459823961784874/"
+      ],
+      "example_titles": [
+        "特朗普：我们已经赢了，但还没赢够，摧毁了伊朗超90%导弹发射器!伊朗：拥有\"更强大、数量更多\"导弹，给美国人\"准备了许多惊喜\""
+      ],
+      "recent_queries": [
+        "伊朗目前仅剩约100个可正常使用的导弹发射器"
+      ],
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_western",
+      "country_confidence": "low"
+    },
+    "understandingwar.org": {
+      "domain": "understandingwar.org",
+      "first_seen_query": "伊朗导弹发射器数量 2026年3月",
+      "last_seen_query": "Iran missile launchers operational number 2026",
+      "last_analysis_context": "Iran missile missile launchers launcher launchers 2026; Iran missile launchers operational number 2026; Iran missile missile launchers launcher launchers 2026 回应 否认 反驳 谎称; Iran missile missile launchers launcher launchers 2026 军事宣传 没有客观证据; Iran missile missile launchers launcher launchers 2026 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; Iran missile missile launchers launcher launchers 2026 腾讯新",
+      "source": "search",
+      "observed_count": 18,
+      "example_urls": [
+        "https://understandingwar.org/research/middle-east/iran-update-morning-special-report-march-10-2026/",
+        "https://understandingwar.org/research/middle-east/iran-update-evening-special-report-march-7-2026/",
+        "https://understandingwar.org/research/middle-east/iran-update-evening-special-report-march-3-2026/",
+        "https://understandingwar.org/research/middle-east/iran-update-evening-special-report-march-6-2026/",
+        "https://understandingwar.org/research/middle-east/iran-update-evening-special-report-march-11-2026/"
+      ],
+      "example_titles": [
+        "Iran Update Morning Special Report, March 10, 2026",
+        "Iran Update Evening Special Report, March 7, 2026 | ISW",
+        "Iran Update Evening Special Report, March 3, 2026 | ISW",
+        "Iran Update Evening Special Report, March 6, 2026 - Institute for the Study of War",
+        "Iran Update Evening Special Report, March 11, 2026"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量 2026年3月",
+        "Iran missile launchers operational 2026",
+        "Iran missile launchers number 2026",
+        "Iran missile launchers 160 operational IDF assessment",
+        "伊朗导弹发射器数量 2026"
+      ],
+      "resolved_tier": "professional",
+      "country": "美国",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low"
+    },
+    "uscis.gov": {
+      "domain": "uscis.gov",
+      "first_seen_query": "???????100????????????",
+      "last_seen_query": "???????100????????????",
+      "last_analysis_context": "???????100????????????; 100 official sources; 100 timeline; 100 context",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.uscis.gov/sites/default/files/document/questions-and-answers/100q.pdf"
+      ],
+      "example_titles": [
+        "[PDF] Civics (History and Government) Questions for the Naturalization Test"
+      ],
+      "recent_queries": [
+        "???????100????????????"
+      ],
+      "country": "未知",
+      "region": "未知",
+      "geo_group": "unknown",
+      "country_confidence": "low"
+    },
+    "usmcu.edu": {
+      "domain": "usmcu.edu",
+      "first_seen_query": "Iran missile launchers 90% destroyed military analysis",
+      "last_seen_query": "Iran missile launchers operational number 2026",
+      "last_analysis_context": "Iran missile missile launchers launcher launchers 2026; Iran missile launchers operational number 2026; Iran missile missile launchers launcher launchers 2026 回应 否认 反驳 谎称; Iran missile missile launchers launcher launchers 2026 军事宣传 没有客观证据; Iran missile missile launchers launcher launchers 2026 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; Iran missile missile launchers launcher launchers 2026 腾讯新",
+      "source": "search",
+      "observed_count": 5,
+      "example_urls": [
+        "https://www.usmcu.edu/Portals/218/MCU%20Insights_16_5_Atashjameh.pdf"
+      ],
+      "example_titles": [
+        "[PDF] Ballistic Missile Launchers: A Case Study of Iran (Built for Survival ...",
+        "Ballistic Missile Launchers: A Case Study of Iran (Built for ..."
+      ],
+      "recent_queries": [
+        "Iran missile launchers 90% destroyed military analysis",
+        "Iran missile launchers operational 2026",
+        "Iran missile launchers operational number 2026",
+        "Iran missile launchers number 2026"
+      ],
+      "country": "美国",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low",
+      "resolved_tier": "professional"
+    },
+    "vid1.ria.ru": {
+      "domain": "vid1.ria.ru",
+      "first_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_analysis_context": "伊朗目前仅剩约100个可正常使用的导弹发射器; 伊朗目前仅剩约100个可正常使用的导弹发射器 伊朗媒体 伊朗媒体 Tasnim IRNA; 伊朗目前仅剩约100个可正常使用的导弹发射器 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; 伊朗目前仅剩约100个可正常使用的导弹发射器 腾讯新闻 QQ新闻 新浪新闻 site:news.qq.com site:sina.cn; 伊朗目前仅剩约100个可正常使用的导弹发射器 否认 回应 谎称 没有证据; 100 伊朗目前仅剩约 个可正常使用的导弹发射器 最早 来源 原始 报道",
+      "source": "search",
+      "observed_count": 4,
+      "example_urls": [
+        "https://vid1.ria.ru/ig/infografika/kafidov/Sputnik/CN/China_us_trade_war/index.html",
+        "https://vid1.ria.ru/ig/infografika/kafidov/Sputnik/CN/football-rostov/page1763205.html",
+        "https://vid1.ria.ru/ig/infografika/o1/project43419/index.html"
+      ],
+      "example_titles": [
+        "美国贸易战：自食其果",
+        "CHN_Rostov_football",
+        "Sputnik_China_Castro"
+      ],
+      "recent_queries": [
+        "伊朗目前仅剩约100个可正常使用的导弹发射器"
+      ],
+      "country": "俄罗斯",
+      "region": "欧洲",
+      "geo_group": "russia",
+      "country_confidence": "high"
+    },
+    "vreme.com": {
+      "domain": "vreme.com",
+      "first_seen_query": "Iran missile launchers \"number\" OR \"count\" site:gov OR site:org",
+      "last_seen_query": "Iran missile launchers \"number\" OR \"count\" site:gov OR site:org",
+      "last_analysis_context": "Iran missile launchers \"number\" OR \"count\" site:gov OR site:org; Iran missile launchers \"capability\" OR \"strength\" site:gov OR site:org",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://vreme.com/en/svet/koliko-oruzja-ima-iran-i-koliko-dugo-moze-da-ratuje/"
+      ],
+      "example_titles": [
+        "How many weapons does Iran have and how long can it go to war"
+      ],
+      "recent_queries": [
+        "Iran missile launchers \"number\" OR \"count\" site:gov OR site:org"
+      ],
+      "country": "伊朗",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low"
+    },
+    "x.com": {
+      "domain": "x.com",
+      "first_seen_query": "Iran missile launchers number 100",
+      "last_seen_query": "Iran missile launchers \"number\" OR \"count\" site:gov OR site:org",
+      "last_analysis_context": "Iran missile launchers \"number\" OR \"count\" site:gov OR site:org; Iran missile launchers \"capability\" OR \"strength\" site:gov OR site:org",
+      "source": "search",
+      "observed_count": 2,
+      "example_urls": [
+        "https://x.com/Kanthan2030/status/2031610772284125588/photo/1",
+        "https://x.com/MarioNawfal/status/2029884326200918216"
+      ],
+      "example_titles": [
+        "Iran has only about 100 missile launchers left. The US and ...",
+        "Everyone keeps counting Iran's missiles. But that's kinda the wrong ..."
+      ],
+      "recent_queries": [
+        "Iran missile launchers number 100",
+        "Iran missile launchers \"number\" OR \"count\" site:gov OR site:org"
+      ],
+      "resolved_tier": "self_media",
+      "country": "美国",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low"
+    },
+    "xinhuanet.com": {
+      "domain": "xinhuanet.com",
+      "first_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_analysis_context": "伊朗 导弹 导弹发射器 发射器 仅剩 100; 伊朗目前仅剩约100个可正常使用的导弹发射器; 伊朗 导弹 导弹发射器 发射器 仅剩 100 回应 否认 反驳 谎称 更强大 数量更多; 伊朗 导弹 导弹发射器 发射器 仅剩 100 军事宣传 没有客观证据; 伊朗 导弹 导弹发射器 发射器 仅剩 100 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; 伊朗 导弹 导弹发射器 发射器 仅剩 100 腾讯新闻 QQ新闻 新浪新闻 site:news.qq.com site:sina.cn",
+      "source": "search",
+      "observed_count": 4,
+      "example_urls": [
+        "https://www.xinhuanet.com/world/20260310/43adac1c79544fada68873e59d7a960e/c.html"
+      ],
+      "example_titles": [
+        "伊朗伊斯兰革命卫队：拥有\"更强大、数量更多\"的导弹-新华网"
+      ],
+      "recent_queries": [
+        "伊朗目前仅剩约100个可正常使用的导弹发射器"
+      ],
+      "country": "中国",
+      "region": "东亚",
+      "geo_group": "china",
+      "country_confidence": "high"
+    },
+    "xinwen.bjd.com.cn": {
+      "domain": "xinwen.bjd.com.cn",
+      "first_seen_query": "伊朗导弹发射器数量 2023",
+      "last_seen_query": "伊朗导弹发射器数量 2023",
+      "last_analysis_context": "伊朗导弹发射器数量 2023; Iran missile launchers 2023 official source; Iran missile launchers number 2023",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://xinwen.bjd.com.cn/content/s69af8274e4b0687a28925199.html"
+      ],
+      "example_titles": [
+        "伊朗伊斯兰革命卫队：拥有“更强大、数量更多”的导弹"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量 2023"
+      ],
+      "resolved_tier": "mainstream",
+      "country": "中国",
+      "region": "东亚",
+      "geo_group": "china",
+      "country_confidence": "medium"
+    },
+    "yahoo.com": {
+      "domain": "yahoo.com",
+      "first_seen_query": "Iran missile launchers number 100",
+      "last_seen_query": "Iran missile launchers 90% destroyed military analysis",
+      "last_analysis_context": "Iran missile launchers 90% destroyed military analysis; Iran missile launchers military analysis report; Iran missile launchers destroyed event",
+      "source": "search",
+      "observed_count": 2,
+      "example_urls": [
+        "https://www.yahoo.com/news/articles/majority-irgc-missile-launchers-destroyed-114317979.html",
+        "https://www.yahoo.com/news/articles/irans-missiles-different-military-analysts-070201895.html"
+      ],
+      "example_titles": [
+        "Majority of IRGC missile launchers destroyed, Israel to return to ...",
+        "Iran's use of missiles has been different from what military analysts ..."
+      ],
+      "recent_queries": [
+        "Iran missile launchers number 100",
+        "Iran missile launchers 90% destroyed military analysis"
+      ],
+      "resolved_tier": "mainstream",
+      "country": "以色列",
+      "region": "中东",
+      "geo_group": "us_israel",
+      "country_confidence": "low"
+    },
+    "ynetnews.com": {
+      "domain": "ynetnews.com",
+      "first_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_seen_query": "伊朗目前仅剩约100个可正常使用的导弹发射器",
+      "last_analysis_context": "伊朗 Iran 导弹 导弹发射器 发射器 仅剩; 伊朗目前仅剩约100个可正常使用的导弹发射器; 伊朗 Iran 导弹 导弹发射器 发射器 仅剩 伊朗媒体 伊朗媒体 Tasnim IRNA; 伊朗 Iran 导弹 导弹发射器 发射器 仅剩 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; 伊朗 Iran 导弹 导弹发射器 发射器 仅剩 腾讯新闻 QQ新闻 新浪新闻 site:news.qq.com site:sina.cn; 伊朗 Iran 导弹 导弹发射器 发射器 仅剩 否认 回应 谎称 没有证据",
+      "source": "search",
+      "observed_count": 3,
+      "example_urls": [
+        "https://www.ynetnews.com/article/hkbfanjybx"
+      ],
+      "example_titles": [
+        "Interceptor production outpacing Iran’s missile output, expert says - ynetnews"
+      ],
+      "recent_queries": [
+        "伊朗目前仅剩约100个可正常使用的导弹发射器"
+      ],
+      "resolved_tier": "mainstream",
+      "country": "以色列",
+      "region": "中东",
+      "geo_group": "us_israel",
+      "country_confidence": "explicit"
+    },
+    "youtube.com": {
+      "domain": "youtube.com",
+      "first_seen_query": "伊朗导弹发射器数量",
+      "last_seen_query": "Iran missile launchers 100 serviceable 2026",
+      "last_analysis_context": "Iran missile missile launchers launcher launchers 100; Iran missile launchers 100 serviceable 2026; Iran missile missile launchers launcher launchers 100 回应 否认 反驳 谎称; Iran missile missile launchers launcher launchers 100 军事宣传 没有客观证据; Iran missile missile launchers launcher launchers 100 俄罗斯卫星通讯社 Sputnik TASS site:ria.ru site:rt.com; Iran missile missile launchers launcher launchers 100 腾讯新闻 QQ新闻 新",
+      "source": "search",
+      "observed_count": 6,
+      "example_urls": [
+        "https://www.youtube.com/watch?v=Zbo3lfH5YUA",
+        "https://www.youtube.com/watch?v=v3Cm5aQaWiA",
+        "https://www.youtube.com/watch?v=9NCBTxmY-8w",
+        "https://www.youtube.com/watch?v=EsS01M6mwUA",
+        "https://www.youtube.com/watch?v=T89X9bpJmNY"
+      ],
+      "example_titles": [
+        "Iran Releases Proof of Damaged U.S. Missile Launchers - YouTube",
+        "A 10.000km range ballistic missile that enables Iran to hold ...",
+        "How Much Of Iran's Military Capabilities Have Been Destroyed?",
+        "Breaking: Hidden Iranian Missile Launcher Destroyed - YouTube",
+        "US releases videos showing strikes hitting Iran mobile launchers"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量",
+        "Iran missile launchers number 100",
+        "Iran missile launchers 90% destroyed military analysis",
+        "Iran missile launchers 100 serviceable 2026"
+      ],
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_western",
+      "country_confidence": "low",
+      "resolved_tier": "portal"
+    },
+    "zaobao.com.sg": {
+      "domain": "zaobao.com.sg",
+      "first_seen_query": "伊朗导弹发射器数量",
+      "last_seen_query": "伊朗导弹发射器数量",
+      "last_analysis_context": "伊朗导弹发射器数量; Iran missile launchers official sources; Iran missile launchers number",
+      "source": "search",
+      "observed_count": 2,
+      "example_urls": [
+        "https://www.zaobao.com.sg/news/world/story20260304-8680606"
+      ],
+      "example_titles": [
+        "美国参谋长联席会议主席：伊朗发射导弹次数下降86% - 联合早报"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器数量"
+      ],
+      "resolved_tier": "mainstream",
+      "country": "美国",
+      "region": "北美",
+      "geo_group": "us_western",
+      "country_confidence": "low"
+    },
+    "zhihu.com": {
+      "domain": "zhihu.com",
+      "first_seen_query": "伊朗导弹发射器总数 原始数量",
+      "last_seen_query": "伊朗导弹发射器总数 原始数量",
+      "last_analysis_context": "伊朗导弹发射器总数 原始数量; 伊朗导弹发射器总数 原始来源; 伊朗导弹发射器总数 数字 数据",
+      "source": "search",
+      "observed_count": 1,
+      "example_urls": [
+        "https://www.zhihu.com/pin/2013765558101902739"
+      ],
+      "example_titles": [
+        "伊朗大规模发射弹道导弹和无人机的能力正在稳步下降。开战第八天"
+      ],
+      "recent_queries": [
+        "伊朗导弹发射器总数 原始数量"
+      ],
+      "country": "伊朗",
+      "region": "中东",
+      "geo_group": "iran",
+      "country_confidence": "low"
+    }
+  }
+}
