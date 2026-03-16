@@ -12,14 +12,8 @@
 - 向量模型: Qwen/Qwen3-Embedding-0.6B
 - Embedding API: https://api.siliconflow.cn/v1
 - 本地索引文件: static/vector_store/news_embeddings.json
-- 索引范围: 仅编码数据库中最新 1000 条新闻，控制编码成本
 - 检索策略: 工具 A 优先使用本地向量索引召回，相似检索失败时回退到原有词面相似度检索
 - 增量更新: 每次事实核查结束并写入数据库后，会为新纪录生成向量并写回本地索引
-
-### 运行环境
-
-- Python: conda py311
-- 建议解释器: E:/envs/py311/python.exe
 
 ### 安装依赖
 
@@ -30,7 +24,7 @@ E:\envs\py311\python.exe -m pip install -r requirements.txt
 ### 启动项目
 
 ```powershell
-E:\envs\py311\python.exe run.py
+python run.py
 ```
 
 启动后访问:
