@@ -18,7 +18,7 @@
 ### 安装依赖
 
 ```powershell
-E:\envs\py311\python.exe -m pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ### 启动项目
