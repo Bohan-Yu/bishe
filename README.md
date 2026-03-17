@@ -1,6 +1,6 @@
 ## 假新闻检测系统
 
-当前后端已调整为“四智能体编排 + 多个 MCP 工具”的结构：
+当前后端为“四智能体编排 + 多个 MCP 工具”的结构：
 
 - 主 Agent: app/agent.py
 - MCP 工具服务: app/mcp_tools_server.py
