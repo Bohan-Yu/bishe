@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>假新闻检测 - 数据库</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .score-low  { color: #dc2626; background: #fef2f2; }
+        .score-mid  { color: #f59e0b; background: #fffbeb; }
+        .score-high { color: #16a34a; background: #f0fdf4; }
+        .news-img   { max-width: 120px; max-height: 80px; object-fit: cover; border-radius: 6px; cursor: pointer; }
+        .modal-overlay {
+            position: fixed; inset: 0; background: rgba(0,0,0,0.6);
+            display: flex; align-items: center; justify-content: center; z-index: 50;
+        }
+        .modal-overlay img { max-width: 90vw; max-height: 90vh; border-radius: 8px; }
+        .form-overlay {
+            position: fixed; inset: 0; background: rgba(0,0,0,0.45);
+            display: flex; align-items: center; justify-content: center; z-index: 40;
+        }
+        .page-btn { min-width: 36px; }
+        .page-btn.active { background: #4f46e5; color: #fff; }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+
+<!-- 导航栏 -->
+<nav class="bg-indigo-600 text-white px-6 py-3 flex items-center justify-between shadow">
+    <h1 class="text-xl font-bold">🔍 假新闻检测系统</h1>
+    <div class="space-x-4">
+        <a href="/" class="hover:underline">💬 聊天查证</a>
+        <a href="/database" class="hover:underline font-semibold">📊 数据库</a>
+        <a href="/source-credibility" class="hover:underline">🧭 信源知识库</a>
+    </div>
+</nav>
+
+<div class="max-w-7xl mx-auto p-4">
+
+    <!-- 搜索和操作栏 -->
+    <div class="bg-white rounded-lg shadow p-4 mb-4 flex flex-wrap gap-3 items-end">
+        <div>
+            <label class="text-sm text-gray-500 block mb-1">按编号搜索</label>
+            <input id="searchId" type="number" min="1" placeholder="输入ID"
+                class="border border-gray-300 rounded px-3 py-2 w-28 focus:ring-2 focus:ring-indigo-400 focus:outline-none" />
+        </div>
+        <div class="flex-1 min-w-[180px]">
+            <label class="text-sm text-gray-500 block mb-1">按文本搜索</label>
+            <input id="searchText" type="text" placeholder="输入关键词..."
+                class="border border-gray-300 rounded px-3 py-2 w-full focus:ring-2 focus:ring-indigo-400 focus:outline-none" />
+        </div>
+        <button onclick="searchNews()" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded font-medium transition">
+            🔍 搜索
+        </button>
+        <button onclick="loadAll()" class="bg-gray-200 hover:bg-gray-300 text-gray-700 px-4 py-2 rounded font-medium transition">
+            📋 全部
+        </button>
+        <div>
+            <label class="text-sm text-gray-500 block mb-1">每页</label>
+            <select id="perPageSelect" onchange="gotoPage(1)" class="border border-gray-300 rounded px-2 py-2 focus:ring-2 focus:ring-indigo-400 focus:outline-none">
+                <option value="30">30</option>
+                <option value="50" selected>50</option>
+                <option value="100">100</option>
+                <option value="200">200</option>
+            </select>
+        </div>
+        <button onclick="showAddModal()" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded font-medium transition">
+            ➕ 添加数据
+        </button>
+        <button onclick="triggerImport()" id="importBtn"
+            class="bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2 rounded font-medium transition">
+            📥 导入建库
+        </button>
+        <button onclick="deleteAll()" class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded font-medium transition">
+            🗑️ 清空数据库
+        </button>
+    </div>
+
+    <!-- 状态消息 -->
+    <div id="statusMsg" class="hidden mb-4 p-3 rounded text-sm"></div>
+
+    <!-- 统计 + 翻页 -->
+    <div class="flex flex-wrap items-center justify-between mb-3 gap-2">
+        <div id="statsBar" class="text-sm text-gray-500"></div>
+        <div id="paginationBar" class="flex items-center gap-1 text-sm"></div>
+    </div>
+
+    <!-- 新闻表格 -->
+    <div class="bg-white rounded-lg shadow overflow-x-auto">
+        <table class="w-full text-sm">
+            <thead class="bg-gray-100 text-gray-600">
+                <tr>
+                    <th class="px-3 py-3 text-left w-14">ID</th>
+                    <th class="px-3 py-3 text-left">新闻文本</th>
+                    <th class="px-3 py-3 text-center w-28">图片</th>
+                    <th class="px-3 py-3 text-center w-20">得分</th>
+                    <th class="px-3 py-3 text-left w-48">判断原因</th>
+                    <th class="px-3 py-3 text-center w-20">证据</th>
+                    <th class="px-3 py-3 text-center w-28">操作</th>
+                </tr>
+            </thead>
+            <tbody id="newsTable" class="divide-y divide-gray-100">
+                <tr><td colspan="7" class="text-center py-8 text-gray-400">加载中...</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 底部翻页 -->
+    <div class="flex flex-wrap items-center justify-between mt-3 gap-2">
+        <div></div>
+        <div id="paginationBarBottom" class="flex items-center gap-1 text-sm"></div>
+    </div>
+</div>
+
+<!-- 图片放大弹窗 -->
+<div id="imgModal" class="modal-overlay hidden" onclick="this.classList.add('hidden')">
+    <img id="modalImg" />
+</div>
+
+<!-- 添加/编辑弹窗 -->
+<div id="formModal" class="form-overlay hidden">
+    <div class="bg-white rounded-lg shadow-xl p-6 w-full max-w-lg" onclick="event.stopPropagation()">
+        <h2 id="formTitle" class="text-lg font-bold mb-4">➕ 添加新闻数据</h2>
+        <input type="hidden" id="formEditId" value="" />
+        <div class="space-y-3">
+            <div>
+                <label class="text-sm text-gray-600 block mb-1">新闻文本 <span class="text-red-400">*</span></label>
+                <textarea id="formText" rows="3" class="w-full border border-gray-300 rounded px-3 py-2 focus:ring-2 focus:ring-indigo-400 focus:outline-none" placeholder="输入新闻文本..."></textarea>
+            </div>
+            <div>
+                <label class="text-sm text-gray-600 block mb-1">图片路径（本地路径或留空）</label>
+                <input id="formImage" type="text" class="w-full border border-gray-300 rounded px-3 py-2 focus:ring-2 focus:ring-indigo-400 focus:outline-none" placeholder="如: ext_img/xxx_0.jpg 或 uploads/xxx.jpg" />
+            </div>
+            <div class="flex gap-3">
+                <div class="flex-1">
+                    <label class="text-sm text-gray-600 block mb-1">真假得分 (0-10)</label>
+                    <input id="formScore" type="number" min="0" max="10" step="0.1" class="w-full border border-gray-300 rounded px-3 py-2 focus:ring-2 focus:ring-indigo-400 focus:outline-none" placeholder="0=假, 10=真" />
+                </div>
+                <div class="flex-1">
+                    <label class="text-sm text-gray-600 block mb-1">证据链接</label>
+                    <input id="formEvidence" type="text" class="w-full border border-gray-300 rounded px-3 py-2 focus:ring-2 focus:ring-indigo-400 focus:outline-none" placeholder="http://..." />
+                </div>
+            </div>
+            <div>
+                <label class="text-sm text-gray-600 block mb-1">判断原因</label>
+                <textarea id="formReason" rows="2" class="w-full border border-gray-300 rounded px-3 py-2 focus:ring-2 focus:ring-indigo-400 focus:outline-none" placeholder="判断该新闻真假的原因..."></textarea>
+            </div>
+        </div>
+        <div class="flex justify-end gap-3 mt-5">
+            <button onclick="closeFormModal()" class="px-4 py-2 rounded border border-gray-300 text-gray-600 hover:bg-gray-100 transition">取消</button>
+            <button onclick="submitForm()" class="px-5 py-2 rounded bg-indigo-600 hover:bg-indigo-700 text-white font-medium transition">保存</button>
+        </div>
+    </div>
+</div>
+
+<script>
+/* ============ 状态 ============ */
+let currentPage = 1;
+let currentQuery = '';
+let totalRecords = 0;
+
+function getPerPage() { return parseInt(document.getElementById('perPageSelect').value); }
+
+/* ============ 工具函数 ============ */
+function scoreClass(s) { if(s==null||s===undefined) return ''; return s<4?'score-low':s<7?'score-mid':'score-high'; }
+function scoreText(s) { if(s==null||s===undefined) return '—'; return s<4?`${s} (假)`:s<6?`${s} (?)`: `${s} (真)`; }
+function truncate(t,l=200){ if(!t)return '—'; return t.length>l?t.substring(0,l)+'...':t; }
+function escAttr(s){ return (s||'').replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/'/g,'&#39;').replace(/</g,'&lt;'); }
+function imgSrc(p){ if(!p)return ''; if(p.startsWith('ext_img/'))return '/'+p; return '/static/'+p; }
+function showFullImage(src){ document.getElementById('modalImg').src=src; document.getElementById('imgModal').classList.remove('hidden'); }
+
+function showStatus(type, msg) {
+    const el = document.getElementById('statusMsg');
+    el.classList.remove('hidden','bg-green-100','text-green-700','bg-red-100','text-red-700','bg-blue-100','text-blue-700');
+    if(type==='success') el.classList.add('bg-green-100','text-green-700');
+    else if(type==='error') el.classList.add('bg-red-100','text-red-700');
+    else el.classList.add('bg-blue-100','text-blue-700');
+    el.textContent = msg; el.classList.remove('hidden');
+    setTimeout(()=>el.classList.add('hidden'), 5000);
+}
+
+/* ============ 渲染表格 ============ */
+function renderTable(newsList) {
+    const tbody = document.getElementById('newsTable');
+    if (!newsList.length) {
+        tbody.innerHTML = '<tr><td colspan="7" class="text-center py-8 text-gray-400">暂无数据</td></tr>';
+        return;
+    }
+    tbody.innerHTML = newsList.map(n => `
+        <tr class="hover:bg-gray-50">
+            <td class="px-3 py-2 font-mono text-gray-500 text-xs">${n.id}</td>
+            <td class="px-3 py-2">
+                <div class="max-w-sm" title="${escAttr(n.news_text)}">${truncate(n.news_text, 120)}</div>
+            </td>
+            <td class="px-3 py-2 text-center">
+                ${n.image_path
+                    ? `<img src="${imgSrc(n.image_path)}" class="news-img inline-block" onclick="showFullImage('${imgSrc(n.image_path)}')" onerror="this.outerHTML='<span class=\\'text-gray-300 text-xs\\'>图片缺失</span>'" />`
+                    : '<span class="text-gray-300 text-xs">无</span>'}
+            </td>
+            <td class="px-3 py-2 text-center">
+                <span class="px-2 py-0.5 rounded text-xs font-semibold ${scoreClass(n.is_real)}">${scoreText(n.is_real)}</span>
+            </td>
+            <td class="px-3 py-2 text-gray-600 text-xs"><div class="max-w-[180px]">${truncate(n.reason,80)}</div></td>
+            <td class="px-3 py-2 text-center">
+                ${n.evidence_url ? `<a href="${n.evidence_url}" target="_blank" class="text-blue-600 hover:underline text-xs">🔗</a>` : '<span class="text-gray-300">—</span>'}
+            </td>
+            <td class="px-3 py-2 text-center whitespace-nowrap">
+                <button onclick='editRow(${JSON.stringify(n).replace(/'/g,"&#39;")})' class="text-blue-600 hover:text-blue-800 text-xs mr-1">✏️编辑</button>
+                <button onclick="deleteRow(${n.id})" class="text-red-500 hover:text-red-700 text-xs">🗑️删除</button>
+            </td>
+        </tr>
+    `).join('');
+}
+
+/* ============ 翻页 ============ */
+function renderPagination(total, page, perPage) {
+    totalRecords = total;
+    const totalPages = Math.max(1, Math.ceil(total / perPage));
+    if (page > totalPages) page = totalPages;
+
+    let html = '';
+    // 上一页
+    html += `<button class="page-btn px-2 py-1 rounded border text-gray-600 hover:bg-gray-100 ${page<=1?'opacity-40 cursor-not-allowed':''}" ${page<=1?'disabled':''} onclick="gotoPage(${page-1})">‹</button>`;
+
+    // 页码
+    const range = [];
+    if (totalPages <= 7) {
+        for (let i=1; i<=totalPages; i++) range.push(i);
+    } else {
+        range.push(1);
+        let start = Math.max(2, page-2), end = Math.min(totalPages-1, page+2);
+        if (start > 2) range.push('...');
+        for (let i=start; i<=end; i++) range.push(i);
+        if (end < totalPages-1) range.push('...');
+        range.push(totalPages);
+    }
+    range.forEach(p => {
+        if (p === '...') {
+            html += `<span class="px-1 text-gray-400">…</span>`;
+        } else {
+            html += `<button class="page-btn px-2 py-1 rounded border ${p===page?'active':'text-gray-600 hover:bg-gray-100'}" onclick="gotoPage(${p})">${p}</button>`;
+        }
+    });
+
+    // 下一页
+    html += `<button class="page-btn px-2 py-1 rounded border text-gray-600 hover:bg-gray-100 ${page>=totalPages?'opacity-40 cursor-not-allowed':''}" ${page>=totalPages?'disabled':''} onclick="gotoPage(${page+1})">›</button>`;
+
+    // 跳转
+    html += `<span class="ml-2 text-gray-500">跳至</span>`;
+    html += `<input id="jumpPageInput" type="number" min="1" max="${totalPages}" value="${page}" class="w-16 border border-gray-300 rounded px-2 py-1 text-center mx-1 focus:ring-1 focus:ring-indigo-400 focus:outline-none" onkeydown="if(event.key==='Enter')jumpPage()" />`;
+    html += `<span class="text-gray-500">/ ${totalPages} 页</span>`;
+    html += `<button onclick="jumpPage()" class="ml-1 px-2 py-1 rounded border text-gray-600 hover:bg-gray-100">GO</button>`;
+
+    document.getElementById('paginationBar').innerHTML = html;
+    document.getElementById('paginationBarBottom').innerHTML = html.replace(/jumpPageInput/g, 'jumpPageInputBottom');
+}
+
+function gotoPage(p) {
+    currentPage = Math.max(1, p);
+    fetchNews();
+}
+function jumpPage() {
+    const inp = document.getElementById('jumpPageInput');
+    const v = parseInt(inp.value);
+    if (v && v >= 1) gotoPage(v);
+}
+
+/* ============ 数据获取 ============ */
+async function fetchNews() {
+    try {
+        const perPage = getPerPage();
+        let url = `/api/news?page=${currentPage}&per_page=${perPage}`;
+        if (currentQuery) url += `&q=${encodeURIComponent(currentQuery)}`;
+        const resp = await fetch(url);
+        const data = await resp.json();
+        renderTable(data.news || []);
+        const total = data.total || 0;
+        renderPagination(total, data.page || currentPage, perPage);
+        document.getElementById('statsBar').textContent =
+            `第 ${currentPage} 页 · 当前 ${(data.news||[]).length} 条 / 总计 ${total} 条`;
+    } catch (err) {
+        showStatus('error', `加载失败: ${err.message}`);
+    }
+}
+
+function searchNews() {
+    const id = document.getElementById('searchId').value.trim();
+    const text = document.getElementById('searchText').value.trim();
+    if (id) {
+        currentQuery = '';
+        currentPage = 1;
+        // 按 ID 精确搜索走独立逻辑
+        fetch(`/api/news?id=${id}`).then(r=>r.json()).then(data=>{
+            renderTable(data.news||[]);
+            renderPagination(data.total||data.news.length, 1, getPerPage());
+            document.getElementById('statsBar').textContent = `ID=${id} 搜索结果: ${(data.news||[]).length} 条`;
+        });
+        return;
+    }
+    currentQuery = text;
+    currentPage = 1;
+    fetchNews();
+}
+
+function loadAll() {
+    document.getElementById('searchId').value = '';
+    document.getElementById('searchText').value = '';
+    currentQuery = '';
+    currentPage = 1;
+    fetchNews();
+}
+
+/* ============ 导入建库 ============ */
+async function triggerImport() {
+    const btn = document.getElementById('importBtn');
+    if (!confirm('确定要从 CSV 数据集导入数据建库吗？\n这将清空现有数据库并重新导入。')) return;
+    btn.disabled = true; btn.textContent = '⏳ 导入中...';
+    showStatus('info', '正在从 CSV 数据集导入数据，数据量较大请耐心等待...');
+    try {
+        const resp = await fetch('/api/import_csv', { method: 'POST' });
+        const data = await resp.json();
+        if (data.success) {
+            showStatus('success', `✅ 成功导入 ${data.count} 条记录，跳过 ${data.skipped} 条`);
+            currentPage = 1; fetchNews();
+        } else {
+            showStatus('error', `导入失败: ${data.error||'未知错误'}`);
+        }
+    } catch (err) { showStatus('error', `请求失败: ${err.message}`); }
+    finally { btn.disabled = false; btn.textContent = '📥 导入建库'; }
+}
+
+/* ============ 清空数据库 ============ */
+async function deleteAll() {
+    if (!confirm('⚠️ 确定要删除数据库中的所有数据吗？\n此操作不可恢复！')) return;
+    if (!confirm('再次确认：真的要清空全部数据？')) return;
+    try {
+        await fetch('/api/news/all', { method: 'DELETE' });
+        showStatus('success', '✅ 数据库已清空');
+        currentPage = 1; fetchNews();
+    } catch (err) { showStatus('error', `清空失败: ${err.message}`); }
+}
+
+/* ============ 删除单条 ============ */
+async function deleteRow(id) {
+    if (!confirm(`确定要删除 ID=${id} 的记录吗？`)) return;
+    try {
+        await fetch(`/api/news/${id}`, { method: 'DELETE' });
+        showStatus('success', `✅ 已删除 ID=${id}`);
+        fetchNews();
+    } catch (err) { showStatus('error', `删除失败: ${err.message}`); }
+}
+
+/* ============ 添加/编辑弹窗 ============ */
+function showAddModal() {
+    document.getElementById('formTitle').textContent = '➕ 添加新闻数据';
+    document.getElementById('formEditId').value = '';
+    document.getElementById('formText').value = '';
+    document.getElementById('formImage').value = '';
+    document.getElementById('formScore').value = '';
+    document.getElementById('formReason').value = '';
+    document.getElementById('formEvidence').value = '';
+    document.getElementById('formModal').classList.remove('hidden');
+}
+
+function editRow(n) {
+    document.getElementById('formTitle').textContent = `✏️ 编辑新闻 ID=${n.id}`;
+    document.getElementById('formEditId').value = n.id;
+    document.getElementById('formText').value = n.news_text || '';
+    document.getElementById('formImage').value = n.image_path || '';
+    document.getElementById('formScore').value = n.is_real != null ? n.is_real : '';
+    document.getElementById('formReason').value = n.reason || '';
+    document.getElementById('formEvidence').value = n.evidence_url || '';
+    document.getElementById('formModal').classList.remove('hidden');
+}
+
+function closeFormModal() {
+    document.getElementById('formModal').classList.add('hidden');
+}
+
+async function submitForm() {
+    const editId = document.getElementById('formEditId').value;
+    const body = {
+        news_text: document.getElementById('formText').value.trim(),
+        image_path: document.getElementById('formImage').value.trim() || null,
+        is_real: document.getElementById('formScore').value !== '' ? parseFloat(document.getElementById('formScore').value) : null,
+        reason: document.getElementById('formReason').value.trim() || null,
+        evidence_url: document.getElementById('formEvidence').value.trim() || null,
+    };
+    if (!body.news_text) { alert('新闻文本不能为空'); return; }
+
+    try {
+        if (editId) {
+            await fetch(`/api/news/${editId}`, {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(body),
+            });
+            showStatus('success', `✅ 已更新 ID=${editId}`);
+        } else {
+            const resp = await fetch('/api/news', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(body),
+            });
+            const data = await resp.json();
+            showStatus('success', `✅ 已添加新记录 ID=${data.new_id}`);
+        }
+        closeFormModal();
+        fetchNews();
+    } catch (err) { showStatus('error', `保存失败: ${err.message}`); }
+}
+
+/* ============ 事件绑定 ============ */
+document.getElementById('searchText').addEventListener('keydown', e => { if(e.key==='Enter') searchNews(); });
+document.getElementById('searchId').addEventListener('keydown', e => { if(e.key==='Enter') searchNews(); });
+document.getElementById('formModal').addEventListener('click', e => { if(e.target===document.getElementById('formModal')) closeFormModal(); });
+
+// 页面加载
+fetchNews();
+</script>
+</body>
+</html>
